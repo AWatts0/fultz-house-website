@@ -1,6 +1,6 @@
 
 body {
-    background-image: url('../bg-color.jpg');
+    background-image: url('../../bg-color.jpg');
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
