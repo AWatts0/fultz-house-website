@@ -25,9 +25,8 @@ import pdf17 from "../../pdfs/Sackville Raceway  Profile.pdf";
 import pdf18 from "../../pdfs/Soap Profile.pdf";
 import pdf19 from "../../pdfs/Summer Kitchen Profile.pdf";
 import pdf20 from "../../pdfs/The Story of the Grove Finishing School.pdf";
-import pdf21 from "../../pdfs/THEEAR~1.pdf";
-import pdf22 from "../../pdfs/Traditional Education - Mi'kmaq People Profile.pdf";
-import pdf23 from "../../pdfs/Travelling in the Early Days.pdf";
+import pdf21 from "../../pdfs/Traditional Education - Mi'kmaq People Profile.pdf";
+import pdf22 from "../../pdfs/Travelling in the Early Days.pdf";
 
 const CommHistory = () => {
     return (
@@ -124,278 +123,217 @@ const CommHistory = () => {
                 <h3> More History</h3>
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 g-4">
                     <div class="col">
-                        <div class="card h-100">
-                            <img src="..." class="card-img-top" alt="..." />
+                        <div class="card h-100 bg-transparent">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
-                            <div class="card-footer">
-                                <a href={pdf1} class="btn btn-primary">Go somewhere</a>
+                                <h5 class="card-title">An Introduction to Wheelwrights</h5>
+                                <p class="card-text">Being a wheelwright was a traditional family trade and a very common job choice for
+                                    early Sackville settlers.</p>
+                                <a href={pdf1} class="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100">
-                            <img src="..." class="card-img-top" alt="..." />
+                        <div class="card h-100 bg-transparent">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a short card.</p>
-                            </div>
-                            <div class="card-footer">
-                                <a href={pdf2} class="btn btn-primary">Go somewhere</a>
+                                <h5 class="card-title">Mi’kmaq Literature</h5>
+                                <p class="card-text">Common elements in Mi’kmaq Literature</p>
+                                <a href={pdf2} class="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100">
-                            <img src="..." class="card-img-top" alt="..." />
+                        <div class="card h-100 bg-transparent">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                            </div>
-                            <div class="card-footer">
-                                <a href={pdf3} class="btn btn-primary">Go somewhere</a>
+                                <h5 class="card-title">Craftspeople in the Community</h5>
+                                <p class="card-text">Before there were factories, communities were formed by craftspeople (artisans).
+                                    Everything was handmade.
+                                </p>
+                                <a href={pdf3} class="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100">
-                            <img src="..." class="card-img-top" alt="..." />
+                        <div class="card h-100 bg-transparent">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
-                            <div class="card-footer">
-                                <a href={pdf4} class="btn btn-primary">Go somewhere</a>
+                                <h5 class="card-title">Sackville’s Fultz Corner</h5>
+                                <p class="card-text">A brief history on Sackville’s Fultz Corner.</p>
+                                <a href={pdf4} class="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100">
-                            <img src="..." class="card-img-top" alt="..." />
+                        <div class="card h-100 bg-transparent">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
-                            <div class="card-footer">
-                                <a href={pdf5} class="btn btn-primary">Go somewhere</a>
+                                <h5 class="card-title">Historic Sackville: The Early Years</h5>
+                                <p class="card-text">Founding moments; The naming of Sackville; The Two Great Roads; How our communities got their names.</p>
+                                <a href={pdf5} class="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100">
-                            <img src="..." class="card-img-top" alt="..." />
+                        <div class="card h-100 bg-transparent">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
-                            <div class="card-footer">
-                                <a href={pdf6} class="btn btn-primary">Go somewhere</a>
+                                <h5 class="card-title">The History of Education - Sackville Schools</h5>
+                                <p class="card-text">The stories surrounding Sackville’s education system are widespread, from
+                                    travelling in the nippy days of February to recalling the memory of hearing
+                                    fingernails scrape across blackboards.</p>
+                                <a href={pdf6} class="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100">
-                            <img src="..." class="card-img-top" alt="..." />
+                        <div class="card h-100 bg-transparent">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
-                            <div class="card-footer">
-                                <a href={pdf7} class="btn btn-primary">Go somewhere</a>
+                                <h5 class="card-title">Sackville Schools</h5>
+                                <p class="card-text">The History of Education in Sackville Schools. Written by Michael D. Smiley</p>
+                                <a href={pdf7} class="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100">
-                            <img src="..." class="card-img-top" alt="..." />
+                        <div class="card h-100 bg-transparent">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
-                            <div class="card-footer">
-                                <a href={pdf8} class="btn btn-primary">Go somewhere</a>
+                                <h5 class="card-title">Horseshoes: Not just for throwing</h5>
+                                <p class="card-text">Have you ever wondered why there’s often a horseshoe above the
+                                    doors in both a blacksmith shop and a cooperage?</p>
+                                <a href={pdf8} class="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100">
-                            <img src="..." class="card-img-top" alt="..." />
+                        <div class="card h-100 bg-transparent">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
-                            <div class="card-footer">
-                                <a href={pdf9} class="btn btn-primary">Go somewhere</a>
+                                <h5 class="card-title">Life in a Victorian Parlour</h5>
+                                <p class="card-text">A parlour was a very formal room traditionally used to receive guests.  Decorated with the family’s most prized possessions, it was a way of showcasing their status and wealth.</p>
+                                <a href={pdf9} class="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100">
-                            <img src="..." class="card-img-top" alt="..." />
+                        <div class="card h-100 bg-transparent">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
-                            <div class="card-footer">
-                                <a href={pdf10} class="btn btn-primary">Go somewhere</a>
+                                <h5 class="card-title">Lower Sackville School</h5>
+                                <p class="card-text">A brief history of Lower Sackville School.</p>
+                                <a href={pdf10} class="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100">
-                            <img src="..." class="card-img-top" alt="..." />
+                        <div class="card h-100 bg-transparent">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
-                            <div class="card-footer">
-                                <a href={pdf11} class="btn btn-primary">Go somewhere</a>
+                                <h5 class="card-title">The Maroon Hill Children Education Story</h5>
+                                <p class="card-text">In 1796 approximately five hundred black residents of Jamaica known as
+                                    Maroons arrived in Halifax.</p>
+                                <a href={pdf11} class="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100">
-                            <img src="..." class="card-img-top" alt="..." />
+                        <div class="card h-100 bg-transparent">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
-                            <div class="card-footer">
-                                <a href={pdf12} class="btn btn-primary">Go somewhere</a>
+                                <h5 class="card-title">Middle Sackville Schoolhouse</h5>
+                                <p class="card-text">The Life of the Middle Sackville Schoolhouse.</p>
+                                <a href={pdf12} class="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100">
-                            <img src="..." class="card-img-top" alt="..." />
+                        <div class="card h-100 bg-transparent">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
-                            <div class="card-footer">
-                                <a href={pdf13} class="btn btn-primary">Go somewhere</a>
+                                <h5 class="card-title">Outhouses through the Ages</h5>
+                                <p class="card-text">It is believed that outhouses originated from Europe in the 15th
+                                    century. An outhouse was constructed like a small shed, but instead of
+                                    holding tools it holds a toilet.</p>
+                                <a href={pdf13} class="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100">
-                            <img src="..." class="card-img-top" alt="..." />
+                        <div class="card h-100 bg-transparent">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
-                            <div class="card-footer">
-                                <a href={pdf14} class="btn btn-primary">Go somewhere</a>
+                                <h5 class="card-title">Preserving</h5>
+                                <p class="card-text">Preserved food was common in early Sackville kitchens because it
+                                    could slow or even stop the food’s decomposition.</p>
+                                <a href={pdf14} class="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100">
-                            <img src="..." class="card-img-top" alt="..." />
+                        <div class="card h-100 bg-transparent">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
-                            <div class="card-footer">
-                                <a href={pdf15} class="btn btn-primary">Go somewhere</a>
+                                <h5 class="card-title">The Sackville Downs</h5>
+                                <p class="card-text">The harness raicing; A love of Racing; A Modern Track.</p>
+                                <a href={pdf15} class="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100">
-                            <img src="..." class="card-img-top" alt="..." />
+                        <div class="card h-100 bg-transparent">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
-                            <div class="card-footer">
-                                <a href={pdf16} class="btn btn-primary">Go somewhere</a>
+                                <h5 class="card-title">The Sackville Drive-in Theatre</h5>
+                                <p class="card-text">The Sackville Drive-in Theatre was more than a business, it was a
+                                    place where the community gathered, socialized, and were
+                                    entertained.</p>
+                                <a href={pdf16} class="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100">
-                            <img src="..." class="card-img-top" alt="..." />
+                        <div class="card h-100 bg-transparent">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
-                            <div class="card-footer">
-                                <a href={pdf17} class="btn btn-primary">Go somewhere</a>
+                                <h5 class="card-title">The Sackville Raceway</h5>
+                                <p class="card-text">Sackville’s First Racetrack.</p>
+                                <a href={pdf17} class="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100">
-                            <img src="..." class="card-img-top" alt="..." />
+                        <div class="card h-100 bg-transparent">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
-                            <div class="card-footer">
-                                <a href={pdf18} class="btn btn-primary">Go somewhere</a>
+                                <h5 class="card-title">A History of Soap</h5>
+                                <p class="card-text">Before the 18th century, soap was considered a luxury because only
+                                    the wealthy could afford it.</p>
+                                <a href={pdf18} class="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100">
-                            <img src="..." class="card-img-top" alt="..." />
+                        <div class="card h-100 bg-transparent">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
-                            <div class="card-footer">
-                                <a href={pdf19} class="btn btn-primary">Go somewhere</a>
+                                <h5 class="card-title">The Summer Kitchen</h5>
+                                <p class="card-text">It was a room
+                                    used during the summer months for cooking, baking, and other
+                                    chores that produced a significant amount of heat.</p>
+                                <a href={pdf19} class="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100">
-                            <img src="..." class="card-img-top" alt="..." />
+                        <div class="card h-100 bg-transparent">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
-                            <div class="card-footer">
-                                <a href={pdf20} class="btn btn-primary">Go somewhere</a>
+                                <h5 class="card-title">The Story of the Grove School</h5>
+                                <p class="card-text">In addition to the typical grade schools in Sackville, a finishing
+                                    school was situated in Beaver Bank, and this is its
+                                    story.</p>
+                                <a href={pdf20} class="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100">
-                            <img src="..." class="card-img-top" alt="..." />
+                        <div class="card h-100 bg-transparent">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
-                            <div class="card-footer">
-                                <a href={pdf21} class="btn btn-primary">Go somewhere</a>
+                                <h5 class="card-title">Mi’kmaq Education</h5>
+                                <p class="card-text">The Traditional Education Ways of the Mi’kmaq People.</p>
+                                <a href={pdf21} class="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100">
-                            <img src="..." class="card-img-top" alt="..." />
+                        <div class="card h-100 bg-transparent">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
-                            <div class="card-footer">
-                                <a href={pdf22} class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card h-100">
-                            <img src="..." class="card-img-top" alt="..." />
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
-                            <div class="card-footer">
-                                <a href={pdf23} class="btn btn-primary">Go somewhere</a>
+                                <h5 class="card-title">Travelling in The Early Days</h5>
+                                <p class="card-text">Introducing road travel and wagons; Stagecoach travel; A communication lifeline; and more.</p>
+                                <a href={pdf22} class="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
