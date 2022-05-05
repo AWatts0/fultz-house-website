@@ -9,6 +9,7 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
+      <MyNavbar/>
         <Routes>
           <Route path="/" element={<Homepage/>}></Route>
           <Route path="/history" element={<CommHistory/>}></Route>
