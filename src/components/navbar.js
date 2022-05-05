@@ -15,7 +15,7 @@ function MyNavbar() {
 
         <Navbar className="navbar" expand="lg" variant="dark">
             <Container fluid>
-                <Navbar.Brand href="#">Fultz House</Navbar.Brand>
+                <Navbar.Brand as={Link} to="">Fultz House</Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">
                 <Nav
@@ -24,40 +24,40 @@ function MyNavbar() {
                     navbarScroll
                     >
                     <NavDropdown   menuVariant="dark" className="dropdown" title="About" id="navbarScrollingDropdown">
-                        <NavDropdown.Item href="#action3">About Us</NavDropdown.Item>
-                        <NavDropdown.Item href="#action4">Facility</NavDropdown.Item>
-                        <NavDropdown.Item href="#action4">Governance</NavDropdown.Item>
-                        <NavDropdown.Item href="#action4">Careers</NavDropdown.Item>
+                        <NavDropdown.Item as={Link} to="">About Us</NavDropdown.Item>
+                        <NavDropdown.Item as={Link} to="">Facility</NavDropdown.Item>
+                        <NavDropdown.Item as={Link} to="">Governance</NavDropdown.Item>
+                        <NavDropdown.Item as={Link} to="">Careers</NavDropdown.Item>
                     </NavDropdown>
                     <NavDropdown menuVariant="dark" title="Archives & Collections" id="navbarScrollingDropdown">
-                        <NavDropdown.Item href="#action3">Our Community History</NavDropdown.Item>
-                        <NavDropdown.Item href="#action4">Notable People</NavDropdown.Item>
-                        <NavDropdown.Item href="#action4">Geneology</NavDropdown.Item>
-                        <NavDropdown.Item href="#action4">Brochures</NavDropdown.Item>
+                        <NavDropdown.Item as={Link} to="">Our Community History</NavDropdown.Item>
+                        <NavDropdown.Item as={Link} to="">Notable People</NavDropdown.Item>
+                        <NavDropdown.Item as={Link} to="">Geneology</NavDropdown.Item>
+                        <NavDropdown.Item as={Link} to="">Brochures</NavDropdown.Item>
                     </NavDropdown>
                     <NavDropdown menuVariant="dark" title="Media" id="navbarScrollingDropdown">
-                        <NavDropdown.Item href="#action3">Photos</NavDropdown.Item>
-                        <NavDropdown.Item href="#action4">Videos</NavDropdown.Item>
-                        <NavDropdown.Item href="#action4">Presentations</NavDropdown.Item>
+                        <NavDropdown.Item as={Link} to="">Photos</NavDropdown.Item>
+                        <NavDropdown.Item as={Link} to="">Videos</NavDropdown.Item>
+                        <NavDropdown.Item as={Link} to="">Presentations</NavDropdown.Item>
                     </NavDropdown>
                     <NavDropdown menuVariant="dark" title="Events" id="navbarScrollingDropdown">
-                        <NavDropdown.Item href="#action3">Upcoming Events</NavDropdown.Item>
-                        <NavDropdown.Item href="#action4">Rentals</NavDropdown.Item>
+                        <NavDropdown.Item as={Link} to="">Upcoming Events</NavDropdown.Item>
+                        <NavDropdown.Item as={Link} to="">Rentals</NavDropdown.Item>
                     </NavDropdown>
                     <NavDropdown menuVariant="dark" title="Programming" id="navbarScrollingDropdown">
-                        <NavDropdown.Item href="#action3">Programming</NavDropdown.Item>
-                        <NavDropdown.Item href="#action4">Kids Page</NavDropdown.Item>
+                        <NavDropdown.Item as={Link} to="">Programming</NavDropdown.Item>
+                        <NavDropdown.Item as={Link} to="">Kids Page</NavDropdown.Item>
                     </NavDropdown>
                     <NavDropdown menuVariant="dark" title="Contribute" id="navbarScrollingDropdown">
-                        <NavDropdown.Item href="#action3">Volunteers</NavDropdown.Item>
-                        <NavDropdown.Item href="#action4">Donate</NavDropdown.Item>
+                        <NavDropdown.Item as={Link} to="">Volunteers</NavDropdown.Item>
+                        <NavDropdown.Item as={Link} to="">Donate</NavDropdown.Item>
                     </NavDropdown>
-                    <Nav.Link as={Link} to="/about" className="nav-links">
+                    <Nav.Link as={Link} to="" className="nav-links">
                             Shop
                     </Nav.Link>
                     <NavDropdown menuVariant="dark" title="Contact" id="navbarScrollingDropdown">
-                        <NavDropdown.Item href="#action3">Contact Us</NavDropdown.Item>
-                        <NavDropdown.Item href="#action4">Community Links</NavDropdown.Item>
+                        <NavDropdown.Item as={Link} to="">Contact Us</NavDropdown.Item>
+                        <NavDropdown.Item as={Link} to="">Community Links</NavDropdown.Item>
                     </NavDropdown>
                     
                 </Nav>
