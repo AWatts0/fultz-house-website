@@ -6,3 +6,11 @@
   height: 400px;
   width: 90%;
 }
+
+#carouselExampleIndicators{
+  padding: 10px;
+}
+
+#homepage-text{
+  text-align: center;
+}

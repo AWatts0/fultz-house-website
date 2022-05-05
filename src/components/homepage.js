@@ -1,4 +1,7 @@
 import React from "react";
+import image1 from "../pics/homepage-carousel/building-front.jpg"
+import image2 from "../pics/homepage-carousel/tree-cover.jpeg"
+import image3 from "../pics/homepage-carousel/model.jpeg"
 
 const Homepage = () => {
     return (
@@ -14,13 +17,13 @@ const Homepage = () => {
                         </div>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="https://www.dogtime.com/assets/uploads/2011/03/puppy-development.jpg" class="d-block w-100" alt="..." />
+                                <img src={image1} class="d-block w-100" alt="..." />
                             </div>
                             <div class="carousel-item">
-                                <img src="..." class="d-block w-100" alt="..." />
+                                <img src={image2} class="d-block w-100" alt="..." />
                             </div>
                             <div class="carousel-item">
-                                <img src="..." class="d-block w-100" alt="..." />
+                                <img src={image3} class="d-block w-100" alt="..." />
                             </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -35,9 +38,6 @@ const Homepage = () => {
                 </div>
                 <div className="col-1"></div>
 
-
-
-
                 <div className="row">
                     <div className="col-2"></div>
                     <div className="col-8">
@@ -47,11 +47,12 @@ const Homepage = () => {
                             </div>
                         </div>
                         <div className="row">
-                            <div className="col-8 my-auto text-start">
+                            <div className="col-8 my-auto text-start" id="homepage-text">
                                 <p>Located at the corner of Nova Scotia's most famous intersection,
                                     Fultz House Museum's collections reflect over 200 years of Sackville history. Constructed in the 1860s,
                                     Bennett Fultz's house is now home to hundreds of artifacts, photographs, and displays.
-                                    Come discover Sackville's proud history for yourself!</p>
+                                    Come discover Sackville's proud history for yourself!
+                                </p>
                             </div>
                         </div>
                     </div>

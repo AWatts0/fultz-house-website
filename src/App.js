@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Homepage from './components/homepage';
 import CommHistory from './components/commHistory/commHistory';
 import MyNavbar from './components/navbar';
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="/" element={<Homepage/>}></Route>
           <Route path="/history" element={<CommHistory/>}></Route>
         </Routes>
+        <Footer/>
       </BrowserRouter>
     </div>
   );
