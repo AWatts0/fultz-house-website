@@ -13,7 +13,7 @@ import {
 function MyNavbar() {
     return(
 
-        <Navbar bg="" className="navbar" expand="lg" variant="dark">
+        <Navbar className="navbar" expand="lg" variant="dark">
             <Container fluid>
                 <Navbar.Brand href="#">Fultz House</Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
@@ -23,69 +23,41 @@ function MyNavbar() {
                     style={{ maxHeight: '100px' }}
                     navbarScroll
                     >
-                    <NavDropdown title="About" id="navbarScrollingDropdown">
-                        <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-                        <NavDropdown.Item href="#action4">Another action</NavDropdown.Item>
-                        <NavDropdown.Divider />
-                        <NavDropdown.Item href="#action5">
-                            Something else here
-                        </NavDropdown.Item>
+                    <NavDropdown className="dropdown" title="About" id="navbarScrollingDropdown">
+                        <NavDropdown.Item href="#action3">About Us</NavDropdown.Item>
+                        <NavDropdown.Item href="#action4">Facility</NavDropdown.Item>
+                        <NavDropdown.Item href="#action4">Governance</NavDropdown.Item>
+                        <NavDropdown.Item href="#action4">Careers</NavDropdown.Item>
                     </NavDropdown>
                     <NavDropdown title="Archives & Collections" id="navbarScrollingDropdown">
-                        <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-                        <NavDropdown.Item href="#action4">Another action</NavDropdown.Item>
-                        <NavDropdown.Divider />
-                        <NavDropdown.Item href="#action5">
-                            Something else here
-                        </NavDropdown.Item>
+                        <NavDropdown.Item href="#action3">Our Community History</NavDropdown.Item>
+                        <NavDropdown.Item href="#action4">Notable People</NavDropdown.Item>
+                        <NavDropdown.Item href="#action4">Geneology</NavDropdown.Item>
+                        <NavDropdown.Item href="#action4">Brochures</NavDropdown.Item>
                     </NavDropdown>
                     <NavDropdown title="Media" id="navbarScrollingDropdown">
-                        <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-                        <NavDropdown.Item href="#action4">Another action</NavDropdown.Item>
-                        <NavDropdown.Divider />
-                        <NavDropdown.Item href="#action5">
-                            Something else here
-                        </NavDropdown.Item>
+                        <NavDropdown.Item href="#action3">Photos</NavDropdown.Item>
+                        <NavDropdown.Item href="#action4">Videos</NavDropdown.Item>
+                        <NavDropdown.Item href="#action4">Presentations</NavDropdown.Item>
                     </NavDropdown>
                     <NavDropdown title="Events" id="navbarScrollingDropdown">
-                        <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-                        <NavDropdown.Item href="#action4">Another action</NavDropdown.Item>
-                        <NavDropdown.Divider />
-                        <NavDropdown.Item href="#action5">
-                            Something else here
-                        </NavDropdown.Item>
+                        <NavDropdown.Item href="#action3">Upcoming Events</NavDropdown.Item>
+                        <NavDropdown.Item href="#action4">Rentals</NavDropdown.Item>
                     </NavDropdown>
                     <NavDropdown title="Programming" id="navbarScrollingDropdown">
-                        <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-                        <NavDropdown.Item href="#action4">Another action</NavDropdown.Item>
-                        <NavDropdown.Divider />
-                        <NavDropdown.Item href="#action5">
-                            Something else here
-                        </NavDropdown.Item>
+                        <NavDropdown.Item href="#action3">Programming</NavDropdown.Item>
+                        <NavDropdown.Item href="#action4">Kids Page</NavDropdown.Item>
                     </NavDropdown>
                     <NavDropdown title="Contribute" id="navbarScrollingDropdown">
-                        <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-                        <NavDropdown.Item href="#action4">Another action</NavDropdown.Item>
-                        <NavDropdown.Divider />
-                        <NavDropdown.Item href="#action5">
-                            Something else here
-                        </NavDropdown.Item>
+                        <NavDropdown.Item href="#action3">Volunteers</NavDropdown.Item>
+                        <NavDropdown.Item href="#action4">Donate</NavDropdown.Item>
                     </NavDropdown>
-                    <NavDropdown title="Shop" id="navbarScrollingDropdown">
-                        <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-                        <NavDropdown.Item href="#action4">Another action</NavDropdown.Item>
-                        <NavDropdown.Divider />
-                        <NavDropdown.Item href="#action5">
-                            Something else here
-                        </NavDropdown.Item>
-                    </NavDropdown>
+                    <Nav.Link as={Link} to="/about" className="nav-links">
+                            Shop
+                    </Nav.Link>
                     <NavDropdown title="Contact" id="navbarScrollingDropdown">
-                        <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-                        <NavDropdown.Item href="#action4">Another action</NavDropdown.Item>
-                        <NavDropdown.Divider />
-                        <NavDropdown.Item href="#action5">
-                            Something else here
-                        </NavDropdown.Item>
+                        <NavDropdown.Item href="#action3">Contact Us</NavDropdown.Item>
+                        <NavDropdown.Item href="#action4">Community Links</NavDropdown.Item>
                     </NavDropdown>
                     
                 </Nav>
