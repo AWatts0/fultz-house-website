@@ -14,6 +14,7 @@ import pdf011 from '../../pdfs/people/Leslie Thomas Profile.pdf';
 import pdf012 from '../../pdfs/people/Mary Fultz Profile.pdf';
 import pdf013 from '../../pdfs/people/Sadie Thomas Profile.pdf';
 import pdf014 from '../../pdfs/people/Ted B. Blackburn Profile.pdf';
+import pdf015 from '../../pdfs/people/Charles Fenerty  Profile.pdf';
 import pic1 from '../../pics/notable-people/Picture1.png';
 import pic2 from '../../pics/notable-people/Picture2.png';
 import pic3 from '../../pics/notable-people/Picture3.png';
@@ -28,6 +29,7 @@ import pic11 from '../../pics/notable-people/Picture11.png';
 import pic12 from '../../pics/notable-people/Picture12.jpg';
 import pic13 from '../../pics/notable-people/Picture13.png';
 import pic14 from '../../pics/notable-people/Picture14.png';
+import pic15 from '../../pics/notable-people/Picture15.jpg';
 
 const NotablePeople = () => {
     return (
@@ -180,6 +182,16 @@ const NotablePeople = () => {
                                 <h5 class="card-title">Ted B. Blackburn</h5>
                                 <p class="card-text">Blackburn was a man who listened and followed what the public wanted. It has even been said that his store was the K-Mart of the day. </p>
                                 <a href={pdf014} class="card-link">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 bg-transparent">
+                            <img src={pic15} class="card-img-top" alt="..." />
+                            <div class="card-body">
+                                <h5 class="card-title">Ted B. Blackburn</h5>
+                                <p class="card-text">Charles’ curious mindset, and how he liked to ponder and think out problems, and arrive at solutions through his ingenuity and perseverance, is what led him to be an inventor.</p>
+                                <a href={pdf015} class="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
