@@ -27,8 +27,8 @@ function MyNavbar() {
                         <NavDropdown.Item as={Link} to="">Careers</NavDropdown.Item>
                     </NavDropdown>
                     <NavDropdown menuVariant="dark" title="Archives & Collections" id="navbarScrollingDropdown">
-                        <NavDropdown.Item as={Link} to="">Our Community History</NavDropdown.Item>
-                        <NavDropdown.Item as={Link} to="">Notable People</NavDropdown.Item>
+                        <NavDropdown.Item as={Link} to="/history">Our Community History</NavDropdown.Item>
+                        <NavDropdown.Item as={Link} to="/notablepeople">Notable People</NavDropdown.Item>
                         <NavDropdown.Item as={Link} to="">Geneology</NavDropdown.Item>
                         <NavDropdown.Item as={Link} to="">Brochures</NavDropdown.Item>
                     </NavDropdown>
@@ -53,7 +53,7 @@ function MyNavbar() {
                             Shop
                     </Nav.Link>
                     <NavDropdown menuVariant="dark" title="Contact" id="navbarScrollingDropdown">
-                        <NavDropdown.Item as={Link} to="">Contact Us</NavDropdown.Item>
+                        <NavDropdown.Item as={Link} to="/contact">Contact Us</NavDropdown.Item>
                         <NavDropdown.Item as={Link} to="">Community Links</NavDropdown.Item>
                     </NavDropdown>
                     
