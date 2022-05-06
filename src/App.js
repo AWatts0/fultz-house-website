@@ -6,6 +6,7 @@ import CommHistory from './components/commHistory/commHistory';
 import NotablePeople from './components/notablePeople/notablePeople';
 import MyNavbar from './components/navbar';
 import Footer from "./components/footer";
+import ContactUs from './components/contactUs/contact';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <MyNavbar />
         <Routes>
           <Route path="/" element={<Homepage />}></Route>
+          <Route path="/contact" element={<ContactUs />}></Route>
           <Route path="/history" element={<CommHistory />}></Route>
           <Route path='/notablepeople' element={<NotablePeople />}></Route>
         </Routes>
