@@ -3,9 +3,6 @@ import {
     Container,
     Nav,
     NavDropdown,
-    Form,
-    FormControl,
-    Button,
   } from "react-bootstrap";
   import { Link } from "react-router-dom";
   import "./navbar.css";
@@ -13,7 +10,7 @@ import {
 function MyNavbar() {
     return(
 
-        <Navbar className="navbar" expand="lg" variant="dark">
+        <Navbar className="navbar" expand="lg" variant="dark" >
             <Container fluid>
                 <Navbar.Brand as={Link} to="">Fultz House</Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
@@ -23,8 +20,8 @@ function MyNavbar() {
                     style={{ maxHeight: '100px' }}
                     navbarScroll
                     >
-                    <NavDropdown   menuVariant="dark" className="dropdown" title="About" id="navbarScrollingDropdown">
-                        <NavDropdown.Item as={Link} to="">About Us</NavDropdown.Item>
+                    <NavDropdown className="dropdown" menuVariant="dark" title="About" id="navbarScrollingDropdown">
+                        <NavDropdown.Item className="dropdownitem" as={Link} to="">About Us</NavDropdown.Item>
                         <NavDropdown.Item as={Link} to="">Facility</NavDropdown.Item>
                         <NavDropdown.Item as={Link} to="">Governance</NavDropdown.Item>
                         <NavDropdown.Item as={Link} to="">Careers</NavDropdown.Item>

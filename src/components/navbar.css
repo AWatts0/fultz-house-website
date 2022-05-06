@@ -1,9 +1,21 @@
 
 .navbar {
     background-color: rgb(19, 75, 19);
+    color:white;
 }
 
 .dropdownitem {
     background-color: rgb(19, 75, 19);
     color: white;
 }
+
+.dropdown {
+    background-color: rgb(19, 75, 19);
+    color: white;
+}
+
+.dropdown-menu {
+    background-color: rgb(11, 39, 11);
+    color: white;
+}
+
