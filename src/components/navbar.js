@@ -10,7 +10,7 @@ import {
 function MyNavbar() {
     return(
 
-        <Navbar className="navbar" expand="lg" variant="dark" >
+        <Navbar className="navbar py-4" expand="lg" variant="dark" >
             <Container fluid>
                 <Navbar.Brand className="navbar-brand" as={Link} to="">Fultz House</Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
