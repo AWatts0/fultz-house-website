@@ -4,14 +4,12 @@
     color:white;
 }
 
-.dropdownitem {
-    background-color: rgb(19, 75, 19);
-    color: white;
+.navbar-brand {
+    margin-left: 8%;
 }
 
-.dropdown {
-    background-color: rgb(19, 75, 19);
-    color: white;
+.the-nav {
+    margin-left: 15%;
 }
 
 .dropdown-menu {

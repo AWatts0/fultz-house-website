@@ -12,16 +12,16 @@ function MyNavbar() {
 
         <Navbar className="navbar" expand="lg" variant="dark" >
             <Container fluid>
-                <Navbar.Brand as={Link} to="">Fultz House</Navbar.Brand>
+                <Navbar.Brand className="navbar-brand" as={Link} to="">Fultz House</Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">
                 <Nav
-                    className="me-auto my-2 my-lg-0"
+                    className="the-nav me-auto my-2 my-lg-0"
                     style={{ maxHeight: '100px' }}
                     navbarScroll
                     >
                     <NavDropdown className="dropdown" menuVariant="dark" title="About" id="navbarScrollingDropdown">
-                        <NavDropdown.Item className="dropdownitem" as={Link} to="">About Us</NavDropdown.Item>
+                        <NavDropdown.Item as={Link} to="">About Us</NavDropdown.Item>
                         <NavDropdown.Item as={Link} to="">Facility</NavDropdown.Item>
                         <NavDropdown.Item as={Link} to="">Governance</NavDropdown.Item>
                         <NavDropdown.Item as={Link} to="">Careers</NavDropdown.Item>
