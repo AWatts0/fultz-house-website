@@ -14,20 +14,20 @@ import pdf011 from '../../pdfs/people/Leslie Thomas Profile.pdf';
 import pdf012 from '../../pdfs/people/Mary Fultz Profile.pdf';
 import pdf013 from '../../pdfs/people/Sadie Thomas Profile.pdf';
 import pdf014 from '../../pdfs/people/Ted B. Blackburn Profile.pdf';
-import pic1 from '../../pics/Picture1.png';
-import pic2 from '../../pics/Picture2.png';
-import pic3 from '../../pics/Picture3.png';
-import pic4 from '../../pics/Picture4.jpg';
-import pic5 from '../../pics/Picture5.jpg';
-import pic6 from '../../pics/Picture6.png';
-import pic7 from '../../pics/Picture7.png';
-import pic8 from '../../pics/Picture8.jpg';
-import pic9 from '../../pics/Picture9.jpg';
-import pic10 from '../../pics/Picture10.png';
-import pic11 from '../../pics/Picture11.png';
-import pic12 from '../../pics/Picture12.jpg';
-import pic13 from '../../pics/Picture13.png';
-import pic14 from '../../pics/Picture14.png';
+import pic1 from '../../pics/notable-people/Picture1.png';
+import pic2 from '../../pics/notable-people/Picture2.png';
+import pic3 from '../../pics/notable-people/Picture3.png';
+import pic4 from '../../pics/notable-people/Picture4.jpg';
+import pic5 from '../../pics/notable-people/Picture5.jpg';
+import pic6 from '../../pics/notable-people/Picture6.png';
+import pic7 from '../../pics/notable-people/Picture7.png';
+import pic8 from '../../pics/notable-people/Picture8.jpg';
+import pic9 from '../../pics/notable-people/Picture9.jpg';
+import pic10 from '../../pics/notable-people/Picture10.png';
+import pic11 from '../../pics/notable-people/Picture11.png';
+import pic12 from '../../pics/notable-people/Picture12.jpg';
+import pic13 from '../../pics/notable-people/Picture13.png';
+import pic14 from '../../pics/notable-people/Picture14.png';
 
 const NotablePeople = () => {
     return (
