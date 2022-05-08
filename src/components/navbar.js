@@ -27,7 +27,7 @@ function MyNavbar() {
                         <NavDropdown.Item as={Link} to="">Careers</NavDropdown.Item>
                     </NavDropdown>
                     <NavDropdown menuVariant="dark" title="Archives & Collections" id="navbarScrollingDropdown">
-                        <NavDropdown.Item as={Link} to="/history">Our Community History</NavDropdown.Item>
+                        <NavDropdown.Item as={Link} to="/history" >Our Community History</NavDropdown.Item>
                         <NavDropdown.Item as={Link} to="/notablepeople">Notable People</NavDropdown.Item>
                         <NavDropdown.Item as={Link} to="">Geneology</NavDropdown.Item>
                         <NavDropdown.Item as={Link} to="">Brochures</NavDropdown.Item>
