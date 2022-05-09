@@ -2,6 +2,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Homepage from './components/homepage';
+import SideButtons from './components/sideButtons/sideButtons';
 import CommHistory from './components/commHistory/commHistory';
 import NotablePeople from './components/notablePeople/notablePeople';
 import MyNavbar from './components/navbar';
@@ -15,6 +16,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <MyNavbar />
+        <SideButtons/>
         <Routes>
           <Route path="/" element={<Homepage />}></Route>
           <Route path="/contact" element={<ContactUs />}></Route>
