@@ -33,7 +33,7 @@ function MyNavbar() {
                         <NavDropdown.Item as={Link} to="">Brochures</NavDropdown.Item>
                     </NavDropdown>
                     <NavDropdown menuVariant="dark" title="Media" id="navbarScrollingDropdown">
-                        <NavDropdown.Item as={Link} to="">Photos</NavDropdown.Item>
+                        <NavDropdown.Item as={Link} to="/photo">Photos</NavDropdown.Item>
                         <NavDropdown.Item as={Link} to="">Videos</NavDropdown.Item>
                         <NavDropdown.Item as={Link} to="">Presentations</NavDropdown.Item>
                     </NavDropdown>

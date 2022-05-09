@@ -7,6 +7,7 @@ import NotablePeople from './components/notablePeople/notablePeople';
 import MyNavbar from './components/navbar';
 import Footer from "./components/footer";
 import ContactUs from './components/contactUs/contact';
+import Photos from './components/gallery/photos/Photos.js';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/contact" element={<ContactUs />}></Route>
           <Route path="/history" element={<CommHistory />}></Route>
           <Route path='/notablepeople' element={<NotablePeople />}></Route>
+          <Route path='/photo' element={<Photos />}></Route>
         </Routes>
         <Footer/>
       </BrowserRouter>
