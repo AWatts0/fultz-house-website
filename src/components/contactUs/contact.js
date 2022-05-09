@@ -31,7 +31,7 @@ const ContactUs = () => {
                         </p>
                         <p>
                             <h5>Email: <br></br></h5>
-                            <a herf="mailto: fultz.house@ns.sympatico.ca">fultz.house@ns.sympatico.ca</a>
+                            <a href="mailto: fultz.house@ns.sympatico.ca">fultz.house@ns.sympatico.ca</a>
                         </p>
                     </div>
                 </div>
