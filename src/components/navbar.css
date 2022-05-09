@@ -1,7 +1,7 @@
 
 .navbar {
-    background-color: rgb(4, 37, 4);
-    color:white;
+    background-color: rgb(221,211,115);
+    /* color:white; */
 }
 
 .navbar-brand {
@@ -13,7 +13,11 @@
 }
 
 .dropdown-menu {
-    background-color: rgb(11, 39, 11);
-    color: white;
+    background-color: rgb(249,247,228);
+    color: black;
+}
+
+.nav-drop-item:hover {
+    background-color: rgb(222, 219, 205);
 }
 
