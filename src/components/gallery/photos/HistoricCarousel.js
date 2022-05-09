@@ -56,277 +56,338 @@ const HistoricCarousel = () => {
                             <div className="carousel-item active">
                                 <img src={histimg1} className="d-block w-100" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
-                                    <h5>First slide label</h5>
+                                    <h5>A.J. SMELTZER’S BLACKSMITH SHOP ON WHAT WOULD BE TODAY
+                                        SACKVILLE DRIVE NEAR KNOX UNITED CHURCH.</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
                                 <img src={histimg2} className="d-block w-100" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
-                                    <h5>Second slide label</h5>
+                                    <h5>THE GRACE COOPERAGE (NOW ON THE GROUNDS OF FULTZ
+                                        HOUSE MUSEUM) AND MILL IN MIDDLE SACKVILLE.</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
                                 <img src={histimg3} className="d-block w-100" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
-                                    <h5>Third slide label</h5>
+                                    <h5>THE BOMBER CANTEEN AND SCHULTZ GAS STATION ON THE MAIN
+                                        HIGHWAY IN SACKVILLE.</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
                                 <img src={histimg4} className="d-block w-100" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
-                                    <h5>Third slide label</h5>
+                                    <h5>LAURA PEVERILL FARM (c. 1949) ON THE OLD SACKVILLE ROAD.</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
                                 <img src={histimg5} className="d-block w-100" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
-                                    <h5>Third slide label</h5>
+                                    <h5>SAM WALKER IN HIS SULKY AT THE SACKVILLE SPEEDWAY (c.
+                                        1952).</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
                                 <img src={histimg6} className="d-block w-100" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
-                                    <h5>Third slide label</h5>
+                                    <h5>AN AERIAL VIEW OF WALKER’S SACKVILLE RACEWAY IN
+                                        SACKVILLE.</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
                                 <img src={histimg7} className="d-block w-100" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
-                                    <h5>Third slide label</h5>
+                                    <h5>A FENERTY MILL AND ITS WORKERS AT SPRINGFIELD LAKE IN
+                                        UPPER SACKVILLE.</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
                                 <img src={histimg8} className="d-block w-100" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
-                                    <h5>Third slide label</h5>
+                                    <h5>VIEW FROM ONE OF THE SACKVILLE HILLS, NOW OAKRIDGE
+                                        MEMORY GARDENS CEMETERY, BUT THEN A VIEW OF SACKVILLE
+                                        LOOKING NORTH, SHOWING THE TEMPERANCE HALL ON THE OLD
+                                        WINDSOR ROAD NEAR THE LUCASVILLE ROAD</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
                                 <img src={histimg9} className="d-block w-100" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
-                                    <h5>Third slide label</h5>
+                                    <h5>DR. GEORGE LAWSON’S FORMER HOME, “LUCYFIELD” (c. 1940),
+                                        MIDDLE SACKVILLE</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
                                 <img src={histimg10} className="d-block w-100" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
-                                    <h5>Third slide label</h5>
+                                    <h5>THE SACKVILLE UNITED BAPTIST CHURCH (c. 1941) BUILT IN 1832
+                                        IN MIDDLE SACKVILLE.</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
                                 <img src={histimg11} className="d-block w-100" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
-                                    <h5>Third slide label</h5>
+                                    <h5>ACADIA SCHOOL (c. 1950) WAS SACKVILLE’S FIRST
+                                        SCHOOLHOUSE WITH MORE THAN TWO CLASSROOMS IN LOWER
+                                        SACKVILLE.</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
                                 <img src={histimg12} className="d-block w-100" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
-                                    <h5>Third slide label</h5>
+                                    <h5>A HAY WAGON ON THE ARTHUR HANKEY FARM (c. 1930s) IN
+                                        MIDDLE SACKVILLE.</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
                                 <img src={histimg13} className="d-block w-100" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
-                                    <h5>Third slide label</h5>
+                                    <h5>THE LOWER SACKVILLE SCHOOL ON THE OLD SACKVILLE ROAD –
+                                        NOTICE THE ELECTRICAL POLE (c. 1940s).</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
                                 <img src={histimg14} className="d-block w-100" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
-                                    <h5>Third slide label</h5>
+                                    <h5>THE QUARRY (SACKVILLE’S OUTDOOR ARENA, c. 1940) AT WHAT IS
+                                        NOW THE FOOT OF RIVERSIDE DRIVE, WHERE DOWNSVIEW MOTEL
+                                        STOOD FOR MANY YEARS. THE FUTURE SITE OF HELLAS
+                                        RESTAURANT FROM THE SIXTIES TO 2021 CAN BE SEEN IN THE
+                                        BACKGROUND ON THE LEFT ALONG SACKVILLE’S MAIN DRAG.</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
                                 <img src={histimg15} className="d-block w-100" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
-                                    <h5>Third slide label</h5>
+                                    <h5>AN EARLY SCHULTZ AND HANKEY IRVING STATION (c. 1940)
+                                        ALONG THE MAIN HIGHWAY IN SACKVILLE.</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
                                 <img src={histimg16} className="d-block w-100" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
-                                    <h5>Third slide label</h5>
+                                    <h5>WALKER’S SACKVILLE SPEEDWAY, LOWER SACKVILLE</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
                                 <img src={histimg17} className="d-block w-100" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
-                                    <h5>Third slide label</h5>
+                                    <h5>SACKVILLE DOWNS AND THE SACKVILLE DRIVE-IN THEATER,
+                                        LOWER SACKVILLE</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
                                 <img src={histimg18} className="d-block w-100" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
-                                    <h5>Third slide label</h5>
+                                    <h5>THE SACKVILLE DRIVE-IN THEATER WAS ONCE A POPULAR
+                                        DESTINATION, ONLY TO SEE THE WRECKING BALL IN THE MID-80s.</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
                                 <img src={histimg19} className="d-block w-100" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
-                                    <h5>Third slide label</h5>
+                                    <h5>LOOKING NORTH TOWARDS FULTZ CORNER (c. JUNE 1973) IN
+                                        LOWER SACKVILLE – THE FORMER FULTZ HOME IS TO THE RIGHT,
+                                        WHICH IS NOW THE FULTZ HOUSE MUSEUM.</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
                                 <img src={histimg20} className="d-block w-100" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
-                                    <h5>Third slide label</h5>
+                                    <h5>ST. JOHN THE EVANGELIST ANGLICAN CHURCH, MIDDLE
+                                        SACKVILLE</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
                                 <img src={histimg21} className="d-block w-100" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
-                                    <h5>Third slide label</h5>
+                                    <h5>BEAVER BANK STATION, BEAVER BANK</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
                                 <img src={histimg22} className="d-block w-100" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
-                                    <h5>Third slide label</h5>
+                                    <h5>NATHAN ELLIS HOUSE (SINCE DEMOLISHED) IN THE LATE 1800’S,
+                                        SACKVILLE</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
                                 <img src={histimg23} className="d-block w-100" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
-                                    <h5>Third slide label</h5>
+                                    <h5>ELIJAH THOMAS STORE (C. 1920) WITH OXEN STATIONED
+                                        OUTFRONT. IT WAS IN CLOSE PROXIMITY TO WHERE THE
+                                        SACKVILLE PUBLIC LIBRARY IS IN LOWER SACKVILLE TODAY.</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
                                 <img src={histimg24} className="d-block w-100" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
-                                    <h5>Third slide label</h5>
+                                    <h5>MIKE WOODS’ HOUSE BEING MOVED FROM COBEQUID CORNER TO
+                                        A NEW LOCATION ON THE OLD SACKVILLE ROAD. THE SCHULTZ
+                                        AND HANKEY GARAGE IS IN THE BACKGROUND.</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
                                 <img src={histimg25} className="d-block w-100" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
-                                    <h5>Third slide label</h5>
+                                    <h5>A ROAD GRADER WORKING ON HIGHWAY N0. 1 OUTSIDE
+                                        SACKVILLE IN 1935.</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
                                 <img src={histimg26} className="d-block w-100" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
-                                    <h5>Third slide label</h5>
+                                    <h5>BENNETT DANIEL FULTZ HOUSE (c. 1920) & HOME TO THE FULTZ
+                                        HOUSE MUSEUM TODAY, LOWER SACKVILLE</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
                                 <img src={histimg27} className="d-block w-100" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
-                                    <h5>Third slide label</h5>
+                                    <h5>LOOKING DOWN INTO THE SACKVILLE DRIVE-IN THEATER, WHERE
+                                        ATLANTIC SUPERSTORE IS TODAY.</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
                                 <img src={histimg28} className="d-block w-100" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
-                                    <h5>Third slide label</h5>
+                                    <h5>THIS WAS THE SITE OF THE UPPER SACKVILLE STAGE STATION.
+                                        THE OLD BERGIN PROPERTY HAD THE LAST HOUSE BEFORE THE
+                                        COUNTY LINE.</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
                                 <img src={histimg29} className="d-block w-100" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
-                                    <h5>Third slide label</h5>
+                                    <h5>ANTHONY FULTZ’S HOUSE (SINCE DESTROYED) WAS THE FIRST
+                                        HOUSE ON THE OLD SACKVILLE ROAD – ACROSS THE “GREAT
+                                        ROADS” FROM BENNETT DANIEL FULTZ’S HOME, NOW THE FULTZ
+                                        HOUSE MUSEUM.</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
                                 <img src={histimg30} className="d-block w-100" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
-                                    <h5>Third slide label</h5>
+                                    <h5>MIDDLE SACKVILLE SCHOOL (c. 1956), MIDDLE SACKVILLE</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
                                 <img src={histimg31} className="d-block w-100" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
-                                    <h5>Third slide label</h5>
+                                    <h5>BEAVER BANK SCHOOL, BEAVER BANK</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
                                 <img src={histimg32} className="d-block w-100" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
-                                    <h5>Third slide label</h5>
+                                    <h5>SACKVILLE FROM PLEASANT HILL CEMETERY (c. 1932)</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
                                 <img src={histimg33} className="d-block w-100" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
-                                    <h5>Third slide label</h5>
+                                    <h5>THE BOMBER CANTEEN WAS A POPULAR DESTINATION TO DINE IN
+                                        THE 1950’S IN SACKVILLE.</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
                                 <img src={histimg34} className="d-block w-100" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
-                                    <h5>Third slide label</h5>
+                                    <h5>THE “QUARRY” WHERE YOUNG AND OLD ALIKE HAD GREAT FUN
+                                        LACING UP THEIR SKATES AND SHOOTING A PUCK ACROSS THE
+                                        ICE. SINCE GONE, IT WAS LOCATED AT THE BOTTOM OF
+                                        RIVERSIDE DRIVE – THE FUTURE LOCATION OF THE DOWNSVIEW
+                                        MOTEL AND NOW, LAWTONS.</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
                                 <img src={histimg35} className="d-block w-100" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
-                                    <h5>Third slide label</h5>
+                                    <h5>LOOKING UP FROM THE ROAD AT THE FULTZ HOUSE MUSEUM IN
+                                        LOWER SACKVILLE.</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
                                 <img src={histimg36} className="d-block w-100" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
-                                    <h5>Third slide label</h5>
+                                    <h5>THE STAGECOACH (ORIGINAL REPLICA) ON THE FULTZ HOUSE
+                                        GROUNDS ALONG COBEQUID ROAD.</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
                                 <img src={histimg37} className="d-block w-100" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
-                                    <h5>Third slide label</h5>
+                                    <h5>THE HEARSE AND STAGECOACH (ORIGINAL REPLICA) ON THE
+                                        FULTZ HOUSE GROUNDS IN LOWER SACKVILLE.</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
                                 <img src={histimg38} className="d-block w-100" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
-                                    <h5>Third slide label</h5>
+                                    <h5>THE CAUDLE RAILWAY BRIDGE OVER THE SACKVILLE RIVER IN
+                                        BEDFORD FROM AN ENGRAVING BY G.W. HAZEN TITLED “OFF TO
+                                        THE RIFLE RANGE,” 1871.</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
                                 <img src={histimg39} className="d-block w-100" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
-                                    <h5>Third slide label</h5>
+                                    <h5>TED B. BLACKBURN’S FIRST STORE – IN THE FOREGROUND YOU
+                                        CAN SEE THE DRIVEWAY OF THE TWELVE MILE HOUSE INN THAT
+                                        WAS DESTROYED BY A FIRE IN 1890, AS YOU WOULD HAVE
+                                        ENTERED SACKVILLE.</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
                                 <img src={histimg40} className="d-block w-100" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
-                                    <h5>Third slide label</h5>
+                                    <h5>ARTHUR IRVING SCHULTZ AT THE FOOT OF RIVERSIDE DRIVE,
+                                        POINTING TO THE SIGN ADVERTISING HIS NEW SUBDIVISION,
+                                        WHICH CAPTURES THE POST WWII DEVELOPMENT THAT TURNED
+                                        SACKVILLE FROM A VILLAGE TO A SUBURB OF HALIFAX AND
+                                        DARTMOUTH.</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
                                 <img src={histimg41} className="d-block w-100" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
-                                    <h5>Third slide label</h5>
+                                    <h5>THIS IS DANIEL HALLISEY’S HOTEL (LEFT IN PICTURE) AND
+                                        BEAVER BANK STATION IN BEAVER BANK.</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
                                 <img src={histimg42} className="d-block w-100" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
-                                    <h5>Third slide label</h5>
+                                    <h5>THIS IS KNOX PRESBYTERIAN CHURCH (BUILT IN 1890) ALONG ONE
+                                        OF SACKVILLE’S MAIN ROADS BACK IN THE DAY.</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
                                 <img src={histimg43} className="d-block w-100" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
-                                    <h5>Third slide label</h5>
+                                    <h5>THE SACKVILLE PUBLIC LIBRARY (FORMERLY ACADIA SCHOOL)
+                                        UNDER CONSTRUCTION ON SACKVILLE DRIVE.</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
                                 <img src={histimg44} className="d-block w-100" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
-                                    <h5>Third slide label</h5>
+                                    <h5>A CANOE ON THE SHORES OF WEBBER LAKE, WHICH IS LOCATED
+                                        BETWEEN MIDDLE SACKVILLE AND LUCASVILLE.</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
                                 <img src={histimg45} className="d-block w-100" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
-                                    <h5>Third slide label</h5>
+                                    <h5>ACADIA HALL HAS ALWAYS BEEN A TRADITONAL MEETING PLACE
+                                        IN THE COMMUNITY SINCE 1924, LOCATED ON WHAT IS NOW
+                                        REFERRED TO AS SACKVILLE DRIVE.</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
                                 <img src={histimg46} className="d-block w-100" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
-                                    <h5>Third slide label</h5>
+                                    <h5>THE CHURCH OF THE GOOD SHEPHERD IN BEAVER BANK.</h5>
                                 </div>
                             </div>
                         </div>
