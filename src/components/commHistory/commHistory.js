@@ -25,6 +25,10 @@ import pdf19 from "../../pdfs/history/Summer Kitchen Profile.pdf";
 import pdf20 from "../../pdfs/history/The Story of the Grove Finishing School.pdf";
 import pdf21 from "../../pdfs/history/Traditional Education - Mi'kmaq People Profile.pdf";
 import pdf22 from "../../pdfs/history/Travelling in the Early Days.pdf";
+import pdf23 from "../../pdfs/history/Beaver Bank & Kinsac.pdf";
+import pdf24 from "../../pdfs/history/Sackville Connections to the Halifax Explosion.pdf";
+import pdf25 from "../../pdfs/history/Beaver Bank Timeline.pdf";
+import pdf26 from "../../pdfs/history/Kinsac - A Brief History.pdf";
 
 const CommHistory = () => {
     return (
@@ -291,6 +295,42 @@ const CommHistory = () => {
                                 <h5 class="card-title">Mi’kmaq Education</h5>
                                 <p class="card-text">The Traditional Education Ways of the Mi’kmaq People.</p>
                                 <a href={pdf21} class="card-link">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 bg-transparent">
+                            <div class="card-body">
+                                <h5 class="card-title">Travelling in The Early Days</h5>
+                                <p class="card-text">Introducing road travel and wagons; Stagecoach travel; A communication lifeline; and more.</p>
+                                <a href={pdf22} class="card-link">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 bg-transparent">
+                            <div class="card-body">
+                                <h5 class="card-title">Travelling in The Early Days</h5>
+                                <p class="card-text">Introducing road travel and wagons; Stagecoach travel; A communication lifeline; and more.</p>
+                                <a href={pdf22} class="card-link">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 bg-transparent">
+                            <div class="card-body">
+                                <h5 class="card-title">Travelling in The Early Days</h5>
+                                <p class="card-text">Introducing road travel and wagons; Stagecoach travel; A communication lifeline; and more.</p>
+                                <a href={pdf22} class="card-link">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 bg-transparent">
+                            <div class="card-body">
+                                <h5 class="card-title">Travelling in The Early Days</h5>
+                                <p class="card-text">Introducing road travel and wagons; Stagecoach travel; A communication lifeline; and more.</p>
+                                <a href={pdf22} class="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
