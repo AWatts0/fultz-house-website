@@ -46,262 +46,262 @@ const GeneralCarousel = () => {
         <div>
             <div className='row'>
                 <div className='col'>
-                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src={genimg1} class="d-block w-100" alt="..."/>
-                                    <div class="carousel-caption d-none d-md-block">
+                    <div id="GeneralCarousel" className="carousel slide" data-bs-ride="carousel">
+                        <div className="carousel-inner">
+                            <div className="carousel-item active">
+                                <img src={genimg1} className="d-block w-100" alt="..."/>
+                                    <div className="carousel-caption d-none d-md-block">
                                         <h5>First slide label</h5>
                                     </div>
                             </div>
-                            <div class="carousel-item">
-                                <img src={genimg2} class="d-block w-100" alt="..."/>
-                                    <div class="carousel-caption d-none d-md-block">
+                            <div className="carousel-item">
+                                <img src={genimg2} className="d-block w-100" alt="..."/>
+                                    <div className="carousel-caption d-none d-md-block">
                                         <h5>Second slide label</h5>
                                     </div>
                             </div>
-                            <div class="carousel-item">
-                                <img src={genimg3} class="d-block w-100" alt="..."/>
-                                    <div class="carousel-caption d-none d-md-block">
+                            <div className="carousel-item">
+                                <img src={genimg3} className="d-block w-100" alt="..."/>
+                                    <div className="carousel-caption d-none d-md-block">
                                         <h5>Third slide label</h5>
                                     </div>
                             </div>
-                            <div class="carousel-item">
-                                <img src={genimg4} class="d-block w-100" alt="..."/>
-                                    <div class="carousel-caption d-none d-md-block">
+                            <div className="carousel-item">
+                                <img src={genimg4} className="d-block w-100" alt="..."/>
+                                    <div className="carousel-caption d-none d-md-block">
                                         <h5>Third slide label</h5>
                                     </div>
                             </div>
-                            <div class="carousel-item">
-                                <img src={genimg5} class="d-block w-100" alt="..."/>
-                                    <div class="carousel-caption d-none d-md-block">
+                            <div className="carousel-item">
+                                <img src={genimg5} className="d-block w-100" alt="..."/>
+                                    <div className="carousel-caption d-none d-md-block">
                                         <h5>Third slide label</h5>
                                     </div>
                             </div>
-                            <div class="carousel-item">
-                                <img src={genimg6} class="d-block w-100" alt="..."/>
-                                    <div class="carousel-caption d-none d-md-block">
+                            <div className="carousel-item">
+                                <img src={genimg6} className="d-block w-100" alt="..."/>
+                                    <div className="carousel-caption d-none d-md-block">
                                         <h5>Third slide label</h5>
                                     </div>
                             </div>
-                            <div class="carousel-item">
-                                <img src={genimg7} class="d-block w-100" alt="..."/>
-                                    <div class="carousel-caption d-none d-md-block">
+                            <div className="carousel-item">
+                                <img src={genimg7} className="d-block w-100" alt="..."/>
+                                    <div className="carousel-caption d-none d-md-block">
                                         <h5>Third slide label</h5>
                                     </div>
                             </div>
-                            <div class="carousel-item">
-                                <img src={genimg8} class="d-block w-100" alt="..."/>
-                                    <div class="carousel-caption d-none d-md-block">
+                            <div className="carousel-item">
+                                <img src={genimg8} className="d-block w-100" alt="..."/>
+                                    <div className="carousel-caption d-none d-md-block">
                                         <h5>Third slide label</h5>
                                     </div>
                             </div>
-                            <div class="carousel-item">
-                                <img src={genimg9} class="d-block w-100" alt="..."/>
-                                    <div class="carousel-caption d-none d-md-block">
+                            <div className="carousel-item">
+                                <img src={genimg9} className="d-block w-100" alt="..."/>
+                                    <div className="carousel-caption d-none d-md-block">
                                         <h5>Third slide label</h5>
                                     </div>
                             </div>
-                            <div class="carousel-item">
-                                <img src={genimg10} class="d-block w-100" alt="..."/>
-                                    <div class="carousel-caption d-none d-md-block">
+                            <div className="carousel-item">
+                                <img src={genimg10} className="d-block w-100" alt="..."/>
+                                    <div className="carousel-caption d-none d-md-block">
                                         <h5>Third slide label</h5>
                                     </div>
                             </div>
-                            <div class="carousel-item">
-                                <img src={genimg11} class="d-block w-100" alt="..."/>
-                                    <div class="carousel-caption d-none d-md-block">
+                            <div className="carousel-item">
+                                <img src={genimg11} className="d-block w-100" alt="..."/>
+                                    <div className="carousel-caption d-none d-md-block">
                                         <h5>Third slide label</h5>
                                     </div>
                             </div>
-                            <div class="carousel-item">
-                                <img src={genimg12} class="d-block w-100" alt="..."/>
-                                    <div class="carousel-caption d-none d-md-block">
+                            <div className="carousel-item">
+                                <img src={genimg12} className="d-block w-100" alt="..."/>
+                                    <div className="carousel-caption d-none d-md-block">
                                         <h5>Third slide label</h5>
                                     </div>
                             </div>
-                            <div class="carousel-item">
-                                <img src={genimg13} class="d-block w-100" alt="..."/>
-                                    <div class="carousel-caption d-none d-md-block">
+                            <div className="carousel-item">
+                                <img src={genimg13} className="d-block w-100" alt="..."/>
+                                    <div className="carousel-caption d-none d-md-block">
                                         <h5>Third slide label</h5>
                                     </div>
                             </div>
-                            <div class="carousel-item">
-                                <img src={genimg14} class="d-block w-100" alt="..."/>
-                                    <div class="carousel-caption d-none d-md-block">
+                            <div className="carousel-item">
+                                <img src={genimg14} className="d-block w-100" alt="..."/>
+                                    <div className="carousel-caption d-none d-md-block">
                                         <h5>Third slide label</h5>
                                     </div>
                             </div>
-                            <div class="carousel-item">
-                                <img src={genimg15} class="d-block w-100" alt="..."/>
-                                    <div class="carousel-caption d-none d-md-block">
+                            <div className="carousel-item">
+                                <img src={genimg15} className="d-block w-100" alt="..."/>
+                                    <div className="carousel-caption d-none d-md-block">
                                         <h5>Third slide label</h5>
                                     </div>
                             </div>
-                            <div class="carousel-item">
-                                <img src={genimg16} class="d-block w-100" alt="..."/>
-                                    <div class="carousel-caption d-none d-md-block">
+                            <div className="carousel-item">
+                                <img src={genimg16} className="d-block w-100" alt="..."/>
+                                    <div className="carousel-caption d-none d-md-block">
                                         <h5>Third slide label</h5>
                                     </div>
                             </div>
-                            <div class="carousel-item">
-                                <img src={genimg17} class="d-block w-100" alt="..."/>
-                                    <div class="carousel-caption d-none d-md-block">
+                            <div className="carousel-item">
+                                <img src={genimg17} className="d-block w-100" alt="..."/>
+                                    <div className="carousel-caption d-none d-md-block">
                                         <h5>Third slide label</h5>
                                     </div>
                             </div>
-                            <div class="carousel-item">
-                                <img src={genimg18} class="d-block w-100" alt="..."/>
-                                    <div class="carousel-caption d-none d-md-block">
+                            <div className="carousel-item">
+                                <img src={genimg18} className="d-block w-100" alt="..."/>
+                                    <div className="carousel-caption d-none d-md-block">
                                         <h5>Third slide label</h5>
                                     </div>
                             </div>
-                            <div class="carousel-item">
-                                <img src={genimg19} class="d-block w-100" alt="..."/>
-                                    <div class="carousel-caption d-none d-md-block">
+                            <div className="carousel-item">
+                                <img src={genimg19} className="d-block w-100" alt="..."/>
+                                    <div className="carousel-caption d-none d-md-block">
                                         <h5>Third slide label</h5>
                                     </div>
                             </div>
-                            <div class="carousel-item">
-                                <img src={genimg20} class="d-block w-100" alt="..."/>
-                                    <div class="carousel-caption d-none d-md-block">
+                            <div className="carousel-item">
+                                <img src={genimg20} className="d-block w-100" alt="..."/>
+                                    <div className="carousel-caption d-none d-md-block">
                                         <h5>Third slide label</h5>
                                     </div>
                             </div>
-                            <div class="carousel-item">
-                                <img src={genimg21} class="d-block w-100" alt="..."/>
-                                    <div class="carousel-caption d-none d-md-block">
+                            <div className="carousel-item">
+                                <img src={genimg21} className="d-block w-100" alt="..."/>
+                                    <div className="carousel-caption d-none d-md-block">
                                         <h5>Third slide label</h5>
                                     </div>
                             </div>
-                            <div class="carousel-item">
-                                <img src={genimg22} class="d-block w-100" alt="..."/>
-                                    <div class="carousel-caption d-none d-md-block">
+                            <div className="carousel-item">
+                                <img src={genimg22} className="d-block w-100" alt="..."/>
+                                    <div className="carousel-caption d-none d-md-block">
                                         <h5>Third slide label</h5>
                                     </div>
                             </div>
-                            <div class="carousel-item">
-                                <img src={genimg23} class="d-block w-100" alt="..."/>
-                                    <div class="carousel-caption d-none d-md-block">
+                            <div className="carousel-item">
+                                <img src={genimg23} className="d-block w-100" alt="..."/>
+                                    <div className="carousel-caption d-none d-md-block">
                                         <h5>Third slide label</h5>
                                     </div>
                             </div>
-                            <div class="carousel-item">
-                                <img src={genimg24} class="d-block w-100" alt="..."/>
-                                    <div class="carousel-caption d-none d-md-block">
+                            <div className="carousel-item">
+                                <img src={genimg24} className="d-block w-100" alt="..."/>
+                                    <div className="carousel-caption d-none d-md-block">
                                         <h5>Third slide label</h5>
                                     </div>
                             </div>
-                            <div class="carousel-item">
-                                <img src={genimg25} class="d-block w-100" alt="..."/>
-                                    <div class="carousel-caption d-none d-md-block">
+                            <div className="carousel-item">
+                                <img src={genimg25} className="d-block w-100" alt="..."/>
+                                    <div className="carousel-caption d-none d-md-block">
                                         <h5>Third slide label</h5>
                                     </div>
                             </div>
-                            <div class="carousel-item">
-                                <img src={genimg26} class="d-block w-100" alt="..."/>
-                                    <div class="carousel-caption d-none d-md-block">
+                            <div className="carousel-item">
+                                <img src={genimg26} className="d-block w-100" alt="..."/>
+                                    <div className="carousel-caption d-none d-md-block">
                                         <h5>Third slide label</h5>
                                     </div>
                             </div>
-                            <div class="carousel-item">
-                                <img src={genimg27} class="d-block w-100" alt="..."/>
-                                    <div class="carousel-caption d-none d-md-block">
+                            <div className="carousel-item">
+                                <img src={genimg27} className="d-block w-100" alt="..."/>
+                                    <div className="carousel-caption d-none d-md-block">
                                         <h5>Third slide label</h5>
                                     </div>
                             </div>
-                            <div class="carousel-item">
-                                <img src={genimg28} class="d-block w-100" alt="..."/>
-                                    <div class="carousel-caption d-none d-md-block">
+                            <div className="carousel-item">
+                                <img src={genimg28} className="d-block w-100" alt="..."/>
+                                    <div className="carousel-caption d-none d-md-block">
                                         <h5>Third slide label</h5>
                                     </div>
                             </div>
-                            <div class="carousel-item">
-                                <img src={genimg29} class="d-block w-100" alt="..."/>
-                                    <div class="carousel-caption d-none d-md-block">
+                            <div className="carousel-item">
+                                <img src={genimg29} className="d-block w-100" alt="..."/>
+                                    <div className="carousel-caption d-none d-md-block">
                                         <h5>Third slide label</h5>
                                     </div>
                             </div>
-                            <div class="carousel-item">
-                                <img src={genimg30} class="d-block w-100" alt="..."/>
-                                    <div class="carousel-caption d-none d-md-block">
+                            <div className="carousel-item">
+                                <img src={genimg30} className="d-block w-100" alt="..."/>
+                                    <div className="carousel-caption d-none d-md-block">
                                         <h5>Third slide label</h5>
                                     </div>
                             </div>
-                            <div class="carousel-item">
-                                <img src={genimg31} class="d-block w-100" alt="..."/>
-                                    <div class="carousel-caption d-none d-md-block">
+                            <div className="carousel-item">
+                                <img src={genimg31} className="d-block w-100" alt="..."/>
+                                    <div className="carousel-caption d-none d-md-block">
                                         <h5>Third slide label</h5>
                                     </div>
                             </div>
-                            <div class="carousel-item">
-                                <img src={genimg32} class="d-block w-100" alt="..."/>
-                                    <div class="carousel-caption d-none d-md-block">
+                            <div className="carousel-item">
+                                <img src={genimg32} className="d-block w-100" alt="..."/>
+                                    <div className="carousel-caption d-none d-md-block">
                                         <h5>Third slide label</h5>
                                     </div>
                             </div>
-                            <div class="carousel-item">
-                                <img src={genimg33} class="d-block w-100" alt="..."/>
-                                    <div class="carousel-caption d-none d-md-block">
+                            <div className="carousel-item">
+                                <img src={genimg33} className="d-block w-100" alt="..."/>
+                                    <div className="carousel-caption d-none d-md-block">
                                         <h5>Third slide label</h5>
                                     </div>
                             </div>
-                            <div class="carousel-item">
-                                <img src={genimg34} class="d-block w-100" alt="..."/>
-                                    <div class="carousel-caption d-none d-md-block">
+                            <div className="carousel-item">
+                                <img src={genimg34} className="d-block w-100" alt="..."/>
+                                    <div className="carousel-caption d-none d-md-block">
                                         <h5>Third slide label</h5>
                                     </div>
                             </div>
-                            <div class="carousel-item">
-                                <img src={genimg35} class="d-block w-100" alt="..."/>
-                                    <div class="carousel-caption d-none d-md-block">
+                            <div className="carousel-item">
+                                <img src={genimg35} className="d-block w-100" alt="..."/>
+                                    <div className="carousel-caption d-none d-md-block">
                                         <h5>Third slide label</h5>
                                     </div>
                             </div>
-                            <div class="carousel-item">
-                                <img src={genimg36} class="d-block w-100" alt="..."/>
-                                    <div class="carousel-caption d-none d-md-block">
+                            <div className="carousel-item">
+                                <img src={genimg36} className="d-block w-100" alt="..."/>
+                                    <div className="carousel-caption d-none d-md-block">
                                         <h5>Third slide label</h5>
                                     </div>
                             </div>
-                            <div class="carousel-item">
-                                <img src={genimg37} class="d-block w-100" alt="..."/>
-                                    <div class="carousel-caption d-none d-md-block">
+                            <div className="carousel-item">
+                                <img src={genimg37} className="d-block w-100" alt="..."/>
+                                    <div className="carousel-caption d-none d-md-block">
                                         <h5>Third slide label</h5>
                                     </div>
                             </div>
-                            <div class="carousel-item">
-                                <img src={genimg38} class="d-block w-100" alt="..."/>
-                                    <div class="carousel-caption d-none d-md-block">
+                            <div className="carousel-item">
+                                <img src={genimg38} className="d-block w-100" alt="..."/>
+                                    <div className="carousel-caption d-none d-md-block">
                                         <h5>Third slide label</h5>
                                     </div>
                             </div>
-                            <div class="carousel-item">
-                                <img src={genimg39} class="d-block w-100" alt="..."/>
-                                    <div class="carousel-caption d-none d-md-block">
+                            <div className="carousel-item">
+                                <img src={genimg39} className="d-block w-100" alt="..."/>
+                                    <div className="carousel-caption d-none d-md-block">
                                         <h5>Third slide label</h5>
                                     </div>
                             </div>
-                            <div class="carousel-item">
-                                <img src={genimg40} class="d-block w-100" alt="..."/>
-                                    <div class="carousel-caption d-none d-md-block">
+                            <div className="carousel-item">
+                                <img src={genimg40} className="d-block w-100" alt="..."/>
+                                    <div className="carousel-caption d-none d-md-block">
                                         <h5>Third slide label</h5>
                                     </div>
                             </div>
-                            <div class="carousel-item">
-                                <img src={genimg41} class="d-block w-100" alt="..."/>
-                                    <div class="carousel-caption d-none d-md-block">
+                            <div className="carousel-item">
+                                <img src={genimg41} className="d-block w-100" alt="..."/>
+                                    <div className="carousel-caption d-none d-md-block">
                                         <h5>Third slide label</h5>
                                     </div>
                             </div>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
+                        <button className="carousel-control-prev" type="button" data-bs-target="#GeneralCarousel" data-bs-slide="prev">
+                            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span className="visually-hidden">Previous</span>
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
+                        <button className="carousel-control-next" type="button" data-bs-target="#GeneralCarousel" data-bs-slide="next">
+                            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span className="visually-hidden">Next</span>
                         </button>
                     </div>
                 </div>
