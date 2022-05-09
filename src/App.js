@@ -8,6 +8,7 @@ import MyNavbar from './components/navbar';
 import Footer from "./components/footer";
 import ContactUs from './components/contactUs/contact';
 import Photos from './components/gallery/photos/Photos.js';
+import EventsPage from './components/events/events';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/history" element={<CommHistory />}></Route>
           <Route path='/notablepeople' element={<NotablePeople />}></Route>
           <Route path='/photo' element={<Photos />}></Route>
+          <Route path='/events' element={<EventsPage />}></Route>
         </Routes>
         <Footer/>
       </BrowserRouter>

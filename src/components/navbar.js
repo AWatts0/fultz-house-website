@@ -33,7 +33,7 @@ function MyNavbar() {
                     </NavDropdown>
                     <NavDropdown menuVariant="light" title="Archives & Collections" id="navbarScrollingDropdown">
                         <NavDropdown.Item className="nav-drop-item" onClick={scrollToTop} as={Link} to="/history" >Our Community History</NavDropdown.Item>
-                        <NavDropdown.Item className="nav-drop-item" onClick={scrollToTop} as={Link} to="/notablepeople">Notable People</NavDropdown.Item>
+                        <NavDropdown.Item className="nav-drop-item" onClick={scrollToTop} as={Link} to="/notablepeople" >Notable People</NavDropdown.Item>
                         <NavDropdown.Item className="nav-drop-item" onClick={scrollToTop} as={Link} to="">Geneology</NavDropdown.Item>
                         <NavDropdown.Item className="nav-drop-item" onClick={scrollToTop} as={Link} to="">Brochures</NavDropdown.Item>
                     </NavDropdown>
@@ -43,7 +43,7 @@ function MyNavbar() {
                         <NavDropdown.Item className="nav-drop-item" onClick={scrollToTop} as={Link} to="">Presentations</NavDropdown.Item>
                     </NavDropdown>
                     <NavDropdown menuVariant="light" title="Events" id="navbarScrollingDropdown">
-                        <NavDropdown.Item className="nav-drop-item" onClick={scrollToTop} as={Link} to="">Upcoming Events</NavDropdown.Item>
+                        <NavDropdown.Item className="nav-drop-item" onClick={scrollToTop} as={Link} to="/events" >Upcoming Events</NavDropdown.Item>
                         <NavDropdown.Item className="nav-drop-item" onClick={scrollToTop} as={Link} to="">Rentals</NavDropdown.Item>
                     </NavDropdown>
                     <NavDropdown menuVariant="light" title="Programming" id="navbarScrollingDropdown">
