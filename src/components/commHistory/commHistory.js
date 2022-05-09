@@ -310,36 +310,39 @@ const CommHistory = () => {
                     <div class="col">
                         <div class="card h-100 bg-transparent">
                             <div class="card-body">
-                                <h5 class="card-title">Travelling in The Early Days</h5>
-                                <p class="card-text">Introducing road travel and wagons; Stagecoach travel; A communication lifeline; and more.</p>
-                                <a href={pdf22} class="card-link">Read more</a>
+                                <h5 class="card-title">Beaver Bank & Kinsac</h5>
+                                <p class="card-text">The Early Life and Social
+                                    Developments of Beaver Bank & Kinsac:
+                                    A Brief History</p>
+                                <a href={pdf23} class="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card h-100 bg-transparent">
                             <div class="card-body">
-                                <h5 class="card-title">Travelling in The Early Days</h5>
-                                <p class="card-text">Introducing road travel and wagons; Stagecoach travel; A communication lifeline; and more.</p>
-                                <a href={pdf22} class="card-link">Read more</a>
+                                <h5 class="card-title">Halifax Explosion</h5>
+                                <p class="card-text">Sackville Connections to the Halifax Explosion</p>
+                                <a href={pdf24} class="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card h-100 bg-transparent">
                             <div class="card-body">
-                                <h5 class="card-title">Travelling in The Early Days</h5>
-                                <p class="card-text">Introducing road travel and wagons; Stagecoach travel; A communication lifeline; and more.</p>
-                                <a href={pdf22} class="card-link">Read more</a>
+                                <h5 class="card-title">Beaver Bank Timeline</h5>
+                                <p class="card-text">1798-1988</p>
+                                <a href={pdf25} class="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card h-100 bg-transparent">
                             <div class="card-body">
-                                <h5 class="card-title">Travelling in The Early Days</h5>
-                                <p class="card-text">Introducing road travel and wagons; Stagecoach travel; A communication lifeline; and more.</p>
-                                <a href={pdf22} class="card-link">Read more</a>
+                                <h5 class="card-title">Kinsac - A Brief History</h5>
+                                <p class="card-text">Further out the Beaver Bank Road, one will find a beautiful, tiny community
+                                    called Kinsac on the west side of Lake Kinsac.</p>
+                                <a href={pdf26} class="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
