@@ -391,11 +391,11 @@ const HistoricCarousel = () => {
                                 </div>
                             </div>
                         </div>
-                        <button className="carousel-control-prev" type="button" data-bs-target="#HistoricCarousel" data-bs-slide="prev">
+                        <button className="carousel-control-prev" type="button" data-bs-target="#HistoricCarousel" data-bs-slide="prev" data-bs-pause="hover" data-bs-touch="true">
                             <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span className="visually-hidden">Previous</span>
                         </button>
-                        <button className="carousel-control-next" type="button" data-bs-target="#HistoricCarousel" data-bs-slide="next">
+                        <button className="carousel-control-next" type="button" data-bs-target="#HistoricCarousel" data-bs-slide="next" data-bs-pause="hover" data-bs-touch="true">
                             <span className="carousel-control-next-icon" aria-hidden="true"></span>
                             <span className="visually-hidden">Next</span>
                         </button>
