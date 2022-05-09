@@ -8,6 +8,11 @@ import {
   import "./navbar.css";
 
 function MyNavbar() {
+
+    let scrollToTop = function() {
+        window.scrollTo(0, 0);
+    };
+
     return(
 
         <Navbar className="navbar py-4 mb-3" expand="lg" variant="dark" sticky="top"  >
@@ -21,40 +26,40 @@ function MyNavbar() {
                     navbarScroll
                     >
                     <NavDropdown className="dropdown" menuVariant="dark" title="About" id="navbarScrollingDropdown">
-                        <NavDropdown.Item as={Link} to="">About Us</NavDropdown.Item>
-                        <NavDropdown.Item as={Link} to="">Facility</NavDropdown.Item>
-                        <NavDropdown.Item as={Link} to="">Governance</NavDropdown.Item>
-                        <NavDropdown.Item as={Link} to="">Careers</NavDropdown.Item>
+                        <NavDropdown.Item onClick={scrollToTop} as={Link} to="">About Us</NavDropdown.Item>
+                        <NavDropdown.Item onClick={scrollToTop} as={Link} to="">Facility</NavDropdown.Item>
+                        <NavDropdown.Item onClick={scrollToTop} as={Link} to="">Governance</NavDropdown.Item>
+                        <NavDropdown.Item onClick={scrollToTop} as={Link} to="">Careers</NavDropdown.Item>
                     </NavDropdown>
                     <NavDropdown menuVariant="dark" title="Archives & Collections" id="navbarScrollingDropdown">
-                        <NavDropdown.Item as={Link} to="/history" >Our Community History</NavDropdown.Item>
-                        <NavDropdown.Item as={Link} to="/notablepeople">Notable People</NavDropdown.Item>
-                        <NavDropdown.Item as={Link} to="">Geneology</NavDropdown.Item>
-                        <NavDropdown.Item as={Link} to="">Brochures</NavDropdown.Item>
+                        <NavDropdown.Item onClick={scrollToTop} as={Link} to="/history" >Our Community History</NavDropdown.Item>
+                        <NavDropdown.Item onClick={scrollToTop} as={Link} to="/notablepeople">Notable People</NavDropdown.Item>
+                        <NavDropdown.Item onClick={scrollToTop} as={Link} to="">Geneology</NavDropdown.Item>
+                        <NavDropdown.Item onClick={scrollToTop} as={Link} to="">Brochures</NavDropdown.Item>
                     </NavDropdown>
                     <NavDropdown menuVariant="dark" title="Media" id="navbarScrollingDropdown">
-                        <NavDropdown.Item as={Link} to="/photo">Photos</NavDropdown.Item>
-                        <NavDropdown.Item as={Link} to="">Videos</NavDropdown.Item>
-                        <NavDropdown.Item as={Link} to="">Presentations</NavDropdown.Item>
+                        <NavDropdown.Item onClick={scrollToTop} as={Link} to="/photo">Photos</NavDropdown.Item>
+                        <NavDropdown.Item onClick={scrollToTop} as={Link} to="">Videos</NavDropdown.Item>
+                        <NavDropdown.Item onClick={scrollToTop} as={Link} to="">Presentations</NavDropdown.Item>
                     </NavDropdown>
                     <NavDropdown menuVariant="dark" title="Events" id="navbarScrollingDropdown">
-                        <NavDropdown.Item as={Link} to="">Upcoming Events</NavDropdown.Item>
-                        <NavDropdown.Item as={Link} to="">Rentals</NavDropdown.Item>
+                        <NavDropdown.Item onClick={scrollToTop} as={Link} to="">Upcoming Events</NavDropdown.Item>
+                        <NavDropdown.Item onClick={scrollToTop} as={Link} to="">Rentals</NavDropdown.Item>
                     </NavDropdown>
                     <NavDropdown menuVariant="dark" title="Programming" id="navbarScrollingDropdown">
-                        <NavDropdown.Item as={Link} to="">Programming</NavDropdown.Item>
-                        <NavDropdown.Item as={Link} to="">Kids Page</NavDropdown.Item>
+                        <NavDropdown.Item onClick={scrollToTop} as={Link} to="">Programming</NavDropdown.Item>
+                        <NavDropdown.Item onClick={scrollToTop} as={Link} to="">Kids Page</NavDropdown.Item>
                     </NavDropdown>
                     <NavDropdown menuVariant="dark" title="Contribute" id="navbarScrollingDropdown">
-                        <NavDropdown.Item as={Link} to="">Volunteers</NavDropdown.Item>
-                        <NavDropdown.Item as={Link} to="">Donate</NavDropdown.Item>
+                        <NavDropdown.Item onClick={scrollToTop} as={Link} to="">Volunteers</NavDropdown.Item>
+                        <NavDropdown.Item onClick={scrollToTop} as={Link} to="">Donate</NavDropdown.Item>
                     </NavDropdown>
                     <Nav.Link as={Link} to="" className="nav-links">
                             Shop
                     </Nav.Link>
                     <NavDropdown menuVariant="dark" title="Contact" id="navbarScrollingDropdown">
-                        <NavDropdown.Item as={Link} to="/contact">Contact Us</NavDropdown.Item>
-                        <NavDropdown.Item as={Link} to="">Community Links</NavDropdown.Item>
+                        <NavDropdown.Item onClick={scrollToTop} as={Link} to="/contact">Contact Us</NavDropdown.Item>
+                        <NavDropdown.Item onClick={scrollToTop} as={Link} to="">Community Links</NavDropdown.Item>
                     </NavDropdown>
                     
                 </Nav>
