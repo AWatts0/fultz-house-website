@@ -12,7 +12,7 @@ const Photos = () => {
                     <div className='row'>
                         <div className='col'>
                             <div className='row'>
-                                <div className='col'>
+                                <div className='col-photo-header py-4'>
                                     <h1>General Gallery</h1>
                                 </div>
                             </div>
@@ -26,7 +26,7 @@ const Photos = () => {
                     <div className='row'>
                     <div className='col'>
                             <div className='row'>
-                                <div className='col'>
+                                <div className='col-photo-header py-4'>
                                     <h1>Historic Gallery</h1>
                                 </div>
                             </div>
@@ -40,7 +40,7 @@ const Photos = () => {
                     <div className='row'>
                     <div className='col'>
                             <div className='row'>
-                                <div className='col'>
+                                <div className='col-photo-header py-4'>
                                     <h1>Glimpses Into The Past</h1>
                                 </div>
                             </div>

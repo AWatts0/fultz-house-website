@@ -44,7 +44,7 @@ const NotablePeople = () => {
             <div className='container'>
                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                     <div class="col">
-                        <div class="card h-100 bg-transparent">
+                        <div class="card h-100 bg-transparent shadow-lg p-1">
                             <img src={pic1} class="card-img-top" alt="..." />
                             <div class="card-body">
                                 <h5 class="card-title">A.J. Smeltzer</h5>
@@ -56,7 +56,7 @@ const NotablePeople = () => {
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100 bg-transparent">
+                        <div class="card h-100 bg-transparent shadow-lg p-1">
                             <img src={pic2} class="card-img-top" alt="..." />
                             <div class="card-body">
                                 <h5 class="card-title">Abraham Gesner</h5>
@@ -66,7 +66,7 @@ const NotablePeople = () => {
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100 bg-transparent">
+                        <div class="card h-100 bg-transparent shadow-lg p-1">
                             <img src={pic3} class="card-img-top" alt="..." />
                             <div class="card-body">
                                 <h5 class="card-title">Agnes O'Donnell Kelly</h5>
@@ -76,7 +76,7 @@ const NotablePeople = () => {
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100 bg-transparent">
+                        <div class="card h-100 bg-transparent shadow-lg p-1">
                             <img src={pic4} class="card-img-top" alt="..." />
                             <div class="card-body">
                                 <h5 class="card-title">Burdett Lively</h5>
@@ -86,7 +86,7 @@ const NotablePeople = () => {
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100 bg-transparent">
+                        <div class="card h-100 bg-transparent shadow-lg p-1">
                             <img src={pic5} class="card-img-top" alt="..." />
                             <div class="card-body">
                                 <h5 class="card-title">Emily Payne</h5>
@@ -96,7 +96,7 @@ const NotablePeople = () => {
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100 bg-transparent">
+                        <div class="card h-100 bg-transparent shadow-lg p-1">
                             <img src={pic6} class="card-img-top" alt="..." />
                             <div class="card-body">
                                 <h5 class="card-title">Fultz Family</h5>
@@ -106,7 +106,7 @@ const NotablePeople = () => {
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100 bg-transparent">
+                        <div class="card h-100 bg-transparent shadow-lg p-1">
                             <img src={pic7} class="card-img-top" alt="..." />
                             <div class="card-body">
                                 <h5 class="card-title">George Lawson</h5>
@@ -116,7 +116,7 @@ const NotablePeople = () => {
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100 bg-transparent">
+                        <div class="card h-100 bg-transparent shadow-lg p-1">
                             <img src={pic8} class="card-img-top" alt="..." />
                             <div class="card-body">
                                 <h5 class="card-title">Gertrude Parker</h5>
@@ -126,7 +126,7 @@ const NotablePeople = () => {
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100 bg-transparent">
+                        <div class="card h-100 bg-transparent shadow-lg p-1">
                             <img src={pic9} class="card-img-top" alt="..." />
                             <div class="card-body">
                                 <h5 class="card-title">Harold T. Barrett</h5>
@@ -136,7 +136,7 @@ const NotablePeople = () => {
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100 bg-transparent">
+                        <div class="card h-100 bg-transparent shadow-lg p-1">
                             <img src={pic10} class="card-img-top" alt="..." />
                             <div class="card-body">
                                 <h5 class="card-title">Harry R. Hamilton</h5>
@@ -146,7 +146,7 @@ const NotablePeople = () => {
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100 bg-transparent">
+                        <div class="card h-100 bg-transparent shadow-lg p-1">
                             <img src={pic11} class="card-img-top" alt="..." />
                             <div class="card-body">
                                 <h5 class="card-title">Leslie Thomas</h5>
@@ -156,7 +156,7 @@ const NotablePeople = () => {
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100 bg-transparent">
+                        <div class="card h-100 bg-transparent shadow-lg p-1">
                             <img src={pic12} class="card-img-top" alt="..." />
                             <div class="card-body">
                                 <h5 class="card-title">Mary Fultz</h5>
@@ -166,7 +166,7 @@ const NotablePeople = () => {
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100 bg-transparent">
+                        <div class="card h-100 bg-transparent shadow-lg p-1">
                             <img src={pic13} class="card-img-top" alt="..." />
                             <div class="card-body">
                                 <h5 class="card-title">Sadie Thomas</h5>
@@ -176,7 +176,7 @@ const NotablePeople = () => {
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100 bg-transparent">
+                        <div class="card h-100 bg-transparent shadow-lg p-1">
                             <img src={pic14} class="card-img-top" alt="..." />
                             <div class="card-body">
                                 <h5 class="card-title">Ted B. Blackburn</h5>
@@ -186,7 +186,7 @@ const NotablePeople = () => {
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100 bg-transparent">
+                        <div class="card h-100 bg-transparent shadow-lg p-1">
                             <img src={pic15} class="card-img-top" alt="..." />
                             <div class="card-body">
                                 <h5 class="card-title">Ted B. Blackburn</h5>

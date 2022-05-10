@@ -58,322 +58,322 @@ const PastCarousel = () => {
         <div>
             <div className='row'>
                 <div className='col'>
-                    <div id="PastCarousel" className="carousel slide" data-bs-ride="carousel">
+                    <div id="PastCarousel" className="carousel slide shadow-lg" data-bs-ride="carousel">
                         <div className="carousel-inner">
                             <div className="carousel-item active">
-                                <img src={pastimg1} className="d-block w-100" alt="..." />
+                                <img src={pastimg1} className="w-auto" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
                                     <h5>First slide label</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <img src={pastimg2} className="d-block w-100" alt="..." />
+                                <img src={pastimg2} className="w-auto" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
                                     <h5>Second slide label</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <img src={pastimg3} className="d-block w-100" alt="..." />
+                                <img src={pastimg3} className="w-auto" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
                                     <h5>Third slide label</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <img src={pastimg4} className="d-block w-100" alt="..." />
+                                <img src={pastimg4} className="w-auto" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
                                     <h5>Third slide label</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <img src={pastimg5} className="d-block w-100" alt="..." />
+                                <img src={pastimg5} className="w-auto" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
                                     <h5>Third slide label</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <img src={pastimg6} className="d-block w-100" alt="..." />
+                                <img src={pastimg6} className="w-auto" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
                                     <h5>Third slide label</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <img src={pastimg7} className="d-block w-100" alt="..." />
+                                <img src={pastimg7} className="w-auto" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
                                     <h5>Third slide label</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <img src={pastimg8} className="d-block w-100" alt="..." />
+                                <img src={pastimg8} className="w-auto" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
                                     <h5>Third slide label</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <img src={pastimg9} className="d-block w-100" alt="..." />
+                                <img src={pastimg9} className="w-auto" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
                                     <h5>Third slide label</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <img src={pastimg10} className="d-block w-100" alt="..." />
+                                <img src={pastimg10} className="w-auto" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
                                     <h5>Third slide label</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <img src={pastimg11} className="d-block w-100" alt="..." />
+                                <img src={pastimg11} className="w-auto" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
                                     <h5>Third slide label</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <img src={pastimg12} className="d-block w-100" alt="..." />
+                                <img src={pastimg12} className="w-auto" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
                                     <h5>Third slide label</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <img src={pastimg13} className="d-block w-100" alt="..." />
+                                <img src={pastimg13} className="w-auto" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
                                     <h5>Third slide label</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <img src={pastimg14} className="d-block w-100" alt="..." />
+                                <img src={pastimg14} className="w-auto" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
                                     <h5>Third slide label</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <img src={pastimg15} className="d-block w-100" alt="..." />
+                                <img src={pastimg15} className="w-auto" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
                                     <h5>Third slide label</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <img src={pastimg16} className="d-block w-100" alt="..." />
+                                <img src={pastimg16} className="w-auto" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
                                     <h5>Third slide label</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <img src={pastimg17} className="d-block w-100" alt="..." />
+                                <img src={pastimg17} className="w-auto" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
                                     <h5>Third slide label</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <img src={pastimg18} className="d-block w-100" alt="..." />
+                                <img src={pastimg18} className="w-auto" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
                                     <h5>Third slide label</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <img src={pastimg19} className="d-block w-100" alt="..." />
+                                <img src={pastimg19} className="w-auto" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
                                     <h5>Third slide label</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <img src={pastimg20} className="d-block w-100" alt="..." />
+                                <img src={pastimg20} className="w-auto" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
                                     <h5>Third slide label</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <img src={pastimg21} className="d-block w-100" alt="..." />
+                                <img src={pastimg21} className="w-auto" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
                                     <h5>Third slide label</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <img src={pastimg22} className="d-block w-100" alt="..." />
+                                <img src={pastimg22} className="w-auto" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
                                     <h5>Third slide label</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <img src={pastimg23} className="d-block w-100" alt="..." />
+                                <img src={pastimg23} className="w-auto" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
                                     <h5>Third slide label</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <img src={pastimg24} className="d-block w-100" alt="..." />
+                                <img src={pastimg24} className="w-auto" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
                                     <h5>Third slide label</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <img src={pastimg25} className="d-block w-100" alt="..." />
+                                <img src={pastimg25} className="w-auto" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
                                     <h5>Third slide label</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <img src={pastimg26} className="d-block w-100" alt="..." />
+                                <img src={pastimg26} className="w-auto" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
                                     <h5>Third slide label</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <img src={pastimg27} className="d-block w-100" alt="..." />
+                                <img src={pastimg27} className="w-auto" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
                                     <h5>Third slide label</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <img src={pastimg28} className="d-block w-100" alt="..." />
+                                <img src={pastimg28} className="w-auto" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
                                     <h5>Third slide label</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <img src={pastimg29} className="d-block w-100" alt="..." />
+                                <img src={pastimg29} className="w-auto" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
                                     <h5>Third slide label</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <img src={pastimg30} className="d-block w-100" alt="..." />
+                                <img src={pastimg30} className="w-auto" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
                                     <h5>Third slide label</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <img src={pastimg31} className="d-block w-100" alt="..." />
+                                <img src={pastimg31} className="w-auto" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
                                     <h5>Third slide label</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <img src={pastimg32} className="d-block w-100" alt="..." />
+                                <img src={pastimg32} className="w-auto" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
                                     <h5>Third slide label</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <img src={pastimg33} className="d-block w-100" alt="..." />
+                                <img src={pastimg33} className="w-auto" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
                                     <h5>Third slide label</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <img src={pastimg34} className="d-block w-100" alt="..." />
+                                <img src={pastimg34} className="w-auto" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
                                     <h5>Third slide label</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <img src={pastimg35} className="d-block w-100" alt="..." />
+                                <img src={pastimg35} className="w-auto" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
                                     <h5>Third slide label</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <img src={pastimg36} className="d-block w-100" alt="..." />
+                                <img src={pastimg36} className="w-auto" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
                                     <h5>Third slide label</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <img src={pastimg37} className="d-block w-100" alt="..." />
+                                <img src={pastimg37} className="w-auto" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
                                     <h5>Third slide label</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <img src={pastimg38} className="d-block w-100" alt="..." />
+                                <img src={pastimg38} className="w-auto" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
                                     <h5>Third slide label</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <img src={pastimg39} className="d-block w-100" alt="..." />
+                                <img src={pastimg39} className="w-auto" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
                                     <h5>Third slide label</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <img src={pastimg40} className="d-block w-100" alt="..." />
+                                <img src={pastimg40} className="w-auto" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
                                     <h5>Third slide label</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <img src={pastimg41} className="d-block w-100" alt="..." />
+                                <img src={pastimg41} className="w-auto" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
                                     <h5>Third slide label</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <img src={pastimg42} className="d-block w-100" alt="..." />
+                                <img src={pastimg42} className="w-auto" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
                                     <h5>Third slide label</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <img src={pastimg43} className="d-block w-100" alt="..." />
+                                <img src={pastimg43} className="w-auto" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
                                     <h5>Third slide label</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <img src={pastimg44} className="d-block w-100" alt="..." />
+                                <img src={pastimg44} className="w-auto" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
                                     <h5>Third slide label</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <img src={pastimg45} className="d-block w-100" alt="..." />
+                                <img src={pastimg45} className="w-auto" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
                                     <h5>Third slide label</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <img src={pastimg46} className="d-block w-100" alt="..." />
+                                <img src={pastimg46} className="w-auto" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
                                     <h5>Third slide label</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <img src={pastimg47} className="d-block w-100" alt="..." />
+                                <img src={pastimg47} className="w-auto" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
                                     <h5>Third slide label</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <img src={pastimg48} className="d-block w-100" alt="..." />
+                                <img src={pastimg48} className="w-auto" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
                                     <h5>Third slide label</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <img src={pastimg49} className="d-block w-100" alt="..." />
+                                <img src={pastimg49} className="w-auto" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
                                     <h5>Third slide label</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <img src={pastimg50} className="d-block w-100" alt="..." />
+                                <img src={pastimg50} className="w-auto" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
                                     <h5>Third slide label</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <img src={pastimg51} className="d-block w-100" alt="..." />
+                                <img src={pastimg51} className="w-auto" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
                                     <h5>Third slide label</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <img src={pastimg52} className="d-block w-100" alt="..." />
+                                <img src={pastimg52} className="w-auto" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
                                     <h5>Third slide label</h5>
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <img src={pastimg53} className="d-block w-100" alt="..." />
+                                <img src={pastimg53} className="w-auto" alt="..." />
                                 <div className="carousel-caption d-none d-md-block">
                                     <h5>Third slide label</h5>
                                 </div>

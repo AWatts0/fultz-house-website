@@ -14,3 +14,14 @@
 #homepage-text{
   text-align: center;
 }
+
+.carousel {
+  background-color: #0144214a;
+  padding: 1rem 0;
+}
+
+.carousel-caption {
+  background-color: #00000083;
+  padding: 0 !important;
+  margin: 0 !important;
+}

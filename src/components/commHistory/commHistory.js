@@ -93,7 +93,7 @@ const CommHistory = () => {
                 <h3> More History</h3>
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 g-4">
                     <div class="col">
-                        <div class="card h-100 bg-transparent">
+                        <div class="card h-100 bg-transparent shadow-lg">
                             <div class="card-body">
                                 <h5 class="card-title">An Introduction to Wheelwrights</h5>
                                 <p class="card-text">Being a wheelwright was a traditional family trade and a very common job choice for
@@ -103,7 +103,7 @@ const CommHistory = () => {
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100 bg-transparent">
+                        <div class="card h-100 bg-transparent shadow-lg">
                             <div class="card-body">
                                 <h5 class="card-title">Mi’kmaq Literature</h5>
                                 <p class="card-text">Common elements in Mi’kmaq Literature</p>
@@ -112,7 +112,7 @@ const CommHistory = () => {
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100 bg-transparent">
+                        <div class="card h-100 bg-transparent shadow-lg">
                             <div class="card-body">
                                 <h5 class="card-title">Craftspeople in the Community</h5>
                                 <p class="card-text">Before there were factories, communities were formed by craftspeople (artisans).
@@ -123,7 +123,7 @@ const CommHistory = () => {
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100 bg-transparent">
+                        <div class="card h-100 bg-transparent shadow-lg">
                             <div class="card-body">
                                 <h5 class="card-title">Sackville’s Fultz Corner</h5>
                                 <p class="card-text">A brief history on Sackville’s Fultz Corner.</p>
@@ -132,7 +132,7 @@ const CommHistory = () => {
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100 bg-transparent">
+                        <div class="card h-100 bg-transparent shadow-lg">
                             <div class="card-body">
                                 <h5 class="card-title">Historic Sackville: The Early Years</h5>
                                 <p class="card-text">Founding moments; The naming of Sackville; The Two Great Roads; How our communities got their names.</p>
@@ -141,7 +141,7 @@ const CommHistory = () => {
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100 bg-transparent">
+                        <div class="card h-100 bg-transparent shadow-lg">
                             <div class="card-body">
                                 <h5 class="card-title">The History of Education - Sackville Schools</h5>
                                 <p class="card-text">The stories surrounding Sackville’s education system are widespread, from
@@ -152,7 +152,7 @@ const CommHistory = () => {
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100 bg-transparent">
+                        <div class="card h-100 bg-transparent shadow-lg">
                             <div class="card-body">
                                 <h5 class="card-title">Sackville Schools</h5>
                                 <p class="card-text">The History of Education in Sackville Schools. Written by Michael D. Smiley</p>
@@ -161,7 +161,7 @@ const CommHistory = () => {
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100 bg-transparent">
+                        <div class="card h-100 bg-transparent shadow-lg">
                             <div class="card-body">
                                 <h5 class="card-title">Horseshoes: Not just for throwing</h5>
                                 <p class="card-text">Have you ever wondered why there’s often a horseshoe above the
@@ -171,7 +171,7 @@ const CommHistory = () => {
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100 bg-transparent">
+                        <div class="card h-100 bg-transparent shadow-lg">
                             <div class="card-body">
                                 <h5 class="card-title">Life in a Victorian Parlour</h5>
                                 <p class="card-text">A parlour was a very formal room traditionally used to receive guests.  Decorated with the family’s most prized possessions, it was a way of showcasing their status and wealth.</p>
@@ -180,7 +180,7 @@ const CommHistory = () => {
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100 bg-transparent">
+                        <div class="card h-100 bg-transparent shadow-lg">
                             <div class="card-body">
                                 <h5 class="card-title">Lower Sackville School</h5>
                                 <p class="card-text">A brief history of Lower Sackville School.</p>
@@ -189,7 +189,7 @@ const CommHistory = () => {
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100 bg-transparent">
+                        <div class="card h-100 bg-transparent shadow-lg">
                             <div class="card-body">
                                 <h5 class="card-title">The Maroon Hill Children Education Story</h5>
                                 <p class="card-text">In 1796 approximately five hundred black residents of Jamaica known as
@@ -199,7 +199,7 @@ const CommHistory = () => {
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100 bg-transparent">
+                        <div class="card h-100 bg-transparent shadow-lg">
                             <div class="card-body">
                                 <h5 class="card-title">Middle Sackville Schoolhouse</h5>
                                 <p class="card-text">The Life of the Middle Sackville Schoolhouse.</p>
@@ -208,7 +208,7 @@ const CommHistory = () => {
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100 bg-transparent">
+                        <div class="card h-100 bg-transparent shadow-lg">
                             <div class="card-body">
                                 <h5 class="card-title">Outhouses through the Ages</h5>
                                 <p class="card-text">It is believed that outhouses originated from Europe in the 15th
@@ -219,7 +219,7 @@ const CommHistory = () => {
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100 bg-transparent">
+                        <div class="card h-100 bg-transparent shadow-lg">
                             <div class="card-body">
                                 <h5 class="card-title">Preserving</h5>
                                 <p class="card-text">Preserved food was common in early Sackville kitchens because it
@@ -229,7 +229,7 @@ const CommHistory = () => {
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100 bg-transparent">
+                        <div class="card h-100 bg-transparent shadow-lg">
                             <div class="card-body">
                                 <h5 class="card-title">The Sackville Downs</h5>
                                 <p class="card-text">The harness raicing; A love of Racing; A Modern Track.</p>
@@ -238,7 +238,7 @@ const CommHistory = () => {
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100 bg-transparent">
+                        <div class="card h-100 bg-transparent shadow-lg">
                             <div class="card-body">
                                 <h5 class="card-title">The Sackville Drive-in Theatre</h5>
                                 <p class="card-text">The Sackville Drive-in Theatre was more than a business, it was a
@@ -249,7 +249,7 @@ const CommHistory = () => {
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100 bg-transparent">
+                        <div class="card h-100 bg-transparent shadow-lg">
                             <div class="card-body">
                                 <h5 class="card-title">The Sackville Raceway</h5>
                                 <p class="card-text">Sackville’s First Racetrack.</p>
@@ -258,7 +258,7 @@ const CommHistory = () => {
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100 bg-transparent">
+                        <div class="card h-100 bg-transparent shadow-lg">
                             <div class="card-body">
                                 <h5 class="card-title">A History of Soap</h5>
                                 <p class="card-text">Before the 18th century, soap was considered a luxury because only
@@ -268,7 +268,7 @@ const CommHistory = () => {
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100 bg-transparent">
+                        <div class="card h-100 bg-transparent shadow-lg">
                             <div class="card-body">
                                 <h5 class="card-title">The Summer Kitchen</h5>
                                 <p class="card-text">It was a room
@@ -279,7 +279,7 @@ const CommHistory = () => {
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100 bg-transparent">
+                        <div class="card h-100 bg-transparent shadow-lg">
                             <div class="card-body">
                                 <h5 class="card-title">The Story of the Grove School</h5>
                                 <p class="card-text">In addition to the typical grade schools in Sackville, a finishing
@@ -290,7 +290,7 @@ const CommHistory = () => {
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100 bg-transparent">
+                        <div class="card h-100 bg-transparent shadow-lg">
                             <div class="card-body">
                                 <h5 class="card-title">Mi’kmaq Education</h5>
                                 <p class="card-text">The Traditional Education Ways of the Mi’kmaq People.</p>
@@ -299,7 +299,7 @@ const CommHistory = () => {
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100 bg-transparent">
+                        <div class="card h-100 bg-transparent shadow-lg">
                             <div class="card-body">
                                 <h5 class="card-title">Travelling in The Early Days</h5>
                                 <p class="card-text">Introducing road travel and wagons; Stagecoach travel; A communication lifeline; and more.</p>
@@ -308,7 +308,7 @@ const CommHistory = () => {
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100 bg-transparent">
+                        <div class="card h-100 bg-transparent shadow-lg">
                             <div class="card-body">
                                 <h5 class="card-title">Beaver Bank & Kinsac</h5>
                                 <p class="card-text">The Early Life and Social
@@ -319,7 +319,7 @@ const CommHistory = () => {
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100 bg-transparent">
+                        <div class="card h-100 bg-transparent shadow-lg">
                             <div class="card-body">
                                 <h5 class="card-title">Halifax Explosion</h5>
                                 <p class="card-text">Sackville Connections to the Halifax Explosion</p>
@@ -328,7 +328,7 @@ const CommHistory = () => {
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100 bg-transparent">
+                        <div class="card h-100 bg-transparent shadow-lg">
                             <div class="card-body">
                                 <h5 class="card-title">Beaver Bank Timeline</h5>
                                 <p class="card-text">1798-1988</p>
@@ -337,7 +337,7 @@ const CommHistory = () => {
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100 bg-transparent">
+                        <div class="card h-100 bg-transparent shadow-lg">
                             <div class="card-body">
                                 <h5 class="card-title">Kinsac - A Brief History</h5>
                                 <p class="card-text">Further out the Beaver Bank Road, one will find a beautiful, tiny community
