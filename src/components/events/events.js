@@ -16,7 +16,7 @@ function EventsPage() {
                     <h2>May</h2>
                 </div>
             <CardGroup>
-                <Card className='card'>
+                <Card className='card-event'>
                     <div className='date'>
                         <p>
                             APR
@@ -33,7 +33,7 @@ function EventsPage() {
                     </Card.Text>
                     </Card.Body>
                 </Card>
-                <Card>
+                <Card className='card-event'>
                     <div className='date'>
                         <p>
                             APR
@@ -50,7 +50,7 @@ function EventsPage() {
                     </Card.Text>
                     </Card.Body>
                 </Card>
-                <Card>
+                <Card className='card-event'>
                     <div className='date'>
                         <p>
                             APR
@@ -75,7 +75,7 @@ function EventsPage() {
                     <h2>June</h2>
                 </div>
                 <CardGroup>
-                <Card className='card'>
+                <Card className='card-event'>
                     <div className='date'>
                         <p>
                             APR
@@ -92,7 +92,7 @@ function EventsPage() {
                     </Card.Text>
                     </Card.Body>
                 </Card>
-                <Card>
+                <Card className='card-event'>
                     <div className='date'>
                         <p>
                             APR
@@ -109,7 +109,7 @@ function EventsPage() {
                     </Card.Text>
                     </Card.Body>
                 </Card>
-                <Card>
+                <Card className='card-event'>
                     <div className='date'>
                         <p>
                             APR
@@ -134,7 +134,7 @@ function EventsPage() {
                     <h2>July</h2>
                 </div>
                 <CardGroup>
-                <Card className='card'>
+                <Card className='card-event'>
                     <div className='date'>
                         <p>
                             APR
@@ -151,7 +151,7 @@ function EventsPage() {
                     </Card.Text>
                     </Card.Body>
                 </Card>
-                <Card>
+                <Card className='card-event'>
                     <div className='date'>
                         <p>
                             APR
@@ -168,7 +168,7 @@ function EventsPage() {
                     </Card.Text>
                     </Card.Body>
                 </Card>
-                <Card>
+                <Card className='card-event'>
                     <div className='date'>
                         <p>
                             APR
@@ -193,7 +193,7 @@ function EventsPage() {
                     <h2>August</h2>
                 </div>
                 <CardGroup>
-                <Card className='card'>
+                <Card className='card-event'>
                     <div className='date'>
                         <p>
                             APR
@@ -210,7 +210,7 @@ function EventsPage() {
                     </Card.Text>
                     </Card.Body>
                 </Card>
-                <Card>
+                <Card className='card-event'>
                     <div className='date'>
                         <p>
                             APR
@@ -227,7 +227,7 @@ function EventsPage() {
                     </Card.Text>
                     </Card.Body>
                 </Card>
-                <Card>
+                <Card className='card-event'>
                     <div className='date'>
                         <p>
                             APR

@@ -17,7 +17,7 @@
     /* border-bottom: 1px solid black; */
 }
 
-.card {
+.card-event {
     display: flex;
     flex-direction: row;
     margin: 2em;
