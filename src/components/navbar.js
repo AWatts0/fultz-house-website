@@ -17,7 +17,7 @@ function MyNavbar() {
 
         <Navbar className="navbar py-4 mb-3" expand="lg" variant="light" sticky="top"  >
             <Container fluid>
-                <Navbar.Brand className="navbar-brand" as={Link} to="">Fultz House</Navbar.Brand>
+                <Navbar.Brand onClick={scrollToTop} className="navbar-brand" as={Link} to="">Fultz House</Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">
                 <Nav
