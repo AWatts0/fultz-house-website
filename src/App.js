@@ -10,6 +10,7 @@ import Footer from "./components/footer";
 import ContactUs from './components/contactUs/contact';
 import Photos from './components/gallery/photos/Photos.js';
 import EventsPage from './components/events/events';
+import Volunteer from './components/volunteer/volunteer';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path='/notablepeople' element={<NotablePeople />}></Route>
           <Route path='/photo' element={<Photos />}></Route>
           <Route path='/events' element={<EventsPage />}></Route>
+          <Route path='/volunteer' element={<Volunteer />}></Route>
         </Routes>
         <Footer/>
       </BrowserRouter>

@@ -51,7 +51,7 @@ function MyNavbar() {
                         <NavDropdown.Item className="nav-drop-item" onClick={scrollToTop} as={Link} to="">Kids Page</NavDropdown.Item>
                     </NavDropdown>
                     <NavDropdown menuVariant="light" title="Contribute" id="navbarScrollingDropdown">
-                        <NavDropdown.Item className="nav-drop-item" onClick={scrollToTop} as={Link} to="">Volunteers</NavDropdown.Item>
+                        <NavDropdown.Item className="nav-drop-item" onClick={scrollToTop} as={Link} to="/volunteer">Volunteers</NavDropdown.Item>
                         <NavDropdown.Item className="nav-drop-item" onClick={scrollToTop} as={Link} to="">Donate</NavDropdown.Item>
                     </NavDropdown>
                     <Nav.Link as={Link} to="" className="nav-links">
