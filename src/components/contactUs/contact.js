@@ -33,6 +33,11 @@ const ContactUs = () => {
                             <h5>Email: <br></br></h5>
                             <a href="mailto: fultz.house@ns.sympatico.ca">fultz.house@ns.sympatico.ca</a>
                         </p>
+                        <p>
+                        <h5>Hours: <br></br></h5>
+                            Open All Week, 10am to 5pm <br/>
+                            During July and August
+                        </p>
                     </div>
                 </div>
                 <div className="col-6" id="directions">
