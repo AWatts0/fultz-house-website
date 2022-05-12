@@ -35,7 +35,7 @@ const ContactUs = () => {
                         </p>
                     </div>
                 </div>
-                <div className="col-6">
+                <div className="col-6" id="directions">
                     <h2>Directions:</h2>
                     <p>
                     From Highway 102/Airport: <br/>
