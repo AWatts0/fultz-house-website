@@ -53,6 +53,18 @@ const Homepage = () => {
                 </div>
                 <div className="col-2"></div>
             </div>
+            <div className="row">
+                {/* Insert Social media feeds here */}
+                <div className="col-1"></div>
+                <div className="col-4" id="facebook-feed">
+                    {/* insert facebook feed code here */}
+                </div>
+                <div className="col-2"></div>
+                <div className="col-4" id="instagramfeed-feed">
+                    {/* insert instagram feed code here */}                    
+                </div>
+                <div className="col-1"></div>
+            </div>
         </div>
 
     )

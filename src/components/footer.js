@@ -7,26 +7,26 @@ const Footer = () => {
         <div className="container-fluid" id="footer">
             <div className="row">
                 <div className="col-1"></div>
-                <div className="col-2" id="info">
+                <div className="col-2 info">
                     <p><b>Fultz House Museum</b></p>
-                    <p>33 Sackville Drive <br/>
-                        Lower Sackville <br/>
+                    <p>33 Sackville Drive <br />
+                        Lower Sackville <br />
                         NS B4C 0E5
                     </p>
                 </div>
-                <div className="col-2">
-                    <p><br/></p>
+                <div className="col-2 info">
+                    <p><br /></p>
                     <p>
-                    Phone: 902-865-3794 <br/>
-                    Fax: 902-865-6940
-                    Email: <a href="mailto: fultz.house@ns.sympatico.ca">fultz.house@ns.sympatico.ca</a><br/>
+                        Phone: 902-865-3794 <br />
+                        Fax: 902-865-6940
+                        Email: <a href="mailto: fultz.house@ns.sympatico.ca">fultz.house@ns.sympatico.ca</a><br />
                     </p>
                 </div>
                 <div className="col-4"></div>
                 <div className="col-2" id="hours">
-                <p><b>Hours</b></p>
+                    <p><b>Hours</b></p>
                     <p>
-                        Open All Week, 10am to 5pm <br/>
+                        Open All Week, 10am to 5pm <br />
                         During July and August
                     </p>
                 </div>
