@@ -181,6 +181,7 @@ const Volunteer = () => {
                                     <div className='col-md-6 col-12'>
                                         <div className='text-center my-2'>
                                             <textarea
+                                                id='description-textarea'
                                                 type='text'
                                                 className='form-control'
                                                 placeholder='Introduce yourself ...'

@@ -1,3 +1,7 @@
 .img-vol {
     width: 20rem !important;
 }
+
+#description-textarea {
+    height: 15.8vh;
+}
