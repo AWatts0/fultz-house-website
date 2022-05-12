@@ -37,29 +37,24 @@ const Homepage = () => {
                     </div>
                 </div>
                 <div className="col-1"></div>
-
-                <div className="row">
-                    <div className="col-2"></div>
-                    <div className="col-8">
-                        <div className="row">
-                            <div className="col">
-                                <h1>Welcome to Fultz House!</h1>
-                            </div>
-                        </div>
-                        <div className="row">
-                            <div className="col-8 my-auto text-start" id="homepage-text">
-                                <p>Located at the corner of Nova Scotia's most famous intersection,
-                                    Fultz House Museum's collections reflect over 200 years of Sackville history. Constructed in the 1860s,
-                                    Bennett Fultz's house is now home to hundreds of artifacts, photographs, and displays.
-                                    Come discover Sackville's proud history for yourself!
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-2"></div>
+            </div>
+            <br></br>
+            <div className="row">
+                <div className="col-2"></div>
+                <div className="col-8">
+                    <h1>Welcome to Fultz House!</h1>
+                    <br/>
+                    <p> 
+                        Located at the corner of Nova Scotia's most famous intersection,
+                        Fultz House Museum's collections reflect over 200 years of Sackville history. Constructed in the 1860s,
+                        Bennett Fultz's house is now home to hundreds of artifacts, photographs, and displays.
+                        Come discover Sackville's proud history for yourself!
+                    </p>
                 </div>
+                <div className="col-2"></div>
             </div>
         </div>
+
     )
 }
 
