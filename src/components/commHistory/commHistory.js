@@ -29,6 +29,7 @@ import pdf23 from "../../pdfs/history/Beaver Bank & Kinsac.pdf";
 import pdf24 from "../../pdfs/history/Sackville Connections to the Halifax Explosion.pdf";
 import pdf25 from "../../pdfs/history/Beaver Bank Timeline.pdf";
 import pdf26 from "../../pdfs/history/Kinsac - A Brief History.pdf";
+import pdf27 from "../../pdfs/history/An Illustrated History of Early Sackville, the Fultz Family & Fultz Corner.pdf";
 
 const CommHistory = () => {
     return (
@@ -343,6 +344,15 @@ const CommHistory = () => {
                                 <p class="card-text">Further out the Beaver Bank Road, one will find a beautiful, tiny community
                                     called Kinsac on the west side of Lake Kinsac.</p>
                                 <a href={pdf26} class="card-link">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 bg-transparent shadow-lg">
+                            <div class="card-body">
+                                <h5 class="card-title">An Illustrated History of Early Sackville, The Fultz Family & Fultz Corner</h5>
+                                <p class="card-text"></p>
+                                <a href={pdf27} class="card-link">Read more</a>
                             </div>
                         </div>
                     </div>

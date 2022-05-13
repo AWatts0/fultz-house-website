@@ -195,9 +195,9 @@ const Volunteer = () => {
                                         <span className='error-message'>
                                             {errors.description && errors.description.message}
                                         </span>
-                                        <button className='btn btn-outline-dark w-100' type='submit'>Submit</button>
                                     </div>
                                 </div>
+                                        <button className='btn btn-outline-dark w-50' type='submit'>Submit</button>
                             </form>
                         </div>
                     </div>
