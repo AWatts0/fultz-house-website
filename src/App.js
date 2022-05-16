@@ -27,8 +27,10 @@ function App() {
           <Route path='/events' element={<EventsPage />}></Route>
           <Route path='/volunteer' element={<Volunteer />}></Route>
         </Routes>
-        <Footer/>
       </BrowserRouter>
+        <div id="footer">
+        <Footer/>
+        </div>
     </div>
   );
 }
