@@ -17,7 +17,9 @@ function MyNavbar() {
 
         <Navbar className="navbar py-2 mb-3" expand="lg" variant="light" sticky="top"  >
             <Container fluid>
-                <Navbar.Brand onClick={scrollToTop} className="navbar-brand" as={Link} to="">Fultz House</Navbar.Brand>
+                <Navbar.Brand onClick={scrollToTop} className="navbar-brand" as={Link} to="">
+                    <img src="https://res.cloudinary.com/dhxs9jryg/image/upload/v1652722123/Fultz%20house/white-logo_pgjtu0.png" ></img>
+                </Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">
                 <Nav
