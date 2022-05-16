@@ -4,12 +4,16 @@ import { Link } from "react-router-dom";
 const SideButtons = function() {
     return (
         <div className="side-buttons">
-            <div id="donate">
-                <p>Donate</p>
-            </div>
-            <div id="volunteer">
-                <p>Volunteer</p>
-            </div>
+                    <a href='/volunteer'  className='link'>
+                        <div className='side-button'>
+                                <p>Donate</p>
+                        </div>
+                    </a>
+                    <a href='/volunteer' className='link'>
+                        <div className='side-button'>
+                                <p>Volunteer</p>
+                        </div>
+                    </a>
         </div>
     )
 }
