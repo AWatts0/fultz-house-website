@@ -4,11 +4,6 @@
   position:relative;
 }
 
-#footer {
-  position: absolute;
-  bottom:0px;
-}
-
 .carousel-item img {
   height: 400px;
   width: 90%;
