@@ -45,8 +45,9 @@ function App() {
           <Route path='/rentals' element={<Rentals />}></Route>
           <Route path='/videos' element={<Videos />}></Route>
         </Routes>
+        <Footer />
       </BrowserRouter>
-        <Footer/>
+        
     </div>
   );
 }
