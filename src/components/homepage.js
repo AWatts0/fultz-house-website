@@ -43,6 +43,7 @@ const Homepage = () => {
                 <div className="col-2"></div>
                 <div className="col-8">
                     <h1>Welcome to Fultz House!</h1>
+                    <h5>Sackville’s Heritage Portal</h5>
                     <br/>
                     <p> 
                         Located at the corner of Nova Scotia's most famous intersection,
