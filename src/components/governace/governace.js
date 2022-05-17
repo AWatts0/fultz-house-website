@@ -1,4 +1,5 @@
 import React from "react";
+import './governace.css';
 import statementOfPurposePDF from "../../pdfs/governance/Statement of Purpose.pdf";
 import researchPolicyPDF from "../../pdfs/governance/FCRS Research Policy.pdf";
 import constitutionByLawPDF from "../../pdfs/governance/Constitution and By-Laws 2022.pdf";
