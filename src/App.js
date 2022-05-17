@@ -46,9 +46,7 @@ function App() {
           <Route path='/videos' element={<Videos />}></Route>
         </Routes>
       </BrowserRouter>
-        <div id="footer">
         <Footer/>
-        </div>
     </div>
   );
 }
