@@ -17,8 +17,8 @@ const Careers = () => {
                 </div>
                 <div className="col-1"></div>      
             </div>
-            {/* Job info template to follow here*/}
-            <div className="row">
+            {/* Job info template below. If there's more that one posting, copy from next line, down to itw closing div tag*/}
+            <div className="row" id="jobPosting">
                 <div className="col-1"></div>
                 <div className="col-10">
                     {/* place info here */}
