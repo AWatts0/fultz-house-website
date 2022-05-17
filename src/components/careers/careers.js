@@ -10,11 +10,27 @@ const Careers = () => {
                     <br />
                     <h3>Current Openings:</h3>
                     <br />
-                    <p>
+                    {/* comment out the below noOpenings p tag if there are positions*/}
+                    <p id="noOpenings">
                         There are currently no openings available.
                     </p>
                 </div>
+                <div className="col-1"></div>      
+            </div>
+            {/* Job info template to follow here*/}
+            <div className="row">
                 <div className="col-1"></div>
+                <div className="col-10">
+                    {/* place info here */}
+                    {/* <h6>Job Title</h6>
+                    <h7>Location: </h7>
+                    <h7>Hours: </h7>
+                    <h7>Payrate: </h7>
+                    <p>Description: </p>
+                    <h7>Person to contact: </h7>
+                    <h7>Closing Date: </h7> */}
+                </div>
+                <div className="col-1"></div>   
             </div>
         </div>
     )
