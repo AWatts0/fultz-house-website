@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const SideButtons = function() {
     return (
         <div className="side-buttons">
-                    <a href='/volunteer'  className='link'>
+                    <a href='/donate'  className='link'>
                         <div className='side-button'>
                                 <p>Donate</p>
                         </div>
