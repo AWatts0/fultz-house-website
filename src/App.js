@@ -21,6 +21,15 @@ import Programming from './components/programming/programming';
 import Rentals from './components/rentals/rentals';
 import Videos from './components/videos/videos';
 import Brochures from './components/brochures/brochures';
+import Culture from './components/brochures/subpages/culture';
+import Dailylife from './components/brochures/subpages/dailylife';
+import Education from './components/brochures/subpages/education';
+import Museum from './components/brochures/subpages/museum';
+import Sackville from './components/brochures/subpages/sackville';
+import Figures from './components/brochures/subpages/figures'
+import Kitchens from './components/brochures/subpages/kitchens'
+import Attractions from './components/brochures/subpages/attractions'
+import Trades from './components/brochures/subpages/trades'
 
 function App() {
   return (
@@ -45,7 +54,16 @@ function App() {
           <Route path='/programming' element={<Programming />}></Route>
           <Route path='/rentals' element={<Rentals />}></Route>
           <Route path='/videos' element={<Videos />}></Route>
-          <Route path='/brochures' element={<Brochures />}></Route>
+          <Route path='/brochures' element={<Brochures />}/>
+          <Route path='/culture' element={<Culture />}/>
+          <Route path='/daily-life' element={<Dailylife />}/>
+          <Route path='/education' element={<Education />}/>
+          <Route path='/museum-and-surrounding-area' element={<Museum />}/>
+          <Route path='/historic-sackville-and-beaverbank' element={<Sackville />}/>
+          <Route path='/historical-figures' element={<Figures />}/>
+          <Route path='/kitchens' element={<Kitchens />}/>
+          <Route path='/sackville-attractions' element={<Attractions />}/>
+          <Route path='/transportation-and-trades' element={<Trades />}/>
         </Routes>
         <Footer />
       </BrowserRouter>
