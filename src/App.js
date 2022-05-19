@@ -20,6 +20,7 @@ import Presentations from './components/presentations/presentations';
 import Programming from './components/programming/programming';
 import Rentals from './components/rentals/rentals';
 import Videos from './components/videos/videos';
+import Brochures from './components/brochures/brochures';
 
 function App() {
   return (
@@ -44,6 +45,7 @@ function App() {
           <Route path='/programming' element={<Programming />}></Route>
           <Route path='/rentals' element={<Rentals />}></Route>
           <Route path='/videos' element={<Videos />}></Route>
+          <Route path='/brochures' element={<Brochures />}></Route>
         </Routes>
         <Footer />
       </BrowserRouter>

@@ -37,7 +37,7 @@ function MyNavbar() {
                         <NavDropdown.Item className="nav-drop-item" onClick={scrollToTop} as={Link} to="/history" >Our Community History</NavDropdown.Item>
                         <NavDropdown.Item className="nav-drop-item" onClick={scrollToTop} as={Link} to="/notablepeople" >Notable People</NavDropdown.Item>
                         <NavDropdown.Item className="nav-drop-item" onClick={scrollToTop} as={Link} to="">Geneology</NavDropdown.Item>
-                        <NavDropdown.Item className="nav-drop-item" onClick={scrollToTop} as={Link} to="">Brochures</NavDropdown.Item>
+                        <NavDropdown.Item className="nav-drop-item" onClick={scrollToTop} as={Link} to="brochures">Brochures</NavDropdown.Item>
                     </NavDropdown>
                     <NavDropdown menuVariant="light" title="Media" id="navbarScrollingDropdown">
                         <NavDropdown.Item className="nav-drop-item" onClick={scrollToTop} as={Link} to="/photo">Photos</NavDropdown.Item>
