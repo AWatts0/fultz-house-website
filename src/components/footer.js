@@ -18,16 +18,17 @@ const Footer = () => {
                     <p><br /></p>
                     <p>
                         Phone: 902-865-3794 <br />
-                        Fax: 902-865-6940
+                        Fax: 902-865-6940 <br />
                         Email: <a href="mailto: fultz.house@ns.sympatico.ca">fultz.house@ns.sympatico.ca</a><br />
                     </p>
                 </div>
-                <div className="col-4"></div>
-                <div className="col-2" id="hours">
+                <div className="col-2"></div>
+                <div className="col-4" id="hours">
                     <p><b>Hours</b></p>
                     <p>
-                        Open All Week, 10am to 5pm <br />
-                        During July and August
+                        <b>June:</b> Saturday and Sunday, 10am to 5pm <br />
+                        <b>July and August:</b> Monday to Friday, 11am to 5pm, <br />
+                        Satuday and Sunday, 10am to 5pm
                     </p>
                 </div>
                 <div className="col-1"></div>
