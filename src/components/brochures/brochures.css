@@ -1,0 +1,30 @@
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    width: 350px;
+    height: 350px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: thin green solid;
+    border-radius: 20px;
+}
+
+.flex-item:hover {
+    transform: scale(1.1);
+}
