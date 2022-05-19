@@ -2,12 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import './brochures.css';
 
-/*
-TO DO ... 
-get the thing working how you want, get styles all standard before adding rest of content
-
-*/
-
 export default function Brochures() {
     return (
         <div className="flex-row">
