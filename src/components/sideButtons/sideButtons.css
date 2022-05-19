@@ -25,6 +25,7 @@
 
 .side-button:hover {
     background-color: rgb(183, 169, 10);
+    color: inherit;
     border-radius: inherit;
 }
 
@@ -37,7 +38,11 @@
     border-radius: inherit;
 }
 
-a:hover {
+.link:hover {
     color: inherit;
+    text-decoration: inherit;
+    /* transform: rotate(-90deg); */
+    width: 100%;
+    height: 100%;
     border-radius: inherit;
 }

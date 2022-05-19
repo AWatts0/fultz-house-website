@@ -35,7 +35,7 @@ const Kids = () => {
                     <h1>Kids Page</h1>
                     <div className="row">
                         <div className="col pt-5">
-                            <img src={artifact} alt='' />
+                            <img src={artifact} className="kids-img" alt='' />
                         </div>
                     </div>
                     <div className="row">
@@ -55,7 +55,7 @@ const Kids = () => {
                     </div>
                     <div className="row">
                         <div className="col pt-5">
-                            <img src={word} alt='' />
+                            <img src={word} className="kids-img" alt='' />
                         </div>
                     </div>
                     <div className="row">

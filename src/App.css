@@ -27,3 +27,12 @@
   padding: 0 !important;
   margin: 0 !important;
 }
+
+#donate-img {
+  width: 300px;
+  padding-bottom: 3rem;
+}
+
+.kids-img {
+  width: 250px;
+}
