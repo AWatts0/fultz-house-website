@@ -30,6 +30,7 @@ import Figures from './components/brochures/subpages/figures'
 import Kitchens from './components/brochures/subpages/kitchens'
 import Attractions from './components/brochures/subpages/attractions'
 import Trades from './components/brochures/subpages/trades'
+import Geneology from './components/geneology/geneology';
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function App() {
           <Route path="/contact" element={<ContactUs />}></Route>
           <Route path="/history" element={<CommHistory />}></Route>
           <Route path='/notablepeople' element={<NotablePeople />}></Route>
+          <Route path="/geneology" element={<Geneology/>}></Route>
           <Route path='/photo' element={<Photos />}></Route>
           <Route path='/events' element={<EventsPage />}></Route>
           <Route path='/careers' element={<Careers />}></Route>
