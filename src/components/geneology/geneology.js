@@ -4,11 +4,11 @@ import './geneology.css';
 const Geneology = () => {
     return (
         <div>
-            <div className="container">
+            <div className="container-fluid">
                 <h1>
                     Geneology
                 </h1>
-                <div className="container col-8 mx-auto" id="geneology-text">
+                <div className="container col-8" id="geneology-text">
                     <p>
                     As a society we have a tendency to be curious, to want to know what has unfolded before us, so that we can better understand why we have arrived where we are today. 
                     </p>
