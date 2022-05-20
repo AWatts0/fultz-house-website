@@ -1,10 +1,11 @@
 import React from "react";
+import './donations.css';
 import donateimg from '../../pics/donate.jpg';
 import donateForm from '../../pdfs/Donate Form.docx';
 
 const Donations = () => {
     return (
-        <div className="container-fluid">
+        <div className="container-fluid" id='container-donations'>
             <div className="row">
                 <div className="col-1"></div>
                 <div className="col-10">

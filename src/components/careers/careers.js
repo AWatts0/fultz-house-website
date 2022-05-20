@@ -1,8 +1,9 @@
 import React from "react";
+import './careers.css';
 
 const Careers = () => {
     return (
-        <div className="container-fluid">
+        <div className="container-fluid" id="container-careers">
             <div className="row">
                 <div className="col-1"></div>
                 <div className="col-10">

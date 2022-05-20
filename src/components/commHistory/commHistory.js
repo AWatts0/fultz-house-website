@@ -92,267 +92,267 @@ const CommHistory = () => {
             </div>
             <div className="container">
                 <h3> More History</h3>
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 g-4">
-                    <div class="col">
-                        <div class="card h-100 bg-transparent shadow-lg">
-                            <div class="card-body">
-                                <h5 class="card-title">An Introduction to Wheelwrights</h5>
-                                <p class="card-text">Being a wheelwright was a traditional family trade and a very common job choice for
+                <div className="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 g-4">
+                    <div className="col">
+                        <div className="card h-100 bg-transparent shadow-lg">
+                            <div className="card-body">
+                                <h5 className="card-title">An Introduction to Wheelwrights</h5>
+                                <p className="card-text">Being a wheelwright was a traditional family trade and a very common job choice for
                                     early Sackville settlers.</p>
-                                <a href={pdf1} class="card-link">Read more</a>
+                                <a href={pdf1} className="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card h-100 bg-transparent shadow-lg">
-                            <div class="card-body">
-                                <h5 class="card-title">Mi’kmaq Literature</h5>
-                                <p class="card-text">Common elements in Mi’kmaq Literature</p>
-                                <a href={pdf2} class="card-link">Read more</a>
+                    <div className="col">
+                        <div className="card h-100 bg-transparent shadow-lg">
+                            <div className="card-body">
+                                <h5 className="card-title">Mi’kmaq Literature</h5>
+                                <p className="card-text">Common elements in Mi’kmaq Literature</p>
+                                <a href={pdf2} className="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card h-100 bg-transparent shadow-lg">
-                            <div class="card-body">
-                                <h5 class="card-title">Craftspeople in the Community</h5>
-                                <p class="card-text">Before there were factories, communities were formed by craftspeople (artisans).
+                    <div className="col">
+                        <div className="card h-100 bg-transparent shadow-lg">
+                            <div className="card-body">
+                                <h5 className="card-title">Craftspeople in the Community</h5>
+                                <p className="card-text">Before there were factories, communities were formed by craftspeople (artisans).
                                     Everything was handmade.
                                 </p>
-                                <a href={pdf3} class="card-link">Read more</a>
+                                <a href={pdf3} className="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card h-100 bg-transparent shadow-lg">
-                            <div class="card-body">
-                                <h5 class="card-title">Sackville’s Fultz Corner</h5>
-                                <p class="card-text">A brief history on Sackville’s Fultz Corner.</p>
-                                <a href={pdf4} class="card-link">Read more</a>
+                    <div className="col">
+                        <div className="card h-100 bg-transparent shadow-lg">
+                            <div className="card-body">
+                                <h5 className="card-title">Sackville’s Fultz Corner</h5>
+                                <p className="card-text">A brief history on Sackville’s Fultz Corner.</p>
+                                <a href={pdf4} className="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card h-100 bg-transparent shadow-lg">
-                            <div class="card-body">
-                                <h5 class="card-title">Historic Sackville: The Early Years</h5>
-                                <p class="card-text">Founding moments; The naming of Sackville; The Two Great Roads; How our communities got their names.</p>
-                                <a href={pdf5} class="card-link">Read more</a>
+                    <div className="col">
+                        <div className="card h-100 bg-transparent shadow-lg">
+                            <div className="card-body">
+                                <h5 className="card-title">Historic Sackville: The Early Years</h5>
+                                <p className="card-text">Founding moments; The naming of Sackville; The Two Great Roads; How our communities got their names.</p>
+                                <a href={pdf5} className="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card h-100 bg-transparent shadow-lg">
-                            <div class="card-body">
-                                <h5 class="card-title">The History of Education - Sackville Schools</h5>
-                                <p class="card-text">The stories surrounding Sackville’s education system are widespread, from
+                    <div className="col">
+                        <div className="card h-100 bg-transparent shadow-lg">
+                            <div className="card-body">
+                                <h5 className="card-title">The History of Education - Sackville Schools</h5>
+                                <p className="card-text">The stories surrounding Sackville’s education system are widespread, from
                                     travelling in the nippy days of February to recalling the memory of hearing
                                     fingernails scrape across blackboards.</p>
-                                <a href={pdf6} class="card-link">Read more</a>
+                                <a href={pdf6} className="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card h-100 bg-transparent shadow-lg">
-                            <div class="card-body">
-                                <h5 class="card-title">Sackville Schools</h5>
-                                <p class="card-text">The History of Education in Sackville Schools. Written by Michael D. Smiley</p>
-                                <a href={pdf7} class="card-link">Read more</a>
+                    <div className="col">
+                        <div className="card h-100 bg-transparent shadow-lg">
+                            <div className="card-body">
+                                <h5 className="card-title">Sackville Schools</h5>
+                                <p className="card-text">The History of Education in Sackville Schools. Written by Michael D. Smiley</p>
+                                <a href={pdf7} className="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card h-100 bg-transparent shadow-lg">
-                            <div class="card-body">
-                                <h5 class="card-title">Horseshoes: Not just for throwing</h5>
-                                <p class="card-text">Have you ever wondered why there’s often a horseshoe above the
+                    <div className="col">
+                        <div className="card h-100 bg-transparent shadow-lg">
+                            <div className="card-body">
+                                <h5 className="card-title">Horseshoes: Not just for throwing</h5>
+                                <p className="card-text">Have you ever wondered why there’s often a horseshoe above the
                                     doors in both a blacksmith shop and a cooperage?</p>
-                                <a href={pdf8} class="card-link">Read more</a>
+                                <a href={pdf8} className="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card h-100 bg-transparent shadow-lg">
-                            <div class="card-body">
-                                <h5 class="card-title">Life in a Victorian Parlour</h5>
-                                <p class="card-text">A parlour was a very formal room traditionally used to receive guests.  Decorated with the family’s most prized possessions, it was a way of showcasing their status and wealth.</p>
-                                <a href={pdf9} class="card-link">Read more</a>
+                    <div className="col">
+                        <div className="card h-100 bg-transparent shadow-lg">
+                            <div className="card-body">
+                                <h5 className="card-title">Life in a Victorian Parlour</h5>
+                                <p className="card-text">A parlour was a very formal room traditionally used to receive guests.  Decorated with the family’s most prized possessions, it was a way of showcasing their status and wealth.</p>
+                                <a href={pdf9} className="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card h-100 bg-transparent shadow-lg">
-                            <div class="card-body">
-                                <h5 class="card-title">Lower Sackville School</h5>
-                                <p class="card-text">A brief history of Lower Sackville School.</p>
-                                <a href={pdf10} class="card-link">Read more</a>
+                    <div className="col">
+                        <div className="card h-100 bg-transparent shadow-lg">
+                            <div className="card-body">
+                                <h5 className="card-title">Lower Sackville School</h5>
+                                <p className="card-text">A brief history of Lower Sackville School.</p>
+                                <a href={pdf10} className="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card h-100 bg-transparent shadow-lg">
-                            <div class="card-body">
-                                <h5 class="card-title">The Maroon Hill Children Education Story</h5>
-                                <p class="card-text">In 1796 approximately five hundred black residents of Jamaica known as
+                    <div className="col">
+                        <div className="card h-100 bg-transparent shadow-lg">
+                            <div className="card-body">
+                                <h5 className="card-title">The Maroon Hill Children Education Story</h5>
+                                <p className="card-text">In 1796 approximately five hundred black residents of Jamaica known as
                                     Maroons arrived in Halifax.</p>
-                                <a href={pdf11} class="card-link">Read more</a>
+                                <a href={pdf11} className="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card h-100 bg-transparent shadow-lg">
-                            <div class="card-body">
-                                <h5 class="card-title">Middle Sackville Schoolhouse</h5>
-                                <p class="card-text">The Life of the Middle Sackville Schoolhouse.</p>
-                                <a href={pdf12} class="card-link">Read more</a>
+                    <div className="col">
+                        <div className="card h-100 bg-transparent shadow-lg">
+                            <div className="card-body">
+                                <h5 className="card-title">Middle Sackville Schoolhouse</h5>
+                                <p className="card-text">The Life of the Middle Sackville Schoolhouse.</p>
+                                <a href={pdf12} className="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card h-100 bg-transparent shadow-lg">
-                            <div class="card-body">
-                                <h5 class="card-title">Outhouses through the Ages</h5>
-                                <p class="card-text">It is believed that outhouses originated from Europe in the 15th
+                    <div className="col">
+                        <div className="card h-100 bg-transparent shadow-lg">
+                            <div className="card-body">
+                                <h5 className="card-title">Outhouses through the Ages</h5>
+                                <p className="card-text">It is believed that outhouses originated from Europe in the 15th
                                     century. An outhouse was constructed like a small shed, but instead of
                                     holding tools it holds a toilet.</p>
-                                <a href={pdf13} class="card-link">Read more</a>
+                                <a href={pdf13} className="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card h-100 bg-transparent shadow-lg">
-                            <div class="card-body">
-                                <h5 class="card-title">Preserving</h5>
-                                <p class="card-text">Preserved food was common in early Sackville kitchens because it
+                    <div className="col">
+                        <div className="card h-100 bg-transparent shadow-lg">
+                            <div className="card-body">
+                                <h5 className="card-title">Preserving</h5>
+                                <p className="card-text">Preserved food was common in early Sackville kitchens because it
                                     could slow or even stop the food’s decomposition.</p>
-                                <a href={pdf14} class="card-link">Read more</a>
+                                <a href={pdf14} className="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card h-100 bg-transparent shadow-lg">
-                            <div class="card-body">
-                                <h5 class="card-title">The Sackville Downs</h5>
-                                <p class="card-text">The harness raicing; A love of Racing; A Modern Track.</p>
-                                <a href={pdf15} class="card-link">Read more</a>
+                    <div className="col">
+                        <div className="card h-100 bg-transparent shadow-lg">
+                            <div className="card-body">
+                                <h5 className="card-title">The Sackville Downs</h5>
+                                <p className="card-text">The harness raicing; A love of Racing; A Modern Track.</p>
+                                <a href={pdf15} className="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card h-100 bg-transparent shadow-lg">
-                            <div class="card-body">
-                                <h5 class="card-title">The Sackville Drive-in Theatre</h5>
-                                <p class="card-text">The Sackville Drive-in Theatre was more than a business, it was a
+                    <div className="col">
+                        <div className="card h-100 bg-transparent shadow-lg">
+                            <div className="card-body">
+                                <h5 className="card-title">The Sackville Drive-in Theatre</h5>
+                                <p className="card-text">The Sackville Drive-in Theatre was more than a business, it was a
                                     place where the community gathered, socialized, and were
                                     entertained.</p>
-                                <a href={pdf16} class="card-link">Read more</a>
+                                <a href={pdf16} className="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card h-100 bg-transparent shadow-lg">
-                            <div class="card-body">
-                                <h5 class="card-title">The Sackville Raceway</h5>
-                                <p class="card-text">Sackville’s First Racetrack.</p>
-                                <a href={pdf17} class="card-link">Read more</a>
+                    <div className="col">
+                        <div className="card h-100 bg-transparent shadow-lg">
+                            <div className="card-body">
+                                <h5 className="card-title">The Sackville Raceway</h5>
+                                <p className="card-text">Sackville’s First Racetrack.</p>
+                                <a href={pdf17} className="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card h-100 bg-transparent shadow-lg">
-                            <div class="card-body">
-                                <h5 class="card-title">A History of Soap</h5>
-                                <p class="card-text">Before the 18th century, soap was considered a luxury because only
+                    <div className="col">
+                        <div className="card h-100 bg-transparent shadow-lg">
+                            <div className="card-body">
+                                <h5 className="card-title">A History of Soap</h5>
+                                <p className="card-text">Before the 18th century, soap was considered a luxury because only
                                     the wealthy could afford it.</p>
-                                <a href={pdf18} class="card-link">Read more</a>
+                                <a href={pdf18} className="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card h-100 bg-transparent shadow-lg">
-                            <div class="card-body">
-                                <h5 class="card-title">The Summer Kitchen</h5>
-                                <p class="card-text">It was a room
+                    <div className="col">
+                        <div className="card h-100 bg-transparent shadow-lg">
+                            <div className="card-body">
+                                <h5 className="card-title">The Summer Kitchen</h5>
+                                <p className="card-text">It was a room
                                     used during the summer months for cooking, baking, and other
                                     chores that produced a significant amount of heat.</p>
-                                <a href={pdf19} class="card-link">Read more</a>
+                                <a href={pdf19} className="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card h-100 bg-transparent shadow-lg">
-                            <div class="card-body">
-                                <h5 class="card-title">The Story of the Grove School</h5>
-                                <p class="card-text">In addition to the typical grade schools in Sackville, a finishing
+                    <div className="col">
+                        <div className="card h-100 bg-transparent shadow-lg">
+                            <div className="card-body">
+                                <h5 className="card-title">The Story of the Grove School</h5>
+                                <p className="card-text">In addition to the typical grade schools in Sackville, a finishing
                                     school was situated in Beaver Bank, and this is its
                                     story.</p>
-                                <a href={pdf20} class="card-link">Read more</a>
+                                <a href={pdf20} className="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card h-100 bg-transparent shadow-lg">
-                            <div class="card-body">
-                                <h5 class="card-title">Mi’kmaq Education</h5>
-                                <p class="card-text">The Traditional Education Ways of the Mi’kmaq People.</p>
-                                <a href={pdf21} class="card-link">Read more</a>
+                    <div className="col">
+                        <div className="card h-100 bg-transparent shadow-lg">
+                            <div className="card-body">
+                                <h5 className="card-title">Mi’kmaq Education</h5>
+                                <p className="card-text">The Traditional Education Ways of the Mi’kmaq People.</p>
+                                <a href={pdf21} className="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card h-100 bg-transparent shadow-lg">
-                            <div class="card-body">
-                                <h5 class="card-title">Travelling in The Early Days</h5>
-                                <p class="card-text">Introducing road travel and wagons; Stagecoach travel; A communication lifeline; and more.</p>
-                                <a href={pdf22} class="card-link">Read more</a>
+                    <div className="col">
+                        <div className="card h-100 bg-transparent shadow-lg">
+                            <div className="card-body">
+                                <h5 className="card-title">Travelling in The Early Days</h5>
+                                <p className="card-text">Introducing road travel and wagons; Stagecoach travel; A communication lifeline; and more.</p>
+                                <a href={pdf22} className="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card h-100 bg-transparent shadow-lg">
-                            <div class="card-body">
-                                <h5 class="card-title">Beaver Bank & Kinsac</h5>
-                                <p class="card-text">The Early Life and Social
+                    <div className="col">
+                        <div className="card h-100 bg-transparent shadow-lg">
+                            <div className="card-body">
+                                <h5 className="card-title">Beaver Bank & Kinsac</h5>
+                                <p className="card-text">The Early Life and Social
                                     Developments of Beaver Bank & Kinsac:
                                     A Brief History</p>
-                                <a href={pdf23} class="card-link">Read more</a>
+                                <a href={pdf23} className="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card h-100 bg-transparent shadow-lg">
-                            <div class="card-body">
-                                <h5 class="card-title">Halifax Explosion</h5>
-                                <p class="card-text">Sackville Connections to the Halifax Explosion</p>
-                                <a href={pdf24} class="card-link">Read more</a>
+                    <div className="col">
+                        <div className="card h-100 bg-transparent shadow-lg">
+                            <div className="card-body">
+                                <h5 className="card-title">Halifax Explosion</h5>
+                                <p className="card-text">Sackville Connections to the Halifax Explosion</p>
+                                <a href={pdf24} className="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card h-100 bg-transparent shadow-lg">
-                            <div class="card-body">
-                                <h5 class="card-title">Beaver Bank Timeline</h5>
-                                <p class="card-text">1798-1988</p>
-                                <a href={pdf25} class="card-link">Read more</a>
+                    <div className="col">
+                        <div className="card h-100 bg-transparent shadow-lg">
+                            <div className="card-body">
+                                <h5 className="card-title">Beaver Bank Timeline</h5>
+                                <p className="card-text">1798-1988</p>
+                                <a href={pdf25} className="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card h-100 bg-transparent shadow-lg">
-                            <div class="card-body">
-                                <h5 class="card-title">Kinsac - A Brief History</h5>
-                                <p class="card-text">Further out the Beaver Bank Road, one will find a beautiful, tiny community
+                    <div className="col">
+                        <div className="card h-100 bg-transparent shadow-lg">
+                            <div className="card-body">
+                                <h5 className="card-title">Kinsac - A Brief History</h5>
+                                <p className="card-text">Further out the Beaver Bank Road, one will find a beautiful, tiny community
                                     called Kinsac on the west side of Lake Kinsac.</p>
-                                <a href={pdf26} class="card-link">Read more</a>
+                                <a href={pdf26} className="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card h-100 bg-transparent shadow-lg">
-                            <div class="card-body">
-                                <h5 class="card-title">An Illustrated History of Early Sackville, The Fultz Family & Fultz Corner</h5>
-                                <p class="card-text"></p>
-                                <a href={pdf27} class="card-link">Read more</a>
+                    <div className="col">
+                        <div className="card h-100 bg-transparent shadow-lg">
+                            <div className="card-body">
+                                <h5 className="card-title">An Illustrated History of Early Sackville, The Fultz Family & Fultz Corner</h5>
+                                <p className="card-text"></p>
+                                <a href={pdf27} className="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
