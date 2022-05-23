@@ -50,249 +50,249 @@ const GeneralCarousel = () => {
                         <div className="carousel-inner">
                             <div className="carousel-item active">
                                 <img src={genimg1} className="w-auto" alt="..."/>
-                                    <div className="carousel-caption d-sm-block">
+                                    {/* <div className="carousel-caption d-sm-block">
                                         <h5>First slide label</h5>
-                                    </div>
+                                    </div> */}
                             </div>
                             <div className="carousel-item">
                                 <img src={genimg2} className="w-auto" alt="..."/>
-                                    <div className="carousel-caption d-sm-block">
+                                    {/* <div className="carousel-caption d-sm-block">
                                         <h5>Second slide label</h5>
-                                    </div>
+                                    </div> */}
                             </div>
                             <div className="carousel-item">
                                 <img src={genimg3} className="w-auto" alt="..."/>
-                                    <div className="carousel-caption d-sm-block">
+                                    {/* <div className="carousel-caption d-sm-block">
                                         <h5>Third slide label</h5>
-                                    </div>
+                                    </div> */}
                             </div>
                             <div className="carousel-item">
                                 <img src={genimg4} className="w-auto" alt="..."/>
-                                    <div className="carousel-caption d-sm-block">
+                                    {/* <div className="carousel-caption d-sm-block">
                                         <h5>Third slide label</h5>
-                                    </div>
+                                    </div> */}
                             </div>
                             <div className="carousel-item">
                                 <img src={genimg5} className="w-auto" alt="..."/>
-                                    <div className="carousel-caption d-sm-block">
+                                    {/* <div className="carousel-caption d-sm-block">
                                         <h5>Third slide label</h5>
-                                    </div>
+                                    </div> */}
                             </div>
                             <div className="carousel-item">
                                 <img src={genimg6} className="w-auto" alt="..."/>
-                                    <div className="carousel-caption d-sm-block">
+                                    {/* <div className="carousel-caption d-sm-block">
                                         <h5>Third slide label</h5>
-                                    </div>
+                                    </div> */}
                             </div>
                             <div className="carousel-item">
                                 <img src={genimg7} className="w-auto" alt="..."/>
-                                    <div className="carousel-caption d-sm-block">
+                                    {/* <div className="carousel-caption d-sm-block">
                                         <h5>Third slide label</h5>
-                                    </div>
+                                    </div> */}
                             </div>
                             <div className="carousel-item">
                                 <img src={genimg8} className="w-auto" alt="..."/>
-                                    <div className="carousel-caption d-sm-block">
+                                    {/* <div className="carousel-caption d-sm-block">
                                         <h5>Third slide label</h5>
-                                    </div>
+                                    </div> */}
                             </div>
                             <div className="carousel-item">
                                 <img src={genimg9} className="w-auto" alt="..."/>
-                                    <div className="carousel-caption d-sm-block">
+                                    {/* <div className="carousel-caption d-sm-block">
                                         <h5>Third slide label</h5>
-                                    </div>
+                                    </div> */}
                             </div>
                             <div className="carousel-item">
                                 <img src={genimg10} className="w-auto" alt="..."/>
-                                    <div className="carousel-caption d-sm-block">
+                                    {/* <div className="carousel-caption d-sm-block">
                                         <h5>Third slide label</h5>
-                                    </div>
+                                    </div> */}
                             </div>
                             <div className="carousel-item">
                                 <img src={genimg11} className="w-auto" alt="..."/>
-                                    <div className="carousel-caption d-sm-block">
+                                    {/* <div className="carousel-caption d-sm-block">
                                         <h5>Third slide label</h5>
-                                    </div>
+                                    </div> */}
                             </div>
                             <div className="carousel-item">
                                 <img src={genimg12} className="w-auto" alt="..."/>
-                                    <div className="carousel-caption d-sm-block">
+                                    {/* <div className="carousel-caption d-sm-block">
                                         <h5>Third slide label</h5>
-                                    </div>
+                                    </div> */}
                             </div>
                             <div className="carousel-item">
                                 <img src={genimg13} className="w-auto" alt="..."/>
-                                    <div className="carousel-caption d-sm-block">
+                                    {/* <div className="carousel-caption d-sm-block">
                                         <h5>Third slide label</h5>
-                                    </div>
+                                    </div> */}
                             </div>
                             <div className="carousel-item">
                                 <img src={genimg14} className="w-auto" alt="..."/>
-                                    <div className="carousel-caption d-sm-block">
+                                    {/* <div className="carousel-caption d-sm-block">
                                         <h5>Third slide label</h5>
-                                    </div>
+                                    </div> */}
                             </div>
                             <div className="carousel-item">
                                 <img src={genimg15} className="w-auto" alt="..."/>
-                                    <div className="carousel-caption d-sm-block">
+                                    {/* <div className="carousel-caption d-sm-block">
                                         <h5>Third slide label</h5>
-                                    </div>
+                                    </div> */}
                             </div>
                             <div className="carousel-item">
                                 <img src={genimg16} className="w-auto" alt="..."/>
-                                    <div className="carousel-caption d-sm-block">
+                                    {/* <div className="carousel-caption d-sm-block">
                                         <h5>Third slide label</h5>
-                                    </div>
+                                    </div> */}
                             </div>
                             <div className="carousel-item">
                                 <img src={genimg17} className="w-auto" alt="..."/>
-                                    <div className="carousel-caption d-sm-block">
+                                    {/* <div className="carousel-caption d-sm-block">
                                         <h5>Third slide label</h5>
-                                    </div>
+                                    </div> */}
                             </div>
                             <div className="carousel-item">
                                 <img src={genimg18} className="w-auto" alt="..."/>
-                                    <div className="carousel-caption d-sm-block">
+                                    {/* <div className="carousel-caption d-sm-block">
                                         <h5>Third slide label</h5>
-                                    </div>
+                                    </div> */}
                             </div>
                             <div className="carousel-item">
                                 <img src={genimg19} className="w-auto" alt="..."/>
-                                    <div className="carousel-caption d-sm-block">
+                                    {/* <div className="carousel-caption d-sm-block">
                                         <h5>Third slide label</h5>
-                                    </div>
+                                    </div> */}
                             </div>
                             <div className="carousel-item">
                                 <img src={genimg20} className="w-auto" alt="..."/>
-                                    <div className="carousel-caption d-sm-block">
+                                    {/* <div className="carousel-caption d-sm-block">
                                         <h5>Third slide label</h5>
-                                    </div>
+                                    </div> */}
                             </div>
                             <div className="carousel-item">
                                 <img src={genimg21} className="w-auto" alt="..."/>
-                                    <div className="carousel-caption d-sm-block">
+                                    {/* <div className="carousel-caption d-sm-block">
                                         <h5>Third slide label</h5>
-                                    </div>
+                                    </div> */}
                             </div>
                             <div className="carousel-item">
                                 <img src={genimg22} className="w-auto" alt="..."/>
-                                    <div className="carousel-caption d-sm-block">
+                                    {/* <div className="carousel-caption d-sm-block">
                                         <h5>Third slide label</h5>
-                                    </div>
+                                    </div> */}
                             </div>
                             <div className="carousel-item">
                                 <img src={genimg23} className="w-auto" alt="..."/>
-                                    <div className="carousel-caption d-sm-block">
+                                    {/* <div className="carousel-caption d-sm-block">
                                         <h5>Third slide label</h5>
-                                    </div>
+                                    </div> */}
                             </div>
                             <div className="carousel-item">
                                 <img src={genimg24} className="w-auto" alt="..."/>
-                                    <div className="carousel-caption d-sm-block">
+                                    {/* <div className="carousel-caption d-sm-block">
                                         <h5>Third slide label</h5>
-                                    </div>
+                                    </div> */}
                             </div>
                             <div className="carousel-item">
                                 <img src={genimg25} className="w-auto" alt="..."/>
-                                    <div className="carousel-caption d-sm-block">
+                                    {/* <div className="carousel-caption d-sm-block">
                                         <h5>Third slide label</h5>
-                                    </div>
+                                    </div> */}
                             </div>
                             <div className="carousel-item">
                                 <img src={genimg26} className="w-auto" alt="..."/>
-                                    <div className="carousel-caption d-sm-block">
+                                    {/* <div className="carousel-caption d-sm-block">
                                         <h5>Third slide label</h5>
-                                    </div>
+                                    </div> */}
                             </div>
                             <div className="carousel-item">
                                 <img src={genimg27} className="w-auto" alt="..."/>
-                                    <div className="carousel-caption d-sm-block">
+                                    {/* <div className="carousel-caption d-sm-block">
                                         <h5>Third slide label</h5>
-                                    </div>
+                                    </div> */}
                             </div>
                             <div className="carousel-item">
                                 <img src={genimg28} className="w-auto" alt="..."/>
-                                    <div className="carousel-caption d-sm-block">
+                                    {/* <div className="carousel-caption d-sm-block">
                                         <h5>Third slide label</h5>
-                                    </div>
+                                    </div> */}
                             </div>
                             <div className="carousel-item">
                                 <img src={genimg29} className="w-auto" alt="..."/>
-                                    <div className="carousel-caption d-sm-block">
+                                    {/* <div className="carousel-caption d-sm-block">
                                         <h5>Third slide label</h5>
-                                    </div>
+                                    </div> */}
                             </div>
                             <div className="carousel-item">
                                 <img src={genimg30} className="w-auto" alt="..."/>
-                                    <div className="carousel-caption d-sm-block">
+                                    {/* <div className="carousel-caption d-sm-block">
                                         <h5>Third slide label</h5>
-                                    </div>
+                                    </div> */}
                             </div>
                             <div className="carousel-item">
                                 <img src={genimg31} className="w-auto" alt="..."/>
-                                    <div className="carousel-caption d-sm-block">
+                                    {/* <div className="carousel-caption d-sm-block">
                                         <h5>Third slide label</h5>
-                                    </div>
+                                    </div> */}
                             </div>
                             <div className="carousel-item">
                                 <img src={genimg32} className="w-auto" alt="..."/>
-                                    <div className="carousel-caption d-sm-block">
+                                    {/* <div className="carousel-caption d-sm-block">
                                         <h5>Third slide label</h5>
-                                    </div>
+                                    </div> */}
                             </div>
                             <div className="carousel-item">
                                 <img src={genimg33} className="w-auto" alt="..."/>
-                                    <div className="carousel-caption d-sm-block">
+                                    {/* <div className="carousel-caption d-sm-block">
                                         <h5>Third slide label</h5>
-                                    </div>
+                                    </div> */}
                             </div>
                             <div className="carousel-item">
                                 <img src={genimg34} className="w-auto" alt="..."/>
-                                    <div className="carousel-caption d-sm-block">
+                                    {/* <div className="carousel-caption d-sm-block">
                                         <h5>Third slide label</h5>
-                                    </div>
+                                    </div> */}
                             </div>
                             <div className="carousel-item">
                                 <img src={genimg35} className="w-auto" alt="..."/>
-                                    <div className="carousel-caption d-sm-block">
+                                    {/* <div className="carousel-caption d-sm-block">
                                         <h5>Third slide label</h5>
-                                    </div>
+                                    </div> */}
                             </div>
                             <div className="carousel-item">
                                 <img src={genimg36} className="w-auto" alt="..."/>
-                                    <div className="carousel-caption d-sm-block">
+                                    {/* <div className="carousel-caption d-sm-block">
                                         <h5>Third slide label</h5>
-                                    </div>
+                                    </div> */}
                             </div>
                             <div className="carousel-item">
                                 <img src={genimg37} className="w-auto" alt="..."/>
-                                    <div className="carousel-caption d-sm-block">
+                                    {/* <div className="carousel-caption d-sm-block">
                                         <h5>Third slide label</h5>
-                                    </div>
+                                    </div> */}
                             </div>
                             <div className="carousel-item">
                                 <img src={genimg38} className="w-auto" alt="..."/>
-                                    <div className="carousel-caption d-sm-block">
+                                    {/* <div className="carousel-caption d-sm-block">
                                         <h5>Third slide label</h5>
-                                    </div>
+                                    </div> */}
                             </div>
                             <div className="carousel-item">
                                 <img src={genimg39} className="w-auto" alt="..."/>
-                                    <div className="carousel-caption d-sm-block">
+                                    {/* <div className="carousel-caption d-sm-block">
                                         <h5>Third slide label</h5>
-                                    </div>
+                                    </div> */}
                             </div>
                             <div className="carousel-item">
                                 <img src={genimg40} className="w-auto" alt="..."/>
-                                    <div className="carousel-caption d-sm-block">
+                                    {/* <div className="carousel-caption d-sm-block">
                                         <h5>Third slide label</h5>
-                                    </div>
+                                    </div> */}
                             </div>
                             <div className="carousel-item">
                                 <img src={genimg41} className="w-auto" alt="..."/>
-                                    <div className="carousel-caption d-sm-block">
+                                    {/* <div className="carousel-caption d-sm-block">
                                         <h5>Third slide label</h5>
-                                    </div>
+                                    </div> */}
                             </div>
                         </div>
                         <button className="carousel-control-prev" type="button" data-bs-target="#GeneralCarousel" data-bs-slide="prev" data-bs-pause="hover" data-bs-touch="true">
