@@ -21,6 +21,8 @@ import artifactPic19 from "../../pics/artifacts/artifactpic19.jpeg"
 import artifactPic20 from "../../pics/artifacts/artifactpic20.jpeg"
 import artifactPic21 from "../../pics/artifacts/artifactpic21.jpeg"
 
+import artifactColMgmtPol from "../../pdfs/artifacts/Artifact Collection Management Policy.pdf"
+
 
 const Artifacts = () => {
     return (
@@ -28,74 +30,94 @@ const Artifacts = () => {
             <div className='row'>
                 <div className='col-2'></div>
                 <div className='col-8'>
-                <div id="ArtifactCarousel" className="carousel slide shadow-lg" data-interval="false">
+                    <h1>Artifacts</h1>
+                </div>
+                <div className='col-2'></div>
+            </div>
+            <div className='row'>
+                <div className='col-2'></div>
+                <div className='col-8'>
+                    <p>Please browse through some photos of the artifacts we have at the museum.</p>
+                    <br/>
+                    <p>Our Artifact Collection Management Policy can be viewed and read <a href={artifactColMgmtPol}>here</a></p>
+                    <br/>
+                    <p>To view and learn more of our collection be visit: <a href='https://novamuse.ca/Detail/entities/6299'>Our NoveMuse Page</a></p>
+
+                </div>
+                <div className='col-2'></div>
+            </div>
+
+            <div className='row'>
+                <div className='col-2'></div>
+                <div className='col-8'>
+                    <div id="ArtifactCarousel" className="carousel slide shadow-lg" data-interval="false">
                         <div className="carousel-inner">
                             <div className="carousel-item active">
-                                <img src={artifactPic1} className="w-auto" alt="..."/>
+                                <img src={artifactPic1} className="w-auto" alt="..." />
                             </div>
                             <div className="carousel-item">
-                                <img src={artifactPic2} className="w-auto" alt="..."/>
+                                <img src={artifactPic2} className="w-auto" alt="..." />
                             </div>
                             <div className="carousel-item">
-                                <img src={artifactPic3} className="w-auto" alt="..."/>
+                                <img src={artifactPic3} className="w-auto" alt="..." />
                             </div>
                             <div className="carousel-item">
-                                <img src={artifactPic4} className="w-auto" alt="..."/>
+                                <img src={artifactPic4} className="w-auto" alt="..." />
                             </div>
                             <div className="carousel-item">
-                                <img src={artifactPic5} className="w-auto" alt="..."/>
+                                <img src={artifactPic5} className="w-auto" alt="..." />
                             </div>
                             <div className="carousel-item">
-                                <img src={artifactPic6} className="w-auto" alt="..."/>
+                                <img src={artifactPic6} className="w-auto" alt="..." />
                             </div>
                             <div className="carousel-item">
-                                <img src={artifactPic7} className="w-auto" alt="..."/>
+                                <img src={artifactPic7} className="w-auto" alt="..." />
                             </div>
                             <div className="carousel-item">
-                                <img src={artifactPic8} className="w-auto" alt="..."/>
+                                <img src={artifactPic8} className="w-auto" alt="..." />
                             </div>
                             <div className="carousel-item">
-                                <img src={artifactPic9} className="w-auto" alt="..."/>
+                                <img src={artifactPic9} className="w-auto" alt="..." />
                             </div>
                             <div className="carousel-item">
-                                <img src={artifactPic10} className="w-auto" alt="..."/>
+                                <img src={artifactPic10} className="w-auto" alt="..." />
                             </div>
                             <div className="carousel-item">
-                                <img src={artifactPic11} className="w-auto" alt="..."/>
+                                <img src={artifactPic11} className="w-auto" alt="..." />
                             </div>
                             <div className="carousel-item">
-                                <img src={artifactPic12} className="w-auto" alt="..."/>
+                                <img src={artifactPic12} className="w-auto" alt="..." />
                             </div>
                             <div className="carousel-item">
-                                <img src={artifactPic13} className="w-auto" alt="..."/>
+                                <img src={artifactPic13} className="w-auto" alt="..." />
                             </div>
                             <div className="carousel-item">
-                                <img src={artifactPic14} className="w-auto" alt="..."/>
+                                <img src={artifactPic14} className="w-auto" alt="..." />
                             </div>
                             <div className="carousel-item">
-                                <img src={artifactPic15} className="w-auto" alt="..."/>
+                                <img src={artifactPic15} className="w-auto" alt="..." />
                             </div>
                             <div className="carousel-item">
-                                <img src={artifactPic16} className="w-auto" alt="..."/>
+                                <img src={artifactPic16} className="w-auto" alt="..." />
                             </div>
                             <div className="carousel-item">
-                                <img src={artifactPic17} className="w-auto" alt="..."/>
+                                <img src={artifactPic17} className="w-auto" alt="..." />
                             </div>
                             <div className="carousel-item">
-                                <img src={artifactPic18} className="w-auto" alt="..."/>
+                                <img src={artifactPic18} className="w-auto" alt="..." />
                             </div>
                             <div className="carousel-item">
-                                <img src={artifactPic19} className="w-auto" alt="..."/>
+                                <img src={artifactPic19} className="w-auto" alt="..." />
                             </div>
                             <div className="carousel-item">
-                                <img src={artifactPic20} className="w-auto" alt="..."/>
+                                <img src={artifactPic20} className="w-auto" alt="..." />
                             </div>
                             <div className="carousel-item">
-                                <img src={artifactPic21} className="w-auto" alt="..."/>
+                                <img src={artifactPic21} className="w-auto" alt="..." />
                             </div>
                         </div>
 
-                    <button className="carousel-control-prev" type="button" data-bs-target="#GeneralCarousel" data-bs-slide="prev" data-bs-pause="hover" data-bs-touch="true">
+                        <button className="carousel-control-prev" type="button" data-bs-target="#GeneralCarousel" data-bs-slide="prev" data-bs-pause="hover" data-bs-touch="true">
                             <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span className="visually-hidden">Previous</span>
                         </button>
