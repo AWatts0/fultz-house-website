@@ -9,16 +9,12 @@
   width: 90%;
 }
 
-#carouselExampleIndicators{
-  padding: 10px;
-}
-
 #homepage-text{
   text-align: center;
 }
 
 .carousel {
-  background-color: #0144214a;
+  background-color: #01442100;
   padding: 1rem 0;
 }
 
@@ -35,4 +31,16 @@
 
 .kids-img {
   width: 250px;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  filter: invert(100%);
+}
+
+.carousel-control-prev:hover, .carousel-control-next:hover {
+  background-color: rgba(0, 0, 0, 0.342);
+}
+
+.carousel-caption > h5 {
+  font-size: 10pt;;
 }

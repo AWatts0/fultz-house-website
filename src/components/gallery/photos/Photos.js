@@ -7,8 +7,8 @@ const Photos = () => {
     return (
         <div>
             <div className='row'>
-                <div className='col-2'></div>
-                <div className='col-8'>
+                <div className='col-3'></div>
+                <div className='col-12 col-md-6'>
                     <div className='row'>
                         <div className='col'>
                             <div className='row'>
@@ -52,7 +52,7 @@ const Photos = () => {
                         </div>
                     </div>
                 </div>
-                <div className='col-2'></div>
+                <div className='col-3'></div>
             </div>
         </div>
     )
