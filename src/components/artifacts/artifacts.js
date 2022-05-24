@@ -41,7 +41,7 @@ const Artifacts = () => {
                     <br/>
                     <p>Our Artifact Collection Management Policy can be viewed and read <a href={artifactColMgmtPol}>here</a></p>
                     <br/>
-                    <p>To view and learn more of our collection be visit: <a href='https://novamuse.ca/Detail/entities/6299'>Our NoveMuse Page</a></p>
+                    <p>To view and learn more of our collection be visit: <a href='https://novamuse.ca/Detail/entities/6299'>Our NovaMuse Page</a></p>
 
                 </div>
                 <div className='col-2'></div>
