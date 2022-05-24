@@ -34,52 +34,58 @@ const Kids = () => {
                 <div className="col-10">
                     <h1>Kids Page</h1>
                     <div className="row">
-                        <div className="col pt-5">
-                            <img src={artifact} className="kids-img" alt='' />
-                        </div>
-                    </div>
-                    <div className="row">
-                        <div className="col pt-2">
-                            <h3>Guess The Mystery Artifact</h3>
-                            <p>Click on the image to see the document</p>
-                        </div>
-                    </div>
-                    <div className="row">
                         <div className="col">
-                            <a type="button" className="btn btn-outline-success mx-4 my-4" href={adzepdf}><img src={adze} width='150' height='150' alt='' /></a>
-                            <a type="button" className="btn btn-outline-success mx-4 my-4" href={moldpdf}><img src={butterMold} width='150' height='150' alt='' /></a>
-                            <a type="button" className="btn btn-outline-success mx-4 my-4" href={calcpdf}><img src={calc} width='150' height='150' alt='' /></a>
-                            <a type="button" className="btn btn-outline-success mx-4 my-4" href={trivetpdf}><img src={trivet} width='150' height='150' alt='' /></a>
-                            <a type="button" className="btn btn-outline-success mx-4 my-4" href={wrenchpdf}><img src={wrench} width='150' height='150' alt='' /></a>
+                            <div className="row">
+                                <div className="col pt-5">
+                                    <img src={artifact} className="kids-img" alt='' />
+                                </div>
+                            </div>
+                            <div className="row">
+                                <div className="col pt-2">
+                                    <h3>Guess The Mystery Artifact</h3>
+                                    <p>Click on the image to see the document</p>
+                                </div>
+                            </div>
+                            <div className="row">
+                                <div className="col">
+                                    <a type="button" className="btn btn-outline-success mx-4 my-4" href={adzepdf}><img src={adze} width='100' height='100' alt='' /></a>
+                                    <a type="button" className="btn btn-outline-success mx-4 my-4" href={moldpdf}><img src={butterMold} width='100' height='100' alt='' /></a>
+                                    <a type="button" className="btn btn-outline-success mx-4 my-4" href={calcpdf}><img src={calc} width='100' height='100' alt='' /></a>
+                                    <a type="button" className="btn btn-outline-success mx-4 my-4" href={trivetpdf}><img src={trivet} width='100' height='100' alt='' /></a>
+                                    <a type="button" className="btn btn-outline-success mx-4 my-4" href={wrenchpdf}><img src={wrench} width='100' height='100' alt='' /></a>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div className="row">
-                        <div className="col pt-5">
-                            <img src={word} className="kids-img" alt='' />
-                        </div>
-                    </div>
-                    <div className="row">
-                        <div className="col py-3">
-                            <h3>Word Search</h3>
-                            <p>Click on the button to see the document</p>
-                        </div>
-                    </div>
-                    <div className="row">
                         <div className="col">
-                            <a class="btn btn-outline-success btn-lg mx-1 my-1" href={wordSearch1} role="button">Sackville Business Heritage</a>
-                            <a class="btn btn-outline-success btn-lg mx-1 my-1" href={wordSearch2} role="button">Early Days Travelling</a>
-                            <a class="btn btn-outline-success btn-lg mx-1 my-1" href={wordSearch3} role="button">Family Names</a>
-                            <a class="btn btn-outline-success btn-lg mx-1 my-1" href={wordSearch4} role="button">The Harvest Festival</a>
-                            <a class="btn btn-outline-success btn-lg mx-1 my-1" href={wordSearch5} role="button">Forestry Industry</a>
-                            <a class="btn btn-outline-success btn-lg mx-1 my-1" href={wordSearch6} role="button">Trades</a>
-                            <a class="btn btn-outline-success btn-lg mx-1 my-1" href={wordSearch7} role="button">Fultz House</a>
-                            <a class="btn btn-outline-success btn-lg mx-1 my-1" href={wordSearch8} role="button">Blacksmith</a>
-                            <a class="btn btn-outline-success btn-lg mx-1 my-1" href={wordSearch9} role="button">Cenotaph</a>
-                            <a class="btn btn-outline-success btn-lg mx-1 my-1" href={wordSearch10} role="button">Cooperage</a>
-                            <a class="btn btn-outline-success btn-lg mx-1 my-1" href={wordSearch11} role="button">Artifacts</a>
-                            <a class="btn btn-outline-success btn-lg mx-1 my-1" href={wordSearch12} role="button">Sackville Heritage Archive</a>
-                            <a class="btn btn-outline-success btn-lg mx-1 my-1" href={wordSearch13} role="button">Tuesday Teas</a>
-                            <a class="btn btn-outline-success btn-lg mx-1 my-1" href={wordSearch14} role="button">Life in the Pandemic</a>
+                            <div className="row">
+                                <div className="col pt-5">
+                                    <img src={word} className="kids-img" alt='' />
+                                </div>
+                            </div>
+                            <div className="row">
+                                <div className="col py-3">
+                                    <h3>Word Search</h3>
+                                    <p>Click on the button to see the document</p>
+                                </div>
+                            </div>
+                            <div className="row">
+                                <div className="col">
+                                    <a class="btn btn-outline-success btn-lg mx-1 my-1" href={wordSearch1} role="button">Sackville Business Heritage</a>
+                                    <a class="btn btn-outline-success btn-lg mx-1 my-1" href={wordSearch2} role="button">Early Days Travelling</a>
+                                    <a class="btn btn-outline-success btn-lg mx-1 my-1" href={wordSearch3} role="button">Family Names</a>
+                                    <a class="btn btn-outline-success btn-lg mx-1 my-1" href={wordSearch4} role="button">The Harvest Festival</a>
+                                    <a class="btn btn-outline-success btn-lg mx-1 my-1" href={wordSearch5} role="button">Forestry Industry</a>
+                                    <a class="btn btn-outline-success btn-lg mx-1 my-1" href={wordSearch6} role="button">Trades</a>
+                                    <a class="btn btn-outline-success btn-lg mx-1 my-1" href={wordSearch7} role="button">Fultz House</a>
+                                    <a class="btn btn-outline-success btn-lg mx-1 my-1" href={wordSearch8} role="button">Blacksmith</a>
+                                    <a class="btn btn-outline-success btn-lg mx-1 my-1" href={wordSearch9} role="button">Cenotaph</a>
+                                    <a class="btn btn-outline-success btn-lg mx-1 my-1" href={wordSearch10} role="button">Cooperage</a>
+                                    <a class="btn btn-outline-success btn-lg mx-1 my-1" href={wordSearch11} role="button">Artifacts</a>
+                                    <a class="btn btn-outline-success btn-lg mx-1 my-1" href={wordSearch12} role="button">Sackville Heritage Archive</a>
+                                    <a class="btn btn-outline-success btn-lg mx-1 my-1" href={wordSearch13} role="button">Tuesday Teas</a>
+                                    <a class="btn btn-outline-success btn-lg mx-1 my-1" href={wordSearch14} role="button">Life in the Pandemic</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
