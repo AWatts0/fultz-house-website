@@ -31,6 +31,7 @@ import Kitchens from './components/brochures/subpages/kitchens'
 import Attractions from './components/brochures/subpages/attractions'
 import Trades from './components/brochures/subpages/trades'
 import Geneology from './components/geneology/geneology';
+import Artifacts from './components/artifacts/artifacts';
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function App() {
           <Route path="/" element={<Homepage />}></Route>
           <Route path="/contact" element={<ContactUs />}></Route>
           <Route path="/history" element={<CommHistory />}></Route>
+          <Route path="/artifacts" element={<Artifacts />}></Route>
           <Route path='/notablepeople' element={<NotablePeople />}></Route>
           <Route path="/geneology" element={<Geneology/>}></Route>
           <Route path='/photo' element={<Photos />}></Route>

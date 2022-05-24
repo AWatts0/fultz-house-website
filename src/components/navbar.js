@@ -35,6 +35,7 @@ function MyNavbar() {
                     </NavDropdown>
                     <NavDropdown menuVariant="light" title="Archives & Collections" id="navbarScrollingDropdown">
                         <NavDropdown.Item className="nav-drop-item" onClick={scrollToTop} as={Link} to="/history" >Our Community History</NavDropdown.Item>
+                        <NavDropdown.Item className="nav-drop-item" onClick={scrollToTop} as={Link} to="/artifacts" >Artifacts</NavDropdown.Item>
                         <NavDropdown.Item className="nav-drop-item" onClick={scrollToTop} as={Link} to="/notablepeople" >Notable People</NavDropdown.Item>
                         <NavDropdown.Item className="nav-drop-item" onClick={scrollToTop} as={Link} to="/geneology">Geneology</NavDropdown.Item>
                         <NavDropdown.Item className="nav-drop-item" onClick={scrollToTop} as={Link} to="brochures">Brochures</NavDropdown.Item>
