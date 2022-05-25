@@ -47,3 +47,8 @@
 .carousel-caption > h5 {
   font-size: 10pt;;
 }
+
+.card-facility {
+  display: flex;
+  flex-direction: column;
+}
