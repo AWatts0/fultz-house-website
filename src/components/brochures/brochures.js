@@ -11,6 +11,9 @@ export default function Brochures() {
             <div className="flex-item">
                 <Link to={'/daily-life'}>Daily Life, Collectibles and Holidays</Link>
             </div>
+
+
+            
             <div className="flex-item">
                 <Link to={'/education'}>Education</Link>
             </div>
