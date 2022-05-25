@@ -24,6 +24,7 @@ export default function Figures() {
                     <p className="card-text">The Sackville area has had its share of great minds, specifically in the field of science. The scientific work of Abraham Gesner and Dr. George Lawson are profiled.</p>
                     <a href={pdf1} className="card-link" target="_blank">Read more</a>
                 </div>
+                
                 {/* Captain John Gorham: Hero or Monster? */}
                 <div className="flex-item">
                     <h5 className="card-title">Captain John Gorham: Hero or Monster?</h5>
