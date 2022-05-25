@@ -10,7 +10,7 @@ import pdf6 from "../../../pdfs/brochures/museum/Thousands of Stories.pdf";
 export default function Museum() {
     return (
         <div id="wrapper">
-            <h1>Daily Life, Collectibles and Holidays</h1>
+            <h1>Fultz House Museum and Surrounding Area</h1>
             <div className="flex-row">
 
                 {/* Favorite Things */}
