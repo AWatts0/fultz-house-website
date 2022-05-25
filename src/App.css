@@ -51,4 +51,5 @@
 .card-facility {
   display: flex;
   flex-direction: column;
+  transform: none !important;
 }
