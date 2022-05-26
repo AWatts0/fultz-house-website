@@ -42,156 +42,156 @@ const NotablePeople = () => {
                 </div>
             </div>
             <div className='container'>
-                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-                    <div class="col">
-                        <div class="card h-100 bg-transparent shadow-lg p-1">
-                            <img src={pic1} class="card-img-top notable-img" alt="..." />
-                            <div class="card-body">
-                                <h5 class="card-title">A.J. Smeltzer</h5>
-                                <p class="card-text">Mr. Smeltzer was an active member of the community outside
+                <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                    <div className="col">
+                        <div className="card h-100 bg-transparent shadow-lg p-1">
+                            <img src={pic1} className="card-img-top notable-img" alt="..." />
+                            <div className="card-body">
+                                <h5 className="card-title">A.J. Smeltzer</h5>
+                                <p className="card-text">Mr. Smeltzer was an active member of the community outside
                                     business and political circles. He was known for
                                     his decorative ironwork.</p>
-                                <a href={pdf01} class="card-link">Read more</a>
+                                <a href={pdf01} className="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card h-100 bg-transparent shadow-lg p-1">
-                            <img src={pic2} class="card-img-top notable-img" alt="..." />
-                            <div class="card-body">
-                                <h5 class="card-title">Abraham Gesner</h5>
-                                <p class="card-text">It has been said that he was born with a love of geology in his bones. Gesner became the first government geologist in a British colony when appointed Provincial Geologist of New Brunswick in 1838.</p>
-                                <a href={pdf02} class="card-link">Read more</a>
+                    <div className="col">
+                        <div className="card h-100 bg-transparent shadow-lg p-1">
+                            <img src={pic2} className="card-img-top notable-img" alt="..." />
+                            <div className="card-body">
+                                <h5 className="card-title">Abraham Gesner</h5>
+                                <p className="card-text">It has been said that he was born with a love of geology in his bones. Gesner became the first government geologist in a British colony when appointed Provincial Geologist of New Brunswick in 1838.</p>
+                                <a href={pdf02} className="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card h-100 bg-transparent shadow-lg p-1">
-                            <img src={pic3} class="card-img-top notable-img" alt="..." />
-                            <div class="card-body">
-                                <h5 class="card-title">Agnes O'Donnell Kelly</h5>
-                                <p class="card-text">Agnes O’Donnell Kelly was an enthusiastic chronicler of local history and a willing teacher of local heritage. Ms. Kelly was a faithful friend to the Fultz House Museum. </p>
-                                <a href={pdf03} class="card-link">Read more</a>
+                    <div className="col">
+                        <div className="card h-100 bg-transparent shadow-lg p-1">
+                            <img src={pic3} className="card-img-top notable-img" alt="..." />
+                            <div className="card-body">
+                                <h5 className="card-title">Agnes O'Donnell Kelly</h5>
+                                <p className="card-text">Agnes O’Donnell Kelly was an enthusiastic chronicler of local history and a willing teacher of local heritage. Ms. Kelly was a faithful friend to the Fultz House Museum. </p>
+                                <a href={pdf03} className="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card h-100 bg-transparent shadow-lg p-1">
-                            <img src={pic4} class="card-img-top notable-img" alt="..." />
-                            <div class="card-body">
-                                <h5 class="card-title">Burdett Lively</h5>
-                                <p class="card-text">When World War II began, Beaver Bank’s Burdett Lively volunteered to join the forces, like most Canadians who fought in World War II since conscription was not imposed until the later stages.</p>
-                                <a href={pdf04} class="card-link">Read more</a>
+                    <div className="col">
+                        <div className="card h-100 bg-transparent shadow-lg p-1">
+                            <img src={pic4} className="card-img-top notable-img" alt="..." />
+                            <div className="card-body">
+                                <h5 className="card-title">Burdett Lively</h5>
+                                <p className="card-text">When World War II began, Beaver Bank’s Burdett Lively volunteered to join the forces, like most Canadians who fought in World War II since conscription was not imposed until the later stages.</p>
+                                <a href={pdf04} className="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card h-100 bg-transparent shadow-lg p-1">
-                            <img src={pic5} class="card-img-top notable-img" alt="..." />
-                            <div class="card-body">
-                                <h5 class="card-title">Emily Payne</h5>
-                                <p class="card-text">At one point, Emily cared for twenty-five babies in her home. She showed these wee tots love and attention. She embraced them, as if they were her own.</p>
-                                <a href={pdf05} class="card-link">Read more</a>
+                    <div className="col">
+                        <div className="card h-100 bg-transparent shadow-lg p-1">
+                            <img src={pic5} className="card-img-top notable-img" alt="..." />
+                            <div className="card-body">
+                                <h5 className="card-title">Emily Payne</h5>
+                                <p className="card-text">At one point, Emily cared for twenty-five babies in her home. She showed these wee tots love and attention. She embraced them, as if they were her own.</p>
+                                <a href={pdf05} className="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card h-100 bg-transparent shadow-lg p-1">
-                            <img src={pic6} class="card-img-top notable-img" alt="..." />
-                            <div class="card-body">
-                                <h5 class="card-title">Fultz Family</h5>
-                                <p class="card-text">The Fultz family identified themselves to be farmers, but in actuality they led diverse and interesting lives, being credits to their trades.</p>
-                                <a href={pdf06} class="card-link">Read more</a>
+                    <div className="col">
+                        <div className="card h-100 bg-transparent shadow-lg p-1">
+                            <img src={pic6} className="card-img-top notable-img" alt="..." />
+                            <div className="card-body">
+                                <h5 className="card-title">Fultz Family</h5>
+                                <p className="card-text">The Fultz family identified themselves to be farmers, but in actuality they led diverse and interesting lives, being credits to their trades.</p>
+                                <a href={pdf06} className="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card h-100 bg-transparent shadow-lg p-1">
-                            <img src={pic7} class="card-img-top notable-img" alt="..." />
-                            <div class="card-body">
-                                <h5 class="card-title">George Lawson</h5>
-                                <p class="card-text">He constructed one of the first known Canadian botanical gardens and became a founding member and president of the Royal Society of Canada.</p>
-                                <a href={pdf07} class="card-link">Read more</a>
+                    <div className="col">
+                        <div className="card h-100 bg-transparent shadow-lg p-1">
+                            <img src={pic7} className="card-img-top notable-img" alt="..." />
+                            <div className="card-body">
+                                <h5 className="card-title">George Lawson</h5>
+                                <p className="card-text">He constructed one of the first known Canadian botanical gardens and became a founding member and president of the Royal Society of Canada.</p>
+                                <a href={pdf07} className="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card h-100 bg-transparent shadow-lg p-1">
-                            <img src={pic8} class="card-img-top notable-img" alt="..." />
-                            <div class="card-body">
-                                <h5 class="card-title">Gertrude Parker</h5>
-                                <p class="card-text">The Halifax Chronicle-Herald once wrote an article on Parker, stating: “Until the dial system was introduced in 1963, Mrs. Gertrude Parker was the telephone operator, the brains, the human component, through which every call in the area had to funnel.</p>
-                                <a href={pdf08} class="card-link">Read more</a>
+                    <div className="col">
+                        <div className="card h-100 bg-transparent shadow-lg p-1">
+                            <img src={pic8} className="card-img-top notable-img" alt="..." />
+                            <div className="card-body">
+                                <h5 className="card-title">Gertrude Parker</h5>
+                                <p className="card-text">The Halifax Chronicle-Herald once wrote an article on Parker, stating: “Until the dial system was introduced in 1963, Mrs. Gertrude Parker was the telephone operator, the brains, the human component, through which every call in the area had to funnel.</p>
+                                <a href={pdf08} className="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card h-100 bg-transparent shadow-lg p-1">
-                            <img src={pic9} class="card-img-top notable-img" alt="..." />
-                            <div class="card-body">
-                                <h5 class="card-title">Harold T. Barrett</h5>
-                                <p class="card-text">In 1985, the first junior high school in Beaver Bank was named after Mr. Barrett, known today as Harold T. Barrett Junior High School.</p>
-                                <a href={pdf09} class="card-link">Read more</a>
+                    <div className="col">
+                        <div className="card h-100 bg-transparent shadow-lg p-1">
+                            <img src={pic9} className="card-img-top notable-img" alt="..." />
+                            <div className="card-body">
+                                <h5 className="card-title">Harold T. Barrett</h5>
+                                <p className="card-text">In 1985, the first junior high school in Beaver Bank was named after Mr. Barrett, known today as Harold T. Barrett Junior High School.</p>
+                                <a href={pdf09} className="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card h-100 bg-transparent shadow-lg p-1">
-                            <img src={pic10} class="card-img-top notable-img" alt="..." />
-                            <div class="card-body">
-                                <h5 class="card-title">Harry R. Hamilton</h5>
-                                <p class="card-text">Harry was a man of good character and it was said of him by his comrades that he never had a bad thing to say about anyone and no one had a bad thing to say about him.</p>
-                                <a href={pdf010} class="card-link">Read more</a>
+                    <div className="col">
+                        <div className="card h-100 bg-transparent shadow-lg p-1">
+                            <img src={pic10} className="card-img-top notable-img" alt="..." />
+                            <div className="card-body">
+                                <h5 className="card-title">Harry R. Hamilton</h5>
+                                <p className="card-text">Harry was a man of good character and it was said of him by his comrades that he never had a bad thing to say about anyone and no one had a bad thing to say about him.</p>
+                                <a href={pdf010} className="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card h-100 bg-transparent shadow-lg p-1">
-                            <img src={pic11} class="card-img-top notable-img" alt="..." />
-                            <div class="card-body">
-                                <h5 class="card-title">Leslie Thomas</h5>
-                                <p class="card-text">Leslie Thomas was the type of man who lived his life for his community.</p>
-                                <a href={pdf011} class="card-link">Read more</a>
+                    <div className="col">
+                        <div className="card h-100 bg-transparent shadow-lg p-1">
+                            <img src={pic11} className="card-img-top notable-img" alt="..." />
+                            <div className="card-body">
+                                <h5 className="card-title">Leslie Thomas</h5>
+                                <p className="card-text">Leslie Thomas was the type of man who lived his life for his community.</p>
+                                <a href={pdf011} className="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card h-100 bg-transparent shadow-lg p-1">
-                            <img src={pic12} class="card-img-top notable-img" alt="..." />
-                            <div class="card-body">
-                                <h5 class="card-title">Mary Fultz</h5>
-                                <p class="card-text">She connected families with loved ones through the passage of the written word with one stamp at a time.</p>
-                                <a href={pdf012} class="card-link">Read more</a>
+                    <div className="col">
+                        <div className="card h-100 bg-transparent shadow-lg p-1">
+                            <img src={pic12} className="card-img-top notable-img" alt="..." />
+                            <div className="card-body">
+                                <h5 className="card-title">Mary Fultz</h5>
+                                <p className="card-text">She connected families with loved ones through the passage of the written word with one stamp at a time.</p>
+                                <a href={pdf012} className="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card h-100 bg-transparent shadow-lg p-1">
-                            <img src={pic13} class="card-img-top notable-img" alt="..." />
-                            <div class="card-body">
-                                <h5 class="card-title">Sadie Thomas</h5>
-                                <p class="card-text">One of Sackville’s most remarkable teachers was born in 1881. Known as Sadie by her friends and loved ones, Sadie lived a remarkable life.</p>
-                                <a href={pdf013} class="card-link">Read more</a>
+                    <div className="col">
+                        <div className="card h-100 bg-transparent shadow-lg p-1">
+                            <img src={pic13} className="card-img-top notable-img" alt="..." />
+                            <div className="card-body">
+                                <h5 className="card-title">Sadie Thomas</h5>
+                                <p className="card-text">One of Sackville’s most remarkable teachers was born in 1881. Known as Sadie by her friends and loved ones, Sadie lived a remarkable life.</p>
+                                <a href={pdf013} className="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card h-100 bg-transparent shadow-lg p-1">
-                            <img src={pic14} class="card-img-top notable-img" alt="..." />
-                            <div class="card-body">
-                                <h5 class="card-title">Ted B. Blackburn</h5>
-                                <p class="card-text">Blackburn was a man who listened and followed what the public wanted. It has even been said that his store was the K-Mart of the day. </p>
-                                <a href={pdf014} class="card-link">Read more</a>
+                    <div className="col">
+                        <div className="card h-100 bg-transparent shadow-lg p-1">
+                            <img src={pic14} className="card-img-top notable-img" alt="..." />
+                            <div className="card-body">
+                                <h5 className="card-title">Ted B. Blackburn</h5>
+                                <p className="card-text">Blackburn was a man who listened and followed what the public wanted. It has even been said that his store was the K-Mart of the day. </p>
+                                <a href={pdf014} className="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card h-100 bg-transparent shadow-lg p-1">
-                            <img src={pic15} class="card-img-top notable-img" alt="..." />
-                            <div class="card-body">
-                                <h5 class="card-title">Ted B. Blackburn</h5>
-                                <p class="card-text">Charles’ curious mindset, and how he liked to ponder and think out problems, and arrive at solutions through his ingenuity and perseverance, is what led him to be an inventor.</p>
-                                <a href={pdf015} class="card-link">Read more</a>
+                    <div className="col">
+                        <div className="card h-100 bg-transparent shadow-lg p-1">
+                            <img src={pic15} className="card-img-top notable-img" alt="..." />
+                            <div className="card-body">
+                                <h5 className="card-title">Ted B. Blackburn</h5>
+                                <p className="card-text">Charles’ curious mindset, and how he liked to ponder and think out problems, and arrive at solutions through his ingenuity and perseverance, is what led him to be an inventor.</p>
+                                <a href={pdf015} className="card-link">Read more</a>
                             </div>
                         </div>
                     </div>

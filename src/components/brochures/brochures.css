@@ -1,4 +1,7 @@
-#wrapper {
+a { text-decoration: none }
+
+.wrapper {
+    min-width: 350px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -6,9 +9,8 @@
 
 .flex-row {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+    /* align-items: center; */
+    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -25,6 +27,32 @@
     border-radius: 20px;
 }
 
-.flex-item:hover {
-    transform: scale(1.1);
+.flex-item:hover { transform: scale(1.1) }
+
+.brochure-section {
+    width: 300px;
+    height: 75px;
+    margin: 8px;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #014421;
+    color: #ddd373;
+    font-size: 20px;
+    border-radius: 450px;
+}
+
+.brochure-section:hover {
+    background-color: #ddd373;
+    color: #014421;
+}
+
+#submission-container {
+    border: thin pink solid;
+}
+
+#submission-textarea {
+    height: 75px;
+    width: 250px;
 }

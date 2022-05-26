@@ -13,72 +13,72 @@ const Governace = () => {
             <div className="container">
                 <h3>Governance</h3>
                 <br/>
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 g-4">
-                    <div class="col">
-                        <div class="card h-100 bg-transparent shadow-lg">
-                            <div class="card-body">
-                                <h5 class="card-title">Fultz Corner Restoration Society</h5>
-                                <p class="card-text">
+                <div className="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 g-4">
+                    <div className="col">
+                        <div className="card h-100 bg-transparent shadow-lg">
+                            <div className="card-body">
+                                <h5 className="card-title">Fultz Corner Restoration Society</h5>
+                                <p className="card-text">
                                     Statement of Purpose for the Society.
                                 </p>
-                                <a href={statementOfPurposePDF} class="card-link">Read more</a>
+                                <a href={statementOfPurposePDF} className="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card h-100 bg-transparent shadow-lg">
-                            <div class="card-body">
-                                <h5 class="card-title">Reseach Policy</h5>
-                                <p class="card-text">
+                    <div className="col">
+                        <div className="card h-100 bg-transparent shadow-lg">
+                            <div className="card-body">
+                                <h5 className="card-title">Reseach Policy</h5>
+                                <p className="card-text">
                                     Guidelines by which youth summer employees, volunteers, and
                                     the general public are able to access and use resources held
                                     in the Museum’s collection.
                                 </p>
-                                <a href={researchPolicyPDF} class="card-link">Read more</a>
+                                <a href={researchPolicyPDF} className="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card h-100 bg-transparent shadow-lg">
-                            <div class="card-body">
-                                <h5 class="card-title">Constitution and By-Laws</h5>
-                                <p class="card-text">
+                    <div className="col">
+                        <div className="card h-100 bg-transparent shadow-lg">
+                            <div className="card-body">
+                                <h5 className="card-title">Constitution and By-Laws</h5>
+                                <p className="card-text">
                                     -
                                 </p>
-                                <a href={constitutionByLawPDF} class="card-link">Read more</a>
+                                <a href={constitutionByLawPDF} className="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card h-100 bg-transparent shadow-lg">
-                            <div class="card-body">
-                                <h5 class="card-title">Artifact Donor Questionnaire</h5>
-                                <p class="card-text">
+                    <div className="col">
+                        <div className="card h-100 bg-transparent shadow-lg">
+                            <div className="card-body">
+                                <h5 className="card-title">Artifact Donor Questionnaire</h5>
+                                <p className="card-text">
                                     -
                                 </p>
-                                <a href={artifactPDF} class="card-link">Read more</a>
+                                <a href={artifactPDF} className="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card h-100 bg-transparent shadow-lg">
-                            <div class="card-body">
-                                <h5 class="card-title">Archival Donor Questionnaire</h5>
-                                <p class="card-text">
+                    <div className="col">
+                        <div className="card h-100 bg-transparent shadow-lg">
+                            <div className="card-body">
+                                <h5 className="card-title">Archival Donor Questionnaire</h5>
+                                <p className="card-text">
                                     -
                                 </p>
-                                <a href={archivalPDF} class="card-link">Read more</a>
+                                <a href={archivalPDF} className="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card h-100 bg-transparent shadow-lg">
-                            <div class="card-body">
-                                <h5 class="card-title">AGM Report 2022</h5>
-                                <p class="card-text">
+                    <div className="col">
+                        <div className="card h-100 bg-transparent shadow-lg">
+                            <div className="card-body">
+                                <h5 className="card-title">AGM Report 2022</h5>
+                                <p className="card-text">
                                     The report from after our 2022 Annual General Meeting.
                                 </p>
-                                <a href={AGM2022ReportPDF} class="card-link">Read more</a>
+                                <a href={AGM2022ReportPDF} className="card-link">Read more</a>
                             </div>
                         </div>
                     </div>
