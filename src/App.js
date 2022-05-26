@@ -36,8 +36,12 @@ import Artifacts from './components/artifacts/artifacts';
 function App() {
   return (
     <div className="App">
+      <div id="grid">
       <BrowserRouter>
+        <div id="header">
         <MyNavbar />
+        </div>
+        <div id="content">
         <SideButtons/>
         <Routes>
           <Route path="/" element={<Homepage />}></Route>
@@ -69,9 +73,12 @@ function App() {
           <Route path='/sackville-attractions' element={<Attractions />}/>
           <Route path='/transportation-and-trades' element={<Trades />}/>
         </Routes>
+        </div>
+        <div id="footer">
         <Footer />
+        </div>
       </BrowserRouter>
-        
+      </div>
     </div>
   );
 }
