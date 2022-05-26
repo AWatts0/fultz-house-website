@@ -1,7 +1,8 @@
 import React from "react";
 import image1 from "../pics/homepage-carousel/building-front.jpg"
-import image2 from "../pics/homepage-carousel/tree-cover.jpeg"
+import image2 from "../pics/homepage-carousel/grounds-pano.jpg"
 import image3 from "../pics/homepage-carousel/model.jpeg"
+
 
 const Homepage = () => {
     return (
