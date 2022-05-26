@@ -8,7 +8,7 @@ import pdf5 from "../../../pdfs/brochures/kitchens/Prepping for Food in Old Sack
 
 export default function Kitchens() {
     return (
-        <div id="wrapper">
+        <div className="wrapper">
             <h1>Out of Historic Sackville Kitchens</h1>
             <div className="flex-row">
 

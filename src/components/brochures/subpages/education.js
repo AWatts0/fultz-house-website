@@ -6,7 +6,7 @@ import pdf3 from "../../../pdfs/brochures/education/The Story Behind the Grove F
 
 export default function Education() {
     return (
-        <div id="wrapper">
+        <div className="wrapper">
             <h1>Education</h1>
             <div className="flex-row">
 

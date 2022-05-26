@@ -6,7 +6,7 @@ import pdf3 from "../../../pdfs/brochures/attractions/Sackville Destinations.pdf
 
 export default function Attractions() {
     return (
-        <div id="wrapper">
+        <div className="wrapper">
             <h1>Historic Sackville Attractions and Places</h1>
             <div className="flex-row">
 

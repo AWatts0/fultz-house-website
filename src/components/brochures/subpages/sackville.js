@@ -8,7 +8,7 @@ import pdf5 from "../../../pdfs/brochures/sackville/The History of St. John the 
 
 export default function Sackville() {
     return (
-        <div id="wrapper">
+        <div className="wrapper">
             <h1>Historic Sackville and Beaver Bank</h1>
             <div className="flex-row">
 

@@ -11,7 +11,7 @@ import pdf8 from "../../../pdfs/brochures/trades/Village Carpentry.pdf";
 
 export default function Trades() {
     return (
-        <div id="wrapper">
+        <div className="wrapper">
             <h1>Transportation and the Trades</h1>
             <div className="flex-row">
 

@@ -9,7 +9,7 @@ import pdf6 from "../../../pdfs/brochures/museum/Thousands of Stories.pdf";
 
 export default function Museum() {
     return (
-        <div id="wrapper">
+        <div className="wrapper">
             <h1>Fultz House Museum and Surrounding Area</h1>
             <div className="flex-row">
 

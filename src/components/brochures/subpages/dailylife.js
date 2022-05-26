@@ -16,7 +16,7 @@ import pdf13 from "../../../pdfs/brochures/dailylife/Whatnots to Chamber Pots.pd
 
 export default function Dailylife() {
     return (
-        <div id="wrapper">
+        <div className="wrapper">
             <h1>Daily Life, Collectibles and Holidays</h1>
             <div className="flex-row">
 

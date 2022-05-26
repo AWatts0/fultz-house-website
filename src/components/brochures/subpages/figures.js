@@ -14,7 +14,7 @@ import pdf11 from "../../../pdfs/brochures/figures/Two Good Men.pdf";
 
 export default function Figures() {
     return (
-        <div id="wrapper">
+        <div className="wrapper">
             <h1>Historical Figures in Profile</h1>
             <div className="flex-row">
 

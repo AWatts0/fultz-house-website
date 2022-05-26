@@ -10,7 +10,7 @@ import pdf7 from "../../../pdfs/brochures/culture/Weather Lore for All Seasons.p
 
 export default function Culture() {
     return (
-        <div id="wrapper">
+        <div className="wrapper">
             <h1>Culture and the Supernatural</h1>
             <div className="flex-row">
 
