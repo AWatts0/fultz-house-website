@@ -62,7 +62,7 @@ function MyNavbar() {
                     </Nav.Link>
                     <NavDropdown menuVariant="light" title="Contact" id="navbarScrollingDropdown">
                         <NavDropdown.Item className="nav-drop-item" onClick={scrollToTop} as={Link} to="/contact">Contact Us</NavDropdown.Item>
-                        <NavDropdown.Item className="nav-drop-item" onClick={scrollToTop} as={Link} to="">Community Links</NavDropdown.Item>
+                        <NavDropdown.Item className="nav-drop-item" onClick={scrollToTop} as={Link} to="/links">Community Links</NavDropdown.Item>
                     </NavDropdown>
                     
                 </Nav>

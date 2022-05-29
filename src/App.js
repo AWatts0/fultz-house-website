@@ -8,6 +8,7 @@ import NotablePeople from './components/notablePeople/notablePeople';
 import MyNavbar from './components/navbar';
 import Footer from "./components/footer";
 import ContactUs from './components/contactUs/contact';
+import CommLinks from './components/commLinks/commLinks';
 import Photos from './components/gallery/photos/Photos.js';
 import EventsPage from './components/events/events';
 import Volunteer from './components/volunteer/volunteer';
@@ -42,6 +43,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Homepage />}></Route>
           <Route path="/contact" element={<ContactUs />}></Route>
+          <Route path="/links" element={<CommLinks />}></Route>
           <Route path="/history" element={<CommHistory />}></Route>
           <Route path="/artifacts" element={<Artifacts />}></Route>
           <Route path='/notablepeople' element={<NotablePeople />}></Route>
