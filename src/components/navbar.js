@@ -6,6 +6,8 @@ import {
   } from "react-bootstrap";
   import { Link } from "react-router-dom";
   import "./navbar.css";
+  import instagramLogo from "../icons/instagram.png"
+  import facebookLogo from "../icons/facebook.png"
 
 function MyNavbar() {
 
@@ -64,6 +66,14 @@ function MyNavbar() {
                         <NavDropdown.Item className="nav-drop-item" onClick={scrollToTop} as={Link} to="/contact">Contact Us</NavDropdown.Item>
                         <NavDropdown.Item className="nav-drop-item" onClick={scrollToTop} as={Link} to="/links">Community Links</NavDropdown.Item>
                     </NavDropdown>
+                    <article>
+                        <a href="https://www.instagram.com/fultzhouse/?hl=en">
+                        <img src={instagramLogo} width="30px" ></img>
+                        </a>
+                        <a href="https://www.facebook.com/FultzHouse/"margin-right="30px" margin-left="30px">
+                        <img src={facebookLogo} width="30px"></img>
+                        </a>
+                    </article>
                     
                 </Nav>
                 </Navbar.Collapse>

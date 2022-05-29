@@ -70,20 +70,20 @@ const Kids = () => {
                             </div>
                             <div className="row">
                                 <div className="col">
-                                    <a class="btn btn-outline-success btn-lg mx-1 my-1" href={wordSearch1} role="button">Sackville Business Heritage</a>
-                                    <a class="btn btn-outline-success btn-lg mx-1 my-1" href={wordSearch2} role="button">Early Days Travelling</a>
-                                    <a class="btn btn-outline-success btn-lg mx-1 my-1" href={wordSearch3} role="button">Family Names</a>
-                                    <a class="btn btn-outline-success btn-lg mx-1 my-1" href={wordSearch4} role="button">The Harvest Festival</a>
-                                    <a class="btn btn-outline-success btn-lg mx-1 my-1" href={wordSearch5} role="button">Forestry Industry</a>
-                                    <a class="btn btn-outline-success btn-lg mx-1 my-1" href={wordSearch6} role="button">Trades</a>
-                                    <a class="btn btn-outline-success btn-lg mx-1 my-1" href={wordSearch7} role="button">Fultz House</a>
-                                    <a class="btn btn-outline-success btn-lg mx-1 my-1" href={wordSearch8} role="button">Blacksmith</a>
-                                    <a class="btn btn-outline-success btn-lg mx-1 my-1" href={wordSearch9} role="button">Cenotaph</a>
-                                    <a class="btn btn-outline-success btn-lg mx-1 my-1" href={wordSearch10} role="button">Cooperage</a>
-                                    <a class="btn btn-outline-success btn-lg mx-1 my-1" href={wordSearch11} role="button">Artifacts</a>
-                                    <a class="btn btn-outline-success btn-lg mx-1 my-1" href={wordSearch12} role="button">Sackville Heritage Archive</a>
-                                    <a class="btn btn-outline-success btn-lg mx-1 my-1" href={wordSearch13} role="button">Tuesday Teas</a>
-                                    <a class="btn btn-outline-success btn-lg mx-1 my-1" href={wordSearch14} role="button">Life in the Pandemic</a>
+                                    <a className="btn btn-outline-success btn-lg mx-1 my-1" href={wordSearch1} role="button">Sackville Business Heritage</a>
+                                    <a className="btn btn-outline-success btn-lg mx-1 my-1" href={wordSearch2} role="button">Early Days Travelling</a>
+                                    <a className="btn btn-outline-success btn-lg mx-1 my-1" href={wordSearch3} role="button">Family Names</a>
+                                    <a className="btn btn-outline-success btn-lg mx-1 my-1" href={wordSearch4} role="button">The Harvest Festival</a>
+                                    <a className="btn btn-outline-success btn-lg mx-1 my-1" href={wordSearch5} role="button">Forestry Industry</a>
+                                    <a className="btn btn-outline-success btn-lg mx-1 my-1" href={wordSearch6} role="button">Trades</a>
+                                    <a className="btn btn-outline-success btn-lg mx-1 my-1" href={wordSearch7} role="button">Fultz House</a>
+                                    <a className="btn btn-outline-success btn-lg mx-1 my-1" href={wordSearch8} role="button">Blacksmith</a>
+                                    <a className="btn btn-outline-success btn-lg mx-1 my-1" href={wordSearch9} role="button">Cenotaph</a>
+                                    <a className="btn btn-outline-success btn-lg mx-1 my-1" href={wordSearch10} role="button">Cooperage</a>
+                                    <a className="btn btn-outline-success btn-lg mx-1 my-1" href={wordSearch11} role="button">Artifacts</a>
+                                    <a className="btn btn-outline-success btn-lg mx-1 my-1" href={wordSearch12} role="button">Sackville Heritage Archive</a>
+                                    <a className="btn btn-outline-success btn-lg mx-1 my-1" href={wordSearch13} role="button">Tuesday Teas</a>
+                                    <a className="btn btn-outline-success btn-lg mx-1 my-1" href={wordSearch14} role="button">Life in the Pandemic</a>
                                 </div>
                             </div>
                         </div>

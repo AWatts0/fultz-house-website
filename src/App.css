@@ -53,3 +53,28 @@
   flex-direction: column;
   transform: none !important;
 }
+
+
+/* grid css not currently working */
+/* #grid
+{
+    display: grid;
+    grid-template-rows: 10% 80% 10%;
+    min-height: 100vh;
+
+}
+
+#header {
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+#content {
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+#footer {
+  grid-row-start: 3;
+  grid-row-end: 4;
+} */
